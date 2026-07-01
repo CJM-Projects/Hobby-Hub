@@ -6,6 +6,7 @@ namespace Hobby_hub.Repositories
     public interface IHobbyRepository
     {
         Task<List<Hobby>> GetAllHobbiesAsync();
+        Task<Hobby> GetHobbyByNameAsync(string hobbyName);
     }
     public class HobbyRepository : IHobbyRepository
     {
@@ -16,6 +17,16 @@ namespace Hobby_hub.Repositories
             var hobbies = JsonSerializer.Deserialize<List<Hobby>>(file, new JsonSerializerOptions{ PropertyNamingPolicy = JsonNamingPolicy.CamelCase }) ?? [];
 
             return hobbies;
+        }
+
+        public async Task<Hobby> GetHobbyByNameAsync(string hobbyName)
+        {
+
+            var hobbies = await GetAllHobbiesAsync();
+
+            var hobby = hobbies.FirstOrDefault(h => h.Name == hobbyName);
+
+            return hobby;
         }
     }
 }

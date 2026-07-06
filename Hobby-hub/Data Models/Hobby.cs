@@ -1,4 +1,6 @@
-﻿namespace Hobby_hub.Data_Models
+﻿using Hobby_hub.Data_Models.Enum;
+
+namespace Hobby_hub.Data_Models
 {
     public class Hobby
     {
@@ -13,5 +15,8 @@
         public string YoutubeVideoId { get; set; } = string.Empty;
 
         public string HobbyImage {  get; set; } = string.Empty;
+
+        public Category HobbyCategory { get; set; }  
     }
+
 }

@@ -14,7 +14,8 @@
       "price": 1,
       "timeCommitment": 3
     },
-    "hobbyimage": "https://images.pexels.com/photos/8346669/pexels-photo-8346669.jpeg"
+    "hobbyimage": "https://images.pexels.com/photos/8346669/pexels-photo-8346669.jpeg",
+    "hobbycategory": [ "Active", "Outdoor" ]
   },
   {
     "id": 2,
@@ -31,7 +32,8 @@
       "price": 2,
       "timeCommitment": 3
     },
-    "hobbyimage": "https://images.pexels.com/photos/8461244/pexels-photo-8461244.jpeg"
+    "hobbyimage": "https://images.pexels.com/photos/8461244/pexels-photo-8461244.jpeg",
+    "hobbycategory": [ "Active", "Relaxing" ]
   },
   {
     "id": 3,
@@ -48,7 +50,8 @@
       "price": 4,
       "timeCommitment": 3
     },
-    "hobbyimage": "https://images.pexels.com/photos/5153950/pexels-photo-5153950.jpeg"
+    "hobbyimage": "https://images.pexels.com/photos/5153950/pexels-photo-5153950.jpeg",
+    "hobbycategory": [ "Active", "Creative" ]
   },
   {
     "id": 4,
@@ -65,7 +68,8 @@
       "price": 4,
       "timeCommitment": 3
     },
-    "hobbyimage": "https://images.pexels.com/photos/6540748/pexels-photo-6540748.jpeg"
+    "hobbyimage": "https://images.pexels.com/photos/6540748/pexels-photo-6540748.jpeg",
+    "hobbycategory": [ "Active", "Social", "Strategic" ]
   },
   {
     "id": 5,
@@ -82,7 +86,8 @@
       "price": 4,
       "timeCommitment": 3
     },
-    "hobbyimage": "https://images.unsplash.com/photo-1646649853703-7645147474ba?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    "hobbyimage": "https://images.unsplash.com/photo-1646649853703-7645147474ba?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "hobbycategory": [ "Active", "Social" ]
   },
   {
     "id": 6,
@@ -99,7 +104,8 @@
       "price": 2,
       "timeCommitment": 2
     },
-    "hobbyimage": "https://images.unsplash.com/photo-1627667539472-75fbc7f4654d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    "hobbyimage": "https://images.unsplash.com/photo-1627667539472-75fbc7f4654d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "hobbycategory": [ "Creative", "Relaxing" ]
   },
   {
     "id": 7,
@@ -116,7 +122,8 @@
       "price": 2,
       "timeCommitment": 2
     },
-    "hobbyimage": "https://images.unsplash.com/photo-1671535108620-d169ce916f09?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    "hobbyimage": "https://images.unsplash.com/photo-1671535108620-d169ce916f09?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "hobbycategory": [ "Creative", "Relaxing" ]
   },
   {
     "id": 8,
@@ -133,7 +140,8 @@
       "price": 3,
       "timeCommitment": 4
     },
-    "hobbyimage": "https://images.pexels.com/photos/1409221/pexels-photo-1409221.jpeg"
+    "hobbyimage": "https://images.pexels.com/photos/1409221/pexels-photo-1409221.jpeg",
+    "hobbycategory": [ "Creative", "Relaxing" ]
   },
   {
     "id": 9,
@@ -150,7 +158,8 @@
       "price": 3,
       "timeCommitment": 3
     },
-    "hobbyimage": "https://images.pexels.com/photos/8036823/pexels-photo-8036823.jpeg"
+    "hobbyimage": "https://images.pexels.com/photos/8036823/pexels-photo-8036823.jpeg",
+    "hobbycategory": [ "Creative", "Relaxing" ]
   },
   {
     "id": 10,
@@ -167,7 +176,8 @@
       "price": 4,
       "timeCommitment": 5
     },
-    "hobbyimage": "https://images.unsplash.com/photo-1445375011782-2384686778a0?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    "hobbyimage": "https://images.unsplash.com/photo-1445375011782-2384686778a0?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "hobbycategory": [ "Creative" ]
   },
   {
     "id": 11,
@@ -184,7 +194,8 @@
       "price": 3,
       "timeCommitment": 2
     },
-    "hobbyimage": "https://images.pexels.com/photos/8272376/pexels-photo-8272376.jpeg"
+    "hobbyimage": "https://images.pexels.com/photos/8272376/pexels-photo-8272376.jpeg",
+    "hobbycategory": [ "Creative", "Relaxing" ]
   },
   {
     "id": 12,
@@ -201,7 +212,8 @@
       "price": 3,
       "timeCommitment": 3
     },
-    "hobbyimage": "https://images.pexels.com/photos/26792246/pexels-photo-26792246.jpeg"
+    "hobbyimage": "https://images.pexels.com/photos/26792246/pexels-photo-26792246.jpeg",
+    "hobbycategory": [ "Creative", "Relaxing" ]
   },
   {
     "id": 13,
@@ -218,7 +230,8 @@
       "price": 2,
       "timeCommitment": 2
     },
-    "hobbyimage": "https://images.pexels.com/photos/31267774/pexels-photo-31267774.jpeg"
+    "hobbyimage": "https://images.pexels.com/photos/31267774/pexels-photo-31267774.jpeg",
+    "hobbycategory": [ "Creative", "Relaxing" ]
   },
   {
     "id": 14,
@@ -235,7 +248,8 @@
       "price": 2,
       "timeCommitment": 5
     },
-    "hobbyimage": "https://plus.unsplash.com/premium_photo-1663040081470-397e31e4b2a6?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    "hobbyimage": "https://plus.unsplash.com/premium_photo-1663040081470-397e31e4b2a6?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "hobbycategory": [ "Creative", "Strategic" ]
   },
   {
     "id": 15,
@@ -252,7 +266,8 @@
       "price": 1,
       "timeCommitment": 1
     },
-    "hobbyimage": "https://plus.unsplash.com/premium_photo-1733306528612-2aa75dad2f7a?q=80&w=1267&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    "hobbyimage": "https://plus.unsplash.com/premium_photo-1733306528612-2aa75dad2f7a?q=80&w=1267&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "hobbycategory": [ "Strategic" ]
   },
   {
     "id": 16,
@@ -269,7 +284,8 @@
       "price": 1,
       "timeCommitment": 2
     },
-    "hobbyimage": "https://images.unsplash.com/photo-1618365908648-e71bd5716cba?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    "hobbyimage": "https://images.unsplash.com/photo-1618365908648-e71bd5716cba?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "hobbycategory": [ "Creative", "Relaxing", "Social" ]
   },
   {
     "id": 17,
@@ -286,7 +302,8 @@
       "price": 2,
       "timeCommitment": 5
     },
-    "hobbyimage": "https://images.unsplash.com/photo-1607706189992-eae578626c86?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    "hobbyimage": "https://images.unsplash.com/photo-1607706189992-eae578626c86?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "hobbycategory": [ "Creative", "Strategic" ]
   },
   {
     "id": 18,
@@ -303,7 +320,8 @@
       "price": 3,
       "timeCommitment": 3
     },
-    "hobbyimage": "https://images.pexels.com/photos/8154769/pexels-photo-8154769.jpeg"
+    "hobbyimage": "https://images.pexels.com/photos/8154769/pexels-photo-8154769.jpeg",
+    "hobbycategory": [ "Strategic" ]
   },
   {
     "id": 19,
@@ -320,7 +338,8 @@
       "price": 2,
       "timeCommitment": 2
     },
-    "hobbyimage": "https://images.pexels.com/photos/27837160/pexels-photo-27837160.jpeg"
+    "hobbyimage": "https://images.pexels.com/photos/27837160/pexels-photo-27837160.jpeg",
+    "hobbycategory": [ "Relaxing", "Strategic" ]
   },
   {
     "id": 20,
@@ -337,7 +356,8 @@
       "price": 1,
       "timeCommitment": 1
     },
-    "hobbyimage": "https://images.pexels.com/photos/13533591/pexels-photo-13533591.jpeg"
+    "hobbyimage": "https://images.pexels.com/photos/13533591/pexels-photo-13533591.jpeg",
+    "hobbycategory": [ "Relaxing", "Strategic" ]
   },
   {
     "id": 21,
@@ -354,7 +374,8 @@
       "price": 2,
       "timeCommitment": 2
     },
-    "hobbyimage": "https://images.pexels.com/photos/8111328/pexels-photo-8111328.jpeg"
+    "hobbyimage": "https://images.pexels.com/photos/8111328/pexels-photo-8111328.jpeg",
+    "hobbycategory": [ "Social", "Strategic" ]
   },
   {
     "id": 22,
@@ -371,7 +392,8 @@
       "price": 2,
       "timeCommitment": 4
     },
-    "hobbyimage": "https://images.pexels.com/photos/7150641/pexels-photo-7150641.jpeg"
+    "hobbyimage": "https://images.pexels.com/photos/7150641/pexels-photo-7150641.jpeg",
+    "hobbycategory": [ "Social", "Strategic" ]
   },
   {
     "id": 23,
@@ -388,7 +410,8 @@
       "price": 1,
       "timeCommitment": 3
     },
-    "hobbyimage": "https://images.pexels.com/photos/10569915/pexels-photo-10569915.jpeg"
+    "hobbyimage": "https://images.pexels.com/photos/10569915/pexels-photo-10569915.jpeg",
+    "hobbycategory": [ "Active", "Outdoor" ]
   },
   {
     "id": 24,
@@ -405,7 +428,8 @@
       "price": 1,
       "timeCommitment": 2
     },
-    "hobbyimage": "https://images.pexels.com/photos/37210457/pexels-photo-37210457.jpeg"
+    "hobbyimage": "https://images.pexels.com/photos/37210457/pexels-photo-37210457.jpeg",
+    "hobbycategory": [ "Active", "Outdoor" ]
   },
   {
     "id": 25,
@@ -422,7 +446,8 @@
       "price": 4,
       "timeCommitment": 4
     },
-    "hobbyimage": "https://images.pexels.com/photos/5384283/pexels-photo-5384283.jpeg"
+    "hobbyimage": "https://images.pexels.com/photos/5384283/pexels-photo-5384283.jpeg",
+    "hobbycategory": [ "Active", "Strategic" ]
   },
   {
     "id": 26,
@@ -439,7 +464,8 @@
       "price": 3,
       "timeCommitment": 3
     },
-    "hobbyimage": "https://images.pexels.com/photos/7591312/pexels-photo-7591312.jpeg"
+    "hobbyimage": "https://images.pexels.com/photos/7591312/pexels-photo-7591312.jpeg",
+    "hobbycategory": [ "Active", "Strategic" ]
   },
   {
     "id": 27,
@@ -456,7 +482,8 @@
       "price": 2,
       "timeCommitment": 2
     },
-    "hobbyimage": "https://images.unsplash.com/photo-1560951750-1e85780f946b?q=80&w=982&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    "hobbyimage": "https://images.unsplash.com/photo-1560951750-1e85780f946b?q=80&w=982&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "hobbycategory": [ "Relaxing", "Outdoor" ]
   },
   {
     "id": 28,
@@ -473,7 +500,8 @@
       "price": 3,
       "timeCommitment": 2
     },
-    "hobbyimage": "https://images.unsplash.com/photo-1580809361436-42a7ec204889?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    "hobbyimage": "https://images.unsplash.com/photo-1580809361436-42a7ec204889?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "hobbycategory": [ "Creative", "Social" ]
   },
   {
     "id": 29,
@@ -490,7 +518,8 @@
       "price": 2,
       "timeCommitment": 2
     },
-    "hobbyimage": "https://plus.unsplash.com/premium_photo-1673089624442-14bc846ded76?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    "hobbyimage": "https://plus.unsplash.com/premium_photo-1673089624442-14bc846ded76?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "hobbycategory": [ "Social", "Strategic" ]
   },
   {
     "id": 30,
@@ -507,7 +536,8 @@
       "price": 1,
       "timeCommitment": 3
     },
-    "hobbyimage": "https://images.pexels.com/photos/7658812/pexels-photo-7658812.jpeg"
+    "hobbyimage": "https://images.pexels.com/photos/7658812/pexels-photo-7658812.jpeg",
+    "hobbycategory": [ "Creative", "Relaxing", "Social", "Outdoor" ]
   },
   {
     "id": 31,
@@ -524,7 +554,8 @@
       "price": 4,
       "timeCommitment": 3
     },
-    "hobbyimage": "https://images.pexels.com/photos/2404667/pexels-photo-2404667.jpeg"
+    "hobbyimage": "https://images.pexels.com/photos/2404667/pexels-photo-2404667.jpeg",
+    "hobbycategory": [ "Active", "Outdoor" ]
   },
   {
     "id": 32,
@@ -541,7 +572,8 @@
       "price": 3,
       "timeCommitment": 3
     },
-    "hobbyimage": "https://images.unsplash.com/photo-1588540111535-2b7ef1eb7833?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    "hobbyimage": "https://images.unsplash.com/photo-1588540111535-2b7ef1eb7833?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "hobbycategory": [ "Active", "Creative", "Social" ]
   },
   {
     "id": 33,
@@ -558,7 +590,8 @@
       "price": 3,
       "timeCommitment": 1
     },
-    "hobbyimage": "https://images.pexels.com/photos/10574241/pexels-photo-10574241.jpeg"
+    "hobbyimage": "https://images.pexels.com/photos/10574241/pexels-photo-10574241.jpeg",
+    "hobbycategory": [ "Relaxing" ]
   },
   {
     "id": 34,
@@ -575,7 +608,8 @@
       "price": 1,
       "timeCommitment": 1
     },
-    "hobbyimage": "https://images.pexels.com/photos/4057330/pexels-photo-4057330.jpeg"
+    "hobbyimage": "https://images.pexels.com/photos/4057330/pexels-photo-4057330.jpeg",
+    "hobbycategory": [ "Relaxing" ]
   },
   {
     "id": 35,
@@ -592,7 +626,8 @@
       "price": 2,
       "timeCommitment": 1
     },
-    "hobbyimage": "https://images.unsplash.com/photo-1629380108599-ea06489d66f5?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    "hobbyimage": "https://images.unsplash.com/photo-1629380108599-ea06489d66f5?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "hobbycategory": [ "Relaxing" ]
   },
   {
     "id": 36,
@@ -609,7 +644,8 @@
       "price": 2,
       "timeCommitment": 2
     },
-    "hobbyimage": "https://images.pexels.com/photos/8436608/pexels-photo-8436608.jpeg"
+    "hobbyimage": "https://images.pexels.com/photos/8436608/pexels-photo-8436608.jpeg",
+    "hobbycategory": [ "Active", "Relaxing" ]
   },
   {
     "id": 37,
@@ -626,6 +662,7 @@
       "price": 1,
       "timeCommitment": 3
     },
-    "hobbyimage": "https://images.pexels.com/photos/6646987/pexels-photo-6646987.jpeg"
+    "hobbyimage": "https://images.pexels.com/photos/6646987/pexels-photo-6646987.jpeg",
+    "hobbycategory": [ "Social", "Outdoor" ]
   }
 ]

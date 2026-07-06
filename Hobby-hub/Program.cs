@@ -5,7 +5,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddScoped<IHobbyRepository, HobbyRepository>();  
-builder.Services.AddScoped<IQuizService, QuizService>();  
+builder.Services.AddScoped<IQuizService, QuizService>();
+builder.Services.AddScoped<IHobbyService, HobbyService>();
 
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi

@@ -1,7 +1,12 @@
-﻿namespace Hobby_Hub_Testing;
+﻿using Hobby_hub.Repositories;
+
+namespace Hobby_Hub_Testing;
 
 public class HobbyRepoTest
 {
+    private IHobbyRepository _hobbyRepo;
+
+
     [SetUp]
     public void Setup()
     {

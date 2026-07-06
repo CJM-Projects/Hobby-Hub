@@ -343,11 +343,7 @@ namespace Hobby_Hub_Testing.HobbyTests
             var result = await _hobbyController.GetHobbyByNameAsync("Running") as OkObjectResult;
             var returnedHobby = result.Value as Hobby;
 
-            //var result2 = await _hobbyController.GetHobbyByNameAsync("Tai Chi") as OkObjectResult;
-            //var returnedHobby2 = result2.Value as Hobby;
-
             Assert.That(returnedHobby.Name, Is.EqualTo(hobby1.Name));
-            //Assert.That(returnedHobby2.Name, Is.EqualTo(hobby2.Name));
 
         }
 

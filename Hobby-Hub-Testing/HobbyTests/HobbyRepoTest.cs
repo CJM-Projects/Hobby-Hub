@@ -36,10 +36,7 @@ public class HobbyRepoTest
         var hobbyName = "Running";
 
         var result = await _hobbyRepo.GetHobbyByNameAsync(hobbyName);
-        Console.WriteLine(result.Name);
-        Console.WriteLine(result.Scores.Active);
-        Console.WriteLine(result.Description);
-        Console.WriteLine(result.HobbyCategory);
+        
         
         Assert.That(result, Is.Not.Null);
 

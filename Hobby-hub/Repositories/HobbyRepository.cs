@@ -7,7 +7,7 @@ namespace Hobby_hub.Repositories
     public interface IHobbyRepository
     {
         Task<List<Hobby>> GetAllHobbiesAsync();
-        Task<Hobby> GetHobbyByNameAsync(string hobbyName);
+        Task<Hobby?> GetHobbyByNameAsync(string hobbyName);
     }
     public class HobbyRepository : IHobbyRepository
     {
@@ -20,12 +20,11 @@ namespace Hobby_hub.Repositories
             return hobbies;
         }
 
-        public async Task<Hobby> GetHobbyByNameAsync(string hobbyName)
+        public async Task<Hobby?> GetHobbyByNameAsync(string hobbyName)
         {
-
             var hobbies = await GetAllHobbiesAsync();
 
-            var hobby = hobbies.FirstOrDefault(h => h.Name == hobbyName);
+            var hobby = hobbies.FirstOrDefault(h => StringComparer.OrdinalIgnoreCase.Equals(h.Name, hobbyName));
 
             return hobby;
         }

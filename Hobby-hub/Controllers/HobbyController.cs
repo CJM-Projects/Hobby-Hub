@@ -26,6 +26,12 @@ namespace Hobby_hub.Controllers
         public async Task<IActionResult> GetHobbyByNameAsync(string hobbyName)
         {
             var hobby = await _hobbyService.GetHobbyByNameAsync(hobbyName);
+
+            if (hobby == null)
+            { 
+                return NotFound($"Hobby with name '{hobbyName}' not found.");
+            }
+
             return Ok(hobby);
         }
     }

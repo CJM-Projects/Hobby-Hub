@@ -4,7 +4,7 @@ using Hobby_hub.Repositories;
 using Hobby_hub.Services;
 using Moq;
 
-namespace Hobby_Hub_Testing;
+namespace Hobby_Hub_Testing.HobbyTests;
 
 public class HobbyServiceTest
 {
@@ -164,7 +164,7 @@ public class HobbyServiceTest
                 TimeCommitment = 3
             }
         };
-        _mockHobbyRepo.Setup(repo => repo.GetHobbyByNameAsync("Running")).ReturnsAsync(hobby1);
+        _mockHobbyRepo.Setup(repo => repo.GetHobbyByNameAsync("running")).ReturnsAsync(hobby1);
 
         var result = await _hobbyService.GetHobbyByNameAsync("running");
 

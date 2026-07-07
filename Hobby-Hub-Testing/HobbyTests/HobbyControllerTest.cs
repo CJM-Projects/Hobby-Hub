@@ -7,7 +7,7 @@ using Moq;
 
 namespace Hobby_Hub_Testing.HobbyTests
 {
-    public class Tests
+    public class HobbyControllerTest
     {
         private Mock<IHobbyService> _mockHobbyService;
         private HobbyController _hobbyController;
@@ -412,13 +412,12 @@ namespace Hobby_Hub_Testing.HobbyTests
         [Test]
         public async Task GetHobbyByNameAsync_ShouldReturnNotFound_WhenGivenNameNotInData()
         {
-            
                 // Arrange
                 _mockHobbyService.Setup(service => service.GetHobbyByNameAsync("Trampolining")).ReturnsAsync((Hobby)null);
                 // Act
                 var result = await _hobbyController.GetHobbyByNameAsync("Trampolining");
                 // Assert
-               Assert.That(result, Is.TypeOf<NotFoundResult>());
+               Assert.That(result, Is.TypeOf<NotFoundObjectResult>());
         }
 
         [Test]

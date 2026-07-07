@@ -2,7 +2,7 @@
 using Hobby_hub.Data_Models.Enum;
 using Hobby_hub.Repositories;
 
-namespace Hobby_Hub_Testing;
+namespace Hobby_Hub_Testing.HobbyTests;
 
 public class HobbyRepoTest
 {

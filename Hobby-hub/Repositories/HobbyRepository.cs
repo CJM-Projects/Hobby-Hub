@@ -1,5 +1,6 @@
 ﻿using Hobby_hub.Data_Models;
 using System.Text.Json;
+using System.Text.Json.Serialization;
 
 namespace Hobby_hub.Repositories
 {
@@ -14,7 +15,7 @@ namespace Hobby_hub.Repositories
         public async Task<List<Hobby>> GetAllHobbiesAsync()
         {
             var file = File.ReadAllText(_filePath);
-            var hobbies = JsonSerializer.Deserialize<List<Hobby>>(file, new JsonSerializerOptions{ PropertyNamingPolicy = JsonNamingPolicy.CamelCase }) ?? [];
+            var hobbies = JsonSerializer.Deserialize<List<Hobby>>(file, new JsonSerializerOptions{ PropertyNamingPolicy = JsonNamingPolicy.CamelCase, Converters = { new JsonStringEnumConverter() } }) ?? [];
 
             return hobbies;
         }

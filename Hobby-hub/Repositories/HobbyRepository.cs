@@ -1,4 +1,5 @@
 ﻿using Hobby_hub.Data_Models;
+using System.Globalization;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
@@ -8,6 +9,7 @@ namespace Hobby_hub.Repositories
     {
         Task<List<Hobby>> GetAllHobbiesAsync();
         Task<Hobby?> GetHobbyByNameAsync(string hobbyName);
+        Task<List<Hobby>> GetTrendingHobbiesAsync();
     }
     public class HobbyRepository : IHobbyRepository
     {
@@ -27,6 +29,27 @@ namespace Hobby_hub.Repositories
             var hobby = hobbies.FirstOrDefault(h => StringComparer.OrdinalIgnoreCase.Equals(h.Name, hobbyName));
 
             return hobby;
+        }
+
+        public async Task<List<Hobby>> GetTrendingHobbiesAsync()
+        {
+            var limit = 3;
+
+            var hobbies = await GetAllHobbiesAsync();
+
+            if (hobbies == null || hobbies.Count == 0)
+                return new List<Hobby>();
+
+            var weekNumber = ISOWeek.GetWeekOfYear(DateTime.UtcNow);
+            var random = new Random(weekNumber);
+
+            var trending = hobbies
+                .OrderBy(h => random.Next())
+                .DistinctBy(h => h.Id)
+                .Take(limit)
+                .ToList();
+
+            return trending;
         }
     }
 }

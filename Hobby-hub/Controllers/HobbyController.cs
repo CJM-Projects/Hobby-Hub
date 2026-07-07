@@ -34,5 +34,12 @@ namespace Hobby_hub.Controllers
 
             return Ok(hobby);
         }
+
+        [HttpGet("trending")]
+        public async Task<IActionResult> GetTrendingHobbiesAsync()
+        {
+            var hobbies = await _hobbyService.GetTrendingHobbiesAsync();
+            return Ok(hobbies);
+        }
     }
 }

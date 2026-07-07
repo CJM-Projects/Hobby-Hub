@@ -7,6 +7,7 @@ namespace Hobby_hub.Services
     {
         Task<List<Hobby>> GetAllHobbiesAsync();
         Task<Hobby?> GetHobbyByNameAsync(string hobbyName);
+        Task<List<Hobby>> GetTrendingHobbiesAsync();
     }
     public class HobbyService : IHobbyService
     {
@@ -25,6 +26,11 @@ namespace Hobby_hub.Services
         public async Task<Hobby?> GetHobbyByNameAsync(string hobbyName)
         {
             return await _hobbyRepository.GetHobbyByNameAsync(hobbyName);
+        }
+
+        public async Task<List<Hobby>> GetTrendingHobbiesAsync()
+        {
+            return await _hobbyRepository.GetTrendingHobbiesAsync();
         }
     }
 }

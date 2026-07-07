@@ -284,7 +284,7 @@ namespace Hobby_Hub_Testing.HobbyTests
             Assert.That(resultValue[1].HobbyCategory.Contains(Category.Active));
         }
 
-        //add test for exceptions 
+        // TODO: add test for exceptions 
 
         [Test]
         public async Task GetHobbyByNameAsync_ShouldReturnSpecificHobby_WhenGivenStringName()
@@ -404,7 +404,7 @@ namespace Hobby_Hub_Testing.HobbyTests
             var result2 = await _hobbyController.GetHobbyByNameAsync("Tai Chi") as OkObjectResult;
             var returnedHobby2 = result2.Value as Hobby;
 
-            
+
             Assert.That(returnedHobby2.Name, Is.EqualTo(hobby2.Name));
 
         }
@@ -412,12 +412,11 @@ namespace Hobby_Hub_Testing.HobbyTests
         [Test]
         public async Task GetHobbyByNameAsync_ShouldReturnNotFound_WhenGivenNameNotInData()
         {
-                // Arrange
-                _mockHobbyService.Setup(service => service.GetHobbyByNameAsync("Trampolining")).ReturnsAsync((Hobby)null);
-                // Act
-                var result = await _hobbyController.GetHobbyByNameAsync("Trampolining");
-                // Assert
-               Assert.That(result, Is.TypeOf<NotFoundObjectResult>());
+            _mockHobbyService.Setup(service => service.GetHobbyByNameAsync("Trampolining")).ReturnsAsync((Hobby)null);
+
+            var result = await _hobbyController.GetHobbyByNameAsync("Trampolining");
+
+            Assert.That(result, Is.TypeOf<NotFoundObjectResult>());
         }
 
         [Test]

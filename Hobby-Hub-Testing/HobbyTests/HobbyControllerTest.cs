@@ -203,6 +203,30 @@ namespace Hobby_Hub_Testing.HobbyTests
         [Test]
         public async Task GetHobbyByNameAsync_ShouldReturnSpecificHobby_WhenGivenStringName()
         {
+            var hobby1 = new Hobby
+            {
+                Id = 1,
+                Name = "Running",
+                Description = "Running is a high-impact, cardiovascular exercise characterized by an aerial phase where both feet are off the ground simultaneously",
+                YoutubeVideoId = "https://www.youtube.com/watch?v=kVnyY17VS9Y",
+                HobbyImage = "https://images.pexels.com/photos/8346669/pexels-photo-8346669.jpeg",
+                HobbyCategory =
+                [
+                    Category.Active,
+                    Category.Outdoor
+                ],
+                Scores = new HobbyScores
+                {
+                    Active = 5,
+                    Creative = 0,
+                    Relaxing = 2,
+                    Social = 1,
+                    Outdoor = 3,
+                    Strategic = 1,
+                    Price = 1,
+                    TimeCommitment = 3
+                }
+            };
             _mockHobbyService.Setup(service => service.GetHobbyByNameAsync("Running")).ReturnsAsync(hobby1);
 
             var result = await _hobbyController.GetHobbyByNameAsync("Running") as OkObjectResult;

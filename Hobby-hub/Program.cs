@@ -1,9 +1,11 @@
 using Hobby_hub.Health_Check;
 using Hobby_hub.Repositories;
 using Hobby_hub.Services;
+using Microsoft.AspNetCore.Builder.Extensions;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 using System.Text.Json;
+using Hobby_hub.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,7 +20,7 @@ builder.Services.AddOpenApi();
 builder.Services.AddHealthChecks()
     .AddCheck<APIHealthCheck>("API Health Check",
     failureStatus: HealthStatus.Unhealthy);
-
+builder.Services.AddTransient<ExceptionHandlerMiddleware>();
 
 var app = builder.Build();
 
@@ -28,11 +30,11 @@ if (app.Environment.IsDevelopment())
     app.MapOpenApi();
 }
 
+app.UseMiddleware<ExceptionHandlerMiddleware>();
+
 app.UseHttpsRedirection();
 
-app.UseAuthorization();
-
-app.MapControllers();
+app.UseAuthorization();          
 
 app.UseHealthChecks("/health", new HealthCheckOptions
 {
@@ -54,5 +56,7 @@ app.UseHealthChecks("/health", new HealthCheckOptions
         await context.Response.WriteAsync(JsonSerializer.Serialize(result));
     }
 });
+
+app.MapControllers();
 
 app.Run();

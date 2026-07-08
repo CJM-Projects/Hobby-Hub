@@ -12,295 +12,20 @@ namespace Hobby_Hub_Testing.HobbyTests
         private Mock<IHobbyService> _mockHobbyService;
         private HobbyController _hobbyController;
 
-        [SetUp]
-        public void Setup()
+        public List<Hobby> hobbies = new List<Hobby>
         {
-            _mockHobbyService = new Mock<IHobbyService>();
-            _hobbyController = new HobbyController(_mockHobbyService.Object);
-        }
-
-        [Test]
-        public async Task GetAllHobbies_ShouldReturnAllHobbiesAsAList()
-        {
-            var hobbies = new List<Hobby>
-            {
-                new Hobby
-                {
-                    Id = 1,
-                    Name = "Running",
-                    Description = "Running is a high-impact, cardiovascular exercise characterized by an aerial phase where both feet are off the ground simultaneously",
-                    YoutubeVideoId = "https://www.youtube.com/watch?v=kVnyY17VS9Y",
-                    HobbyImage = "https://images.pexels.com/photos/8346669/pexels-photo-8346669.jpeg",
-                    HobbyCategory =
-                    [
-
-                        Category.Active,
-                        Category.Outdoor
-
-                    ],
-                    Scores = new HobbyScores
-                    {
-                        Active = 5,
-                        Creative = 0,
-                        Relaxing = 2,
-                        Social = 1,
-                        Outdoor = 3,
-                        Strategic = 1,
-                        Price = 1,
-                        TimeCommitment = 3
-                    }
-                },
-
-                new Hobby
-                {
-                    Id = 2,
-                    Name = "Tai Chi",
-                    Description = "Tai Chi is a mind-body practice that combines slow, flowing physical movements, deep diaphragmatic breathing, and focused meditation",
-                    YoutubeVideoId = "https://www.youtube.com/watch?v=7McCi0z7FU8",
-                    HobbyImage = "https://images.pexels.com/photos/8461244/pexels-photo-8461244.jpeg",
-                    HobbyCategory =
-                    [
-                        Category.Active,
-                        Category.Relaxing
-                    ],
-                    Scores = new HobbyScores
-                    {
-                        Active = 3,
-                        Creative = 1,
-                        Relaxing = 5,
-                        Social = 2,
-                        Outdoor = 2,
-                        Strategic = 1,
-                        Price = 2,
-                        TimeCommitment = 3
-                    }
-                }
-            };
-            _mockHobbyService.Setup(service => service.GetAllHobbiesAsync()).ReturnsAsync(hobbies);
-
-            var result = await _hobbyController.GetAllHobbiesAsync() as OkObjectResult;
-            var returnedHobbies = result.Value as List<Hobby>;
-
-            Assert.That(returnedHobbies, Is.EqualTo(hobbies));
-        }
-
-        [Test]
-        public async Task GetAllHobbies_ShouldReturnOK200()
-        {
-            var hobbies = new List<Hobby>
-            {
-                new Hobby
-                {
-                    Id = 1,
-                    Name = "Running",
-                    Description = "Running is a high-impact, cardiovascular exercise characterized by an aerial phase where both feet are off the ground simultaneously",
-                    YoutubeVideoId = "https://www.youtube.com/watch?v=kVnyY17VS9Y",
-                    HobbyImage = "https://images.pexels.com/photos/8346669/pexels-photo-8346669.jpeg",
-                    HobbyCategory = new List<Category>
-                    {
-
-                        Category.Active,
-                        Category.Outdoor
-
-                    },
-                    Scores = new HobbyScores
-                    {
-                        Active = 5,
-                        Creative = 0,
-                        Relaxing = 2,
-                        Social = 1,
-                        Outdoor = 3,
-                        Strategic = 1,
-                        Price = 1,
-                        TimeCommitment = 3
-                    }
-                },
-
-                new Hobby
-                {
-                    Id = 2,
-                    Name = "Tai Chi",
-                    Description = "Tai Chi is a mind-body practice that combines slow, flowing physical movements, deep diaphragmatic breathing, and focused meditation",
-                    YoutubeVideoId = "https://www.youtube.com/watch?v=7McCi0z7FU8",
-                    HobbyImage = "https://images.pexels.com/photos/8461244/pexels-photo-8461244.jpeg",
-                    HobbyCategory =
-                    [
-                        Category.Active,
-                        Category.Relaxing
-                    ],
-                    Scores = new HobbyScores
-                    {
-                        Active = 3,
-                        Creative = 1,
-                        Relaxing = 5,
-                        Social = 2,
-                        Outdoor = 2,
-                        Strategic = 1,
-                        Price = 2,
-                        TimeCommitment = 3
-                    }
-                }
-            };
-            _mockHobbyService.Setup(service => service.GetAllHobbiesAsync()).ReturnsAsync(hobbies);
-
-            var result = await _hobbyController.GetAllHobbiesAsync() as OkObjectResult;
-
-            Assert.That(result.StatusCode, Is.EqualTo(200));
-            _mockHobbyService.Verify(service => service.GetAllHobbiesAsync(), Times.Once);
-        }
-
-        [Test]
-        public async Task GetAllHobbies_ShouldNotReturnNull()
-        {
-            var hobbies = new List<Hobby>
-            {
-                new Hobby
-                {
-                    Id = 1,
-                    Name = "Running",
-                    Description = "Running is a high-impact, cardiovascular exercise characterized by an aerial phase where both feet are off the ground simultaneously",
-                    YoutubeVideoId = "https://www.youtube.com/watch?v=kVnyY17VS9Y",
-                    HobbyImage = "https://images.pexels.com/photos/8346669/pexels-photo-8346669.jpeg",
-                    HobbyCategory = new List<Category>
-                    {
-
-                        Category.Active,
-                        Category.Outdoor
-
-                    },
-                    Scores = new HobbyScores
-                    {
-                        Active = 5,
-                        Creative = 0,
-                        Relaxing = 2,
-                        Social = 1,
-                        Outdoor = 3,
-                        Strategic = 1,
-                        Price = 1,
-                        TimeCommitment = 3
-                    }
-                },
-
-                new Hobby
-                {
-                    Id = 2,
-                    Name = "Tai Chi",
-                    Description = "Tai Chi is a mind-body practice that combines slow, flowing physical movements, deep diaphragmatic breathing, and focused meditation",
-                    YoutubeVideoId = "https://www.youtube.com/watch?v=7McCi0z7FU8",
-                    HobbyImage = "https://images.pexels.com/photos/8461244/pexels-photo-8461244.jpeg",
-                    HobbyCategory =
-                    [
-                        Category.Active,
-                        Category.Relaxing
-                    ],
-                    Scores = new HobbyScores
-                    {
-                        Active = 3,
-                        Creative = 1,
-                        Relaxing = 5,
-                        Social = 2,
-                        Outdoor = 2,
-                        Strategic = 1,
-                        Price = 2,
-                        TimeCommitment = 3
-                    }
-                }
-            };
-
-            _mockHobbyService.Setup(service => service.GetAllHobbiesAsync()).ReturnsAsync(hobbies);
-
-            var result = await _hobbyController.GetAllHobbiesAsync() as OkObjectResult;
-
-            Assert.That(result, Is.Not.Null);
-        }
-
-        [Test]
-        public async Task GetAllHobbies_ShouldReturnListOfHobbies_WhereAllHobbiesHaveExpectedFieldsPopulated()
-        {
-            var hobbies = new List<Hobby>
-            {
-                new Hobby
-                {
-                    Id = 1,
-                    Name = "Running",
-                    Description = "Running is a high-impact, cardiovascular exercise characterized by an aerial phase where both feet are off the ground simultaneously",
-                    YoutubeVideoId = "https://www.youtube.com/watch?v=kVnyY17VS9Y",
-                    HobbyImage = "https://images.pexels.com/photos/8346669/pexels-photo-8346669.jpeg",
-                    HobbyCategory = new List<Category>
-                    {
-
-                        Category.Active,
-                        Category.Outdoor
-
-                    },
-                    Scores = new HobbyScores
-                    {
-                        Active = 5,
-                        Creative = 0,
-                        Relaxing = 2,
-                        Social = 1,
-                        Outdoor = 3,
-                        Strategic = 1,
-                        Price = 1,
-                        TimeCommitment = 3
-                    }
-                },
-
-                new Hobby
-                {
-                    Id = 2,
-                    Name = "Tai Chi",
-                    Description = "Tai Chi is a mind-body practice that combines slow, flowing physical movements, deep diaphragmatic breathing, and focused meditation",
-                    YoutubeVideoId = "https://www.youtube.com/watch?v=7McCi0z7FU8",
-                    HobbyImage = "https://images.pexels.com/photos/8461244/pexels-photo-8461244.jpeg",
-                    HobbyCategory =
-                    [
-                        Category.Active,
-                        Category.Relaxing
-                    ],
-                    Scores = new HobbyScores
-                    {
-                        Active = 3,
-                        Creative = 1,
-                        Relaxing = 5,
-                        Social = 2,
-                        Outdoor = 2,
-                        Strategic = 1,
-                        Price = 2,
-                        TimeCommitment = 3
-                    }
-                }
-            };
-
-            _mockHobbyService.Setup(service => service.GetAllHobbiesAsync()).ReturnsAsync(hobbies);
-
-            var result = await _hobbyController.GetAllHobbiesAsync() as OkObjectResult;
-
-            var resultValue = result.Value as List<Hobby>;
-
-            Assert.That(resultValue[0].Name, Is.EqualTo("Running"));
-            Assert.That(resultValue[1].Id, Is.EqualTo(2));
-            Assert.That(resultValue[0].Description, Is.Not.Null);
-            Assert.That(resultValue[1].HobbyCategory.Contains(Category.Active));
-        }
-
-        // TODO: add test for exceptions 
-
-        [Test]
-        public async Task GetHobbyByNameAsync_ShouldReturnSpecificHobby_WhenGivenStringName()
-        {
-            var hobby1 = new Hobby
+            new Hobby
             {
                 Id = 1,
                 Name = "Running",
                 Description = "Running is a high-impact, cardiovascular exercise characterized by an aerial phase where both feet are off the ground simultaneously",
                 YoutubeVideoId = "https://www.youtube.com/watch?v=kVnyY17VS9Y",
                 HobbyImage = "https://images.pexels.com/photos/8346669/pexels-photo-8346669.jpeg",
-                HobbyCategory =
-                [
+                HobbyCategory = new List<Category>
+                {
                     Category.Active,
                     Category.Outdoor
-                ],
+                },
                 Scores = new HobbyScores
                 {
                     Active = 5,
@@ -312,8 +37,8 @@ namespace Hobby_Hub_Testing.HobbyTests
                     Price = 1,
                     TimeCommitment = 3
                 }
-            };
-            var hobby2 = new Hobby
+            },
+            new Hobby
             {
                 Id = 2,
                 Name = "Tai Chi",
@@ -336,8 +61,148 @@ namespace Hobby_Hub_Testing.HobbyTests
                     Price = 2,
                     TimeCommitment = 3
                 }
+            }
+        };
+
+        public List<Hobby> trendingHobbies = new List<Hobby>
+            {
+                new Hobby
+                {
+                    Id = 1,
+                    Name = "Running",
+                    Description = "Running is a high-impact, cardiovascular exercise characterized by an aerial phase where both feet are off the ground simultaneously",
+                    YoutubeVideoId = "https://www.youtube.com/watch?v=kVnyY17VS9Y",
+                    HobbyImage = "https://images.pexels.com/photos/8346669/pexels-photo-8346669.jpeg",
+                    HobbyCategory = new List<Category>
+                    {
+
+                        Category.Active,
+                        Category.Outdoor
+
+                    },
+                    Scores = new HobbyScores
+                    {
+                        Active = 5,
+                        Creative = 0,
+                        Relaxing = 2,
+                        Social = 1,
+                        Outdoor = 3,
+                        Strategic = 1,
+                        Price = 1,
+                        TimeCommitment = 3
+                    }
+                },
+                new Hobby
+                {
+                    Id = 2,
+                    Name = "Tai Chi",
+                    Description = "Tai Chi is a mind-body practice that combines slow, flowing physical movements, deep diaphragmatic breathing, and focused meditation",
+                    YoutubeVideoId = "https://www.youtube.com/watch?v=7McCi0z7FU8",
+                    HobbyImage = "https://images.pexels.com/photos/8461244/pexels-photo-8461244.jpeg",
+                    HobbyCategory =
+                    [
+                        Category.Active,
+                        Category.Relaxing
+                    ],
+                    Scores = new HobbyScores
+                    {
+                        Active = 3,
+                        Creative = 1,
+                        Relaxing = 5,
+                        Social = 2,
+                        Outdoor = 2,
+                        Strategic = 1,
+                        Price = 2,
+                        TimeCommitment = 3
+                    }
+                },
+                new Hobby
+                {
+                    Id = 3,
+                    Name = "Barre",
+                    Description = "Barre is a popular, low-impact workout that blends balletic movements with Pilates, yoga, and strength training",
+                    YoutubeVideoId = "https://www.youtube.com/watch?v=wHIaaQ-RzXI",
+                    HobbyImage = "https://images.pexels.com/photos/5153950/pexels-photo-5153950.jpeg",
+                    HobbyCategory =
+                    [
+                        Category.Active,
+                        Category.Creative
+                    ],
+                    Scores = new HobbyScores
+                    {
+                        Active = 5,
+                        Creative = 2,
+                        Relaxing = 2,
+                        Social = 3,
+                        Outdoor = 0,
+                        Strategic = 1,
+                        Price = 4,
+                        TimeCommitment = 3
+                    }
+                }
             };
 
+        [SetUp]
+        public void Setup()
+        {
+            _mockHobbyService = new Mock<IHobbyService>();
+            _hobbyController = new HobbyController(_mockHobbyService.Object);
+        }
+
+        [Test]
+        public async Task GetAllHobbies_ShouldReturnAllHobbiesAsAList()
+        {
+            
+            _mockHobbyService.Setup(service => service.GetAllHobbiesAsync()).ReturnsAsync(hobbies);
+
+            var result = await _hobbyController.GetAllHobbiesAsync() as OkObjectResult;
+            var returnedHobbies = result.Value as List<Hobby>;
+
+            Assert.That(returnedHobbies, Is.EqualTo(hobbies));
+        }
+
+        [Test]
+        public async Task GetAllHobbies_ShouldReturnOK200()
+        {
+        
+            _mockHobbyService.Setup(service => service.GetAllHobbiesAsync()).ReturnsAsync(hobbies);
+
+            var result = await _hobbyController.GetAllHobbiesAsync() as OkObjectResult;
+
+            Assert.That(result.StatusCode, Is.EqualTo(200));
+            _mockHobbyService.Verify(service => service.GetAllHobbiesAsync(), Times.Once);
+        }
+
+        [Test]
+        public async Task GetAllHobbies_ShouldNotReturnNull()
+        {
+            _mockHobbyService.Setup(service => service.GetAllHobbiesAsync()).ReturnsAsync(hobbies);
+
+            var result = await _hobbyController.GetAllHobbiesAsync() as OkObjectResult;
+
+            Assert.That(result, Is.Not.Null);
+        }
+
+        [Test]
+        public async Task GetAllHobbies_ShouldReturnListOfHobbies_WhereAllHobbiesHaveExpectedFieldsPopulated()
+        {
+            _mockHobbyService.Setup(service => service.GetAllHobbiesAsync()).ReturnsAsync(hobbies);
+
+            var result = await _hobbyController.GetAllHobbiesAsync() as OkObjectResult;
+
+            var resultValue = result.Value as List<Hobby>;
+
+            Assert.That(resultValue[0].Name, Is.EqualTo("Running"));
+            Assert.That(resultValue[1].Id, Is.EqualTo(2));
+            Assert.That(resultValue[0].Description, Is.Not.Null);
+            Assert.That(resultValue[1].HobbyCategory.Contains(Category.Active));
+        }
+
+        // TODO: add test for exceptions 
+
+        [Test]
+        public async Task GetHobbyByNameAsync_ShouldReturnSpecificHobby_WhenGivenStringName()
+        {
             _mockHobbyService.Setup(service => service.GetHobbyByNameAsync("Running")).ReturnsAsync(hobby1);
 
             var result = await _hobbyController.GetHobbyByNameAsync("Running") as OkObjectResult;
@@ -452,6 +317,38 @@ namespace Hobby_Hub_Testing.HobbyTests
 
             Assert.That(result.StatusCode, Is.EqualTo(200));
             _mockHobbyService.Verify(service => service.GetHobbyByNameAsync("Running"), Times.Once);
+        }
+
+        [Test]
+        public async Task GetTrendingHobbies_ShouldReturnOK200()
+        {
+            _mockHobbyService.Setup(service => service.GetTrendingHobbiesAsync()).ReturnsAsync(trendingHobbies);
+
+            var result = await _hobbyController.GetTrendingHobbiesAsync() as OkObjectResult;
+
+            Assert.That(result.StatusCode, Is.EqualTo(200));
+            _mockHobbyService.Verify(service => service.GetTrendingHobbiesAsync(), Times.Once);
+        }
+
+        [Test]
+        public async Task GetTrendingHobbies_ShouldReturnListOfThreeHobbies()
+        {
+            _mockHobbyService.Setup(service => service.GetTrendingHobbiesAsync()).ReturnsAsync(trendingHobbies);
+            
+            var result = await _hobbyController.GetTrendingHobbiesAsync() as OkObjectResult;
+            
+            var returnedHobbies = result.Value as List<Hobby>;
+            
+            Assert.That(returnedHobbies.Count, Is.EqualTo(3));
+            Assert.That(returnedHobbies, Is.EqualTo(trendingHobbies));
+        }
+
+        [Test]
+        public async Task GetTrendingHobbies_ShouldReturnNotNull()
+        {
+            _mockHobbyService.Setup(service => service.GetTrendingHobbiesAsync()).ReturnsAsync(trendingHobbies);
+            var result = await _hobbyController.GetTrendingHobbiesAsync() as OkObjectResult;
+            Assert.That(result, Is.Not.Null);
         }
     }
 }

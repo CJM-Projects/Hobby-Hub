@@ -58,4 +58,27 @@ public class HobbyRepoTest
 
         Assert.That(result, Is.Null);
     }
+
+    [Test]
+    public async Task GetTrendingHobbies_ReturnsListOfTrendingHobbies()
+    {
+        var result = await _hobbyRepo.GetTrendingHobbiesAsync();
+        Assert.That(result, Is.Not.Null);
+        Assert.That(result, Is.InstanceOf<List<Hobby>>());
+        Assert.That(result, Is.Not.Empty);
+    }
+
+    [Test]
+    public async Task GetTrendingHobbies_ReturnsThreeTrendingHobbies()
+    {
+        var result = await _hobbyRepo.GetTrendingHobbiesAsync();
+        Assert.That(result.Count, Is.EqualTo(3));
+    }
+    [Test]
+    public async Task GetTrendingHobbies_ReturnsListOfTrendingHobbies_WithNoDuplicates()
+    {
+        var result = await _hobbyRepo.GetTrendingHobbiesAsync();
+        var distinctCount = result.Select(h => h.Id).Distinct().Count();
+        Assert.That(distinctCount, Is.EqualTo(result.Count));
+    }
 }

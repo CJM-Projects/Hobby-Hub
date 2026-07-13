@@ -1,4 +1,8 @@
 <Solution>
+  <Project Path="hobby-hub-frontend/hobby-hub-frontend.esproj">
+    <Build />
+    <Deploy />
+  </Project>
   <Project Path="Hobby-Hub-Testing/Hobby-Hub-Testing.csproj" />
   <Project Path="Hobby-hub/Hobby-hub.csproj" />
 </Solution>

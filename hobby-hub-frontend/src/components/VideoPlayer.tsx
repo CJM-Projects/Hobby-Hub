@@ -1,6 +1,8 @@
 function VideoPlayer() {
   return (
-    <p>Hello world!</p>
+      <div>
+        <iframe></iframe>
+      </div>
   );
 }
 

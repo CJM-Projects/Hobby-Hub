@@ -1,7 +1,7 @@
 import linkIcon from '../assets/linkIcon.png'; 
 export function Footer() {
     return (
-      <footer>
+        <footer className="bottom-0">
         <hr></hr> 
         <div className="px-5 py-2">
             <h3 className="font-bold">Support</h3>

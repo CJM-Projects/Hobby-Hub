@@ -7,14 +7,19 @@ type TitleCardProps =
 
 export function TitleCard({ hobby }:  TitleCardProps  ) {
     return (
-      <div className="flex items-center">
-            <div className="w-full h-screen bg-cover bg-center
-                       flex justify-center items-center"
-                style={{ backgroundImage: `url(${hobby.hobbyImage})` }}>
-            </div>
-            <div>
-                <h1 className="text-3xl font-bold">{hobby.name}</h1>
-                <p className="text-zinc-600 text-sm">{hobby.description}</p>
+        <div className="relative w-full h-[60vh] bg-cover bg-center"
+            style={{ backgroundImage: `url(${hobby.hobbyImage})` }}>
+            <div className="absolute inset-0 bg-white/20 backdrop-brightness-45" />
+            <div className="absolute inset-0 flex items-center justify-center px-6">
+                <div className="max-w-2xl rounded-3xl border border-white/20 bg-white/20 p-8 text-white shadow-2xl backdrop-blur-lg">
+                    <h1 className="mb-4 text-5xl font-bold text-center ">
+                        {hobby.name}
+                    </h1>
+
+                    <p className="text-xl leading-relaxed font-bold text-center ">
+                        {hobby.description}
+                    </p>
+                </div>
             </div>
         
       </div>
@@ -22,7 +27,5 @@ export function TitleCard({ hobby }:  TitleCardProps  ) {
 }
 
 
-
-//TODO: functionality to get the API
 
 export default TitleCard;

@@ -1,11 +1,12 @@
 using Hobby_hub.Health_Check;
+using Hobby_hub.Middlewares;
 using Hobby_hub.Repositories;
 using Hobby_hub.Services;
 using Microsoft.AspNetCore.Builder.Extensions;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 using System.Text.Json;
-using Hobby_hub.Middlewares;
+using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,13 +15,31 @@ builder.Services.AddScoped<IHobbyRepository, HobbyRepository>();
 builder.Services.AddScoped<IQuizService, QuizService>();
 builder.Services.AddScoped<IHobbyService, HobbyService>();
 
-builder.Services.AddControllers();
+builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.Converters.Add(
+            new JsonStringEnumConverter());
+    });
+
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 builder.Services.AddHealthChecks()
     .AddCheck<APIHealthCheck>("API Health Check",
     failureStatus: HealthStatus.Unhealthy);
 builder.Services.AddTransient<ExceptionHandlerMiddleware>();
+
+var allowedOrigins = builder.Configuration.GetSection("AllowedOrigins").Get<string[]>()!;
+
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(optionsCORS =>
+    {
+        optionsCORS.WithOrigins(allowedOrigins)
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
 
 var app = builder.Build();
 
@@ -33,6 +52,8 @@ if (app.Environment.IsDevelopment())
 app.UseMiddleware<ExceptionHandlerMiddleware>();
 
 app.UseHttpsRedirection();
+
+app.UseCors();
 
 app.UseAuthorization();          
 

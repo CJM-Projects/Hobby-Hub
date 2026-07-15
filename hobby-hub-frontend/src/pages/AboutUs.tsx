@@ -5,7 +5,7 @@ export function AboutUs() {
                 <div className="mb-4 font-bold text-5xl py-2 text-heading text-center">
                     <h1>About Us</h1>
                 </div>
-                <div className="px-50 py-2 text-left">
+                <div className="mx-auto max-w-6xl px-20 py-2">
                     <p>
                         We created this website to make it easier for people to discover new hobbies that genuinely fit their interests, personality and lifestyle. Whether someone wants to be more creative, more active or simply try something different, we wanted to build a simple, friendly way to explore new possibilities.
                     </p>
@@ -23,25 +23,32 @@ export function AboutUs() {
                     </p>
                 </div>
             </div>
+            <br />
+            <div className="mx-auto max-w-6xl px-20 py-2">
+                <div className=" font-bold text-3xl">
+                    <h2>Why hobbies are important:</h2>
+                </div>
 
-            <div className="px-50 mb-4 font-bold text-3xl">
-                <br />
-                <h2>Why hobbies are important:</h2>
+                <div className="flex justify-center py-4">
+                    {/*TODO: Add the video frame in here for the youtube video*/}
+                    <iframe width="550" height="350" src="https://www.youtube.com/embed/7b9THb3cQbg" title="Hobbies: Your Best Defense Against Brain Rot" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+                </div>
+
+                <div >
+                    <p>
+                    Research shows that hobbies are vital for well-being. A landmark study published in
+                        <span> <a
+                        href="https://www.nature.com/articles/s41591-023-02506-1"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Read the Nature Medicine study (opens in a new tab)"
+                        className="underline hover:no-underline text-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-600 rounded"
+                            >Nature Medicine</a>
+                        </span> found that engaging in hobbies is tied to a 29% reduction in all-cause mortality risk, while also significantly boosting happiness, life satisfaction, and lowering depressive symptoms across global populations.
+                    </p>
+                    <br></br>
+                </div>
             </div>
-
-            <div className="flex justify-center py-4">
-                {/*TODO: Add the video frame in here for the youtube video*/}
-
-                <iframe width="550" height="350" src="https://www.youtube.com/embed/7b9THb3cQbg" title="Hobbies: Your Best Defense Against Brain Rot" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
-            </div>
-
-            <div className="px-50 py-2 text-left">
-                <p>
-                    Research shows that hobbies are vital for well-being. A landmark study published in Nature Medicine found that engaging in hobbies is tied to a 29% reduction in all-cause mortality risk, while also significantly boosting happiness, life satisfaction, and lowering depressive symptoms across global populations.
-                </p>
-                <br></br>
-            </div>
-
         </div>
     )
 }

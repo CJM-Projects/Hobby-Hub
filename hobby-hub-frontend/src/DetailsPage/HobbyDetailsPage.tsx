@@ -1,35 +1,28 @@
+import { useEffect, useState } from "react";
 import  DescriptionCard from "../components/DescriptionCard";
 import { FeaturesCard } from "../components/FeaturesCard";
 import TitleCard from "../components/TitleCard";
 import { VideoPlayer } from "../components/VideoPlayer";
 import type { Hobby } from "../models/hobby";
+import { useParams } from "react-router"
 
 function HobbyDetailsPage() {
-    const sampleHobby:Hobby = {
-        "id": 1,
-        "name": "Running",
-        "description": "Running is a high-impact, cardiovascular exercise characterized by an aerial phase where both feet are off the ground simultaneously",
-        "youtubeVideoId": "https://www.youtube.com/embed/kVnyY17VS9Y",
-        "scores": {
-            "active": 5,
-            "creative": 0,
-            "relaxing": 2,
-            "social": 1,
-            "outdoor": 3,
-            "strategic": 1,
-            "price": 1,
-            "timeCommitment": 3
-        },
-        "hobbyImage": "https://images.pexels.com/photos/8346669/pexels-photo-8346669.jpeg",
-        "hobbyCategory": ["Active", "Outdoor"]
-    }
+
+    const [hobby, setHobby] = useState<Hobby>();
+    const params = useParams();
+
+    useEffect(() => {
+        fetch(`https://localhost:7203/hobby/${params.hobbyName}`).then(response => response.json().then(json => setHobby(json)))
+    }, [])
+
+    console.log(hobby);
 
     return (
       <div>
-            <TitleCard hobby={sampleHobby} />
-            <FeaturesCard hobby={sampleHobby} />
-        <DescriptionCard />
-            <VideoPlayer url={sampleHobby.youtubeVideoId} />
+            <TitleCard hobby={hobby} />
+            <FeaturesCard hobby={hobby} />
+            <DescriptionCard />
+             <VideoPlayer url={hobby.youtubeVideoId} />
       </div>
   );
 }

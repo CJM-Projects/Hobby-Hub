@@ -8,7 +8,7 @@ import HobbyDetailsPage from "./DetailsPage/HobbyDetailsPage";
 function App() {
     return (
       <BrowserRouter>
-        <div className=" min-h-screen flex flex-col mx-auto p-4" >
+        <div className=" min-h-screen flex flex-col mx-auto " >
           <NavBar />
                 <Routes>
                     <Route path="/" element={<Home />} />

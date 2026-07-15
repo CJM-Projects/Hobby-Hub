@@ -5,13 +5,30 @@ type FeaturesCardProps = {
 }
 export function FeaturesCard({ hobby }: FeaturesCardProps) {
     return (
-      <div>
-            <p>Skill Level: { GetSkillLevel(hobby) }</p>
-            <p>Price: { GetPrice(hobby) }</p>
-            <p>Personality: { GetPersonality(hobby) }</p>
-            <p>Type: { hobby.hobbyCategory } </p>
-    </div>
-  );
+        <div className="w-full bg-white py-4 px-7 shadow-md">
+            <div className="grid grid-cols-4 text-center">
+                <p className="font-bold text-zinc-600">
+                    Skill Level:{" "}
+                    <span className="font-normal">{GetSkillLevel(hobby)}</span>
+                </p>
+
+                <p className="font-bold text-zinc-600">
+                    Price:{" "}
+                    <span className="font-normal">{GetPrice(hobby)}</span>
+                </p>
+
+                <p className="font-bold text-zinc-600">
+                    Personality:{" "}
+                    <span className="font-normal">{GetPersonality(hobby)}</span>
+                </p>
+
+                <p className="font-bold text-zinc-600">
+                    Type:{" "}
+                    <span className="font-normal">{hobby.hobbyCategory.join(", ")}</span>
+                </p>
+            </div>
+        </div>
+    );
 }
 
 function GetSkillLevel(hobby: Hobby) {

@@ -19,4 +19,4 @@ export type HobbyScores = {
     timeCommitment: number;
 }
 
-export type Category = "Active" | "Creative" | "Relaxing" | "Social" | "Outdoor" | "Strategic"
+export type Category = "Active" | "Creative" | "Relaxing" | "Social" | "Outdoor" | "Strategic";

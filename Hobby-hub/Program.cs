@@ -21,6 +21,15 @@ builder.Services.AddHealthChecks()
     .AddCheck<APIHealthCheck>("API Health Check",
     failureStatus: HealthStatus.Unhealthy);
 builder.Services.AddTransient<ExceptionHandlerMiddleware>();
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowReactApp", policy =>
+    {
+        policy.WithOrigins("http://localhost:3000")
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
 
 var app = builder.Build();
 
@@ -31,6 +40,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseMiddleware<ExceptionHandlerMiddleware>();
+
+app.UseCors("AllowReactApp");
 
 app.UseHttpsRedirection();
 

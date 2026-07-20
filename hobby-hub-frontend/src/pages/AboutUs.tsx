@@ -1,3 +1,5 @@
+import { VideoPlayer } from "../components/VideoPlayer";
+
 export function AboutUs() {
     return (
         <div>
@@ -29,9 +31,8 @@ export function AboutUs() {
                     <h2>Why hobbies are important:</h2>
                 </div>
 
-                <div className="flex justify-center py-4">
-                    {/*TODO: Add the video frame in here for the youtube video*/}
-                    <iframe width="550" height="350" src="https://www.youtube.com/embed/7b9THb3cQbg" title="Hobbies: Your Best Defense Against Brain Rot" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+                <div>
+                    <VideoPlayer url={"https://www.youtube.com/embed/7b9THb3cQbg"}></VideoPlayer>
                 </div>
 
                 <div >

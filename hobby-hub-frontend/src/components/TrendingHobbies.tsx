@@ -27,17 +27,17 @@ export function TrendingHobbies() {
   };
 
   return (
-    <div className="px-3">
+    <div className="mx-auto max-w-6xl px-20 w-full">
       <h2 className="font-bold text-xl">Trending Hobbies</h2>
       {isLoading ? (
         <p>Loading...</p>
       ) : (
         <div className="flex justify-between">
-          <button className="font-bold text-3xl" onClick={prevHobby}>
+          <button className="font-bold text-3xl px-3 cursor-pointer" onClick={prevHobby}>
             ←
           </button>
           <TrendingHobbyCard hobby={hobbies[index]} />
-          <button className="font-bold text-3xl" onClick={nextHobby}>
+          <button className="font-bold text-3xl px-3 cursor-pointer" onClick={nextHobby}>
             →
           </button>
         </div>

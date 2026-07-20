@@ -31,7 +31,7 @@ export function FeaturesCard({ hobby }: FeaturesCardProps) {
     );
 }
 
-function GetSkillLevel(hobby: Hobby) {
+export function GetSkillLevel(hobby: Hobby) {
     
     if (hobby.scores.strategic === 1 || hobby.scores.strategic === 2 ) {
             return "Beginner";
@@ -45,7 +45,7 @@ function GetSkillLevel(hobby: Hobby) {
     
 }
 
-function GetPrice(hobby: Hobby) {
+export function GetPrice(hobby: Hobby) {
 
     if (hobby.scores.price === 1 || hobby.scores.price === 2) {
         return "£";
@@ -59,7 +59,7 @@ function GetPrice(hobby: Hobby) {
 
 }
 
-function GetPersonality(hobby: Hobby) {
+export function GetPersonality(hobby: Hobby) {
 
     if (hobby.scores.social === 1 || hobby.scores.social === 2) {
         return "Introvert";

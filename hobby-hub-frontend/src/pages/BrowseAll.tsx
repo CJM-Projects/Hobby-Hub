@@ -66,7 +66,7 @@ export function BrowseAll() {
   }, []);
 
   return (
-    <div className="flex max-w-6xl px-10 py-4">
+    <div className="flex px-10 py-4">
       {isLoading ? (
         <p>Loading...</p>
       ) : (
@@ -193,7 +193,7 @@ export function BrowseAll() {
                 </div>
               ) : (
                 filteredHobbies.map((hobby) => (
-                  <HobbyPreviewCard key={hobby.id} hobby={hobby} imgSize="30" />
+                  <HobbyPreviewCard key={hobby.id} hobby={hobby} imgSize="w-32" />
                 ))
               )}
             </div>

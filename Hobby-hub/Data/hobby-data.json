@@ -21,7 +21,7 @@
     "id": 2,
     "name": "Tai Chi",
     "description": "Tai Chi is a mind-body practice that combines slow, flowing physical movements, deep diaphragmatic breathing, and focused meditation",
-    "youtubeVideoId": "https://www.youtube.com/watch?v=7McCi0z7FU8",
+    "youtubeVideoId": "https://www.youtube.com/embed/7McCi0z7FU8",
     "scores": {
       "active": 3,
       "creative": 1,
@@ -39,7 +39,7 @@
     "id": 3,
     "name": "Barre",
     "description": "Barre is a popular, low-impact workout that blends balletic movements with Pilates, yoga, and strength training",
-    "youtubeVideoId": "https://www.youtube.com/watch?v=wHIaaQ-RzXI",
+    "youtubeVideoId": "https://www.youtube.com/embed/wHIaaQ-RzXI",
     "scores": {
       "active": 5,
       "creative": 2,
@@ -57,7 +57,7 @@
     "id": 4,
     "name": "Archery",
     "description": "Archery is the sport, practice, or skill of using a bow to shoot arrows at a target.",
-    "youtubeVideoId": "https://www.youtube.com/watch?v=3YYfOEMXP08",
+    "youtubeVideoId": "https://www.youtube.com/embed/3YYfOEMXP08",
     "scores": {
       "active": 4,
       "creative": 0,
@@ -75,7 +75,7 @@
     "id": 5,
     "name": "Padel",
     "description": "Padel is a fast-paced racket sport that combines elements of tennis and squash.",
-    "youtubeVideoId": "https://www.youtube.com/watch?v=WpMZ5AE-QjQ",
+    "youtubeVideoId": "https://www.youtube.com/embed/WpMZ5AE-QjQ",
     "scores": {
       "active": 5,
       "creative": 0,
@@ -93,7 +93,7 @@
     "id": 6,
     "name": "Crocheting",
     "description": "Crocheting is a craft in which you use a single hooked needle to interlock loops of yarn, thread, or other fibrous materials to create textured fabrics, garments, and 3D objects.",
-    "youtubeVideoId": "https://www.youtube.com/watch?v=pML_xucNGCg&t=374s",
+    "youtubeVideoId": "https://www.youtube.com/embed/pML_xucNGCg",
     "scores": {
       "active": 0,
       "creative": 5,
@@ -111,7 +111,7 @@
     "id": 7,
     "name": "Embroidery",
     "description": "Embroidery is the ancient craft and art of decorating fabric or other materials using a needle to apply thread or yarn.",
-    "youtubeVideoId": "https://www.youtube.com/watch?v=-WS7ptWFB_k",
+    "youtubeVideoId": "https://www.youtube.com/embed/-WS7ptWFB_k",
     "scores": {
       "active": 0,
       "creative": 5,
@@ -129,7 +129,7 @@
     "id": 8,
     "name": "Dressmaking",
     "description": "Dressmaking is the craft of designing, constructing, altering, and repairing custom clothing",
-    "youtubeVideoId": "https://www.youtube.com/watch?v=o4MW25Ub94I",
+    "youtubeVideoId": "https://www.youtube.com/embed/o4MW25Ub94I",
     "scores": {
       "active": 0,
       "creative": 5,
@@ -147,7 +147,7 @@
     "id": 9,
     "name": "Painting",
     "description": "Painting is an art form, it uses colors, lines, and textures to express ideas, document history, and evoke emotion on a flat surface.",
-    "youtubeVideoId": "https://www.youtube.com/watch?v=Wla7FB3Vrm0",
+    "youtubeVideoId": "https://www.youtube.com/embed/jQAeOjK-XD0",
     "scores": {
       "active": 0,
       "creative": 5,
@@ -165,7 +165,7 @@
     "id": 10,
     "name": "Playing an Instrument",
     "description": "To play an instrument is to intentionally interacting with a physical device—like plucking strings, blowing into a reed, or pressing keys—to produce organized, rhythmic, and expressive sound",
-    "youtubeVideoId": "https://www.youtube.com/watch?v=R0JKCYZ8hng",
+    "youtubeVideoId": "https://www.youtube.com/embed/R0JKCYZ8hng",
     "scores": {
       "active": 1,
       "creative": 5,
@@ -176,14 +176,14 @@
       "price": 4,
       "timeCommitment": 5
     },
-    "hobbyImage": "https://images.unsplash.com/photo-1445375011782-2384686778a0?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "hobbyImage": "https://images.unsplash.com/photo-1556379118-7034d926d258?q=80&w=1732&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "hobbyCategory": [ "Creative" ]
   },
   {
     "id": 11,
     "name": "Candle Making",
     "description": "Candle making is the craft of combining wax, wicks, and fragrances to produce functional and aesthetic illumination.",
-    "youtubeVideoId": "https://www.youtube.com/watch?v=jJWl9Kpwbno",
+    "youtubeVideoId": "https://www.youtube.com/embed/REWvEttgDOU",
     "scores": {
       "active": 0,
       "creative": 4,
@@ -201,7 +201,7 @@
     "id": 12,
     "name": "Clay Modelling",
     "description": "Clay modelling is the art of shaping, molding, and sculpting malleable materials into three-dimensional forms.",
-    "youtubeVideoId": "https://www.youtube.com/watch?v=AERR37CbcvQ",
+    "youtubeVideoId": "https://www.youtube.com/embed/AERR37CbcvQ",
     "scores": {
       "active": 0,
       "creative": 5,
@@ -219,7 +219,7 @@
     "id": 13,
     "name": "Visiting Museums",
     "description": "A museum visit is an immersive cultural and educational experience where visitors explore history, art, and science.",
-    "youtubeVideoId": "https://www.youtube.com/watch?v=dMTZFDOgRMA",
+    "youtubeVideoId": "https://www.youtube.com/embed/dMTZFDOgRMA",
     "scores": {
       "active": 1,
       "creative": 3,
@@ -237,7 +237,7 @@
     "id": 14,
     "name": "Learning a Language",
     "description": "Learning a language is the lifelong, continuous process of building the cognitive, structural, and cultural skills required to understand and communicate in a tongue other than your native language.",
-    "youtubeVideoId": "https://www.youtube.com/watch?v=o_XVt5rdpFY",
+    "youtubeVideoId": "https://www.youtube.com/embed/o_XVt5rdpFY",
     "scores": {
       "active": 0,
       "creative": 1,
@@ -255,7 +255,7 @@
     "id": 15,
     "name": "Watching Documentaries",
     "description": "Watching documentaries is the act of engaging with non-fiction films or television programs that document reality for instruction, education, or entertainment.",
-    "youtubeVideoId": "https://www.youtube.com/watch?v=An-VACvhbfM",
+    "youtubeVideoId": "https://www.youtube.com/embed/An-VACvhbfM",
     "scores": {
       "active": 0,
       "creative": 0,
@@ -273,7 +273,7 @@
     "id": 16,
     "name": "Joining a Book Club",
     "description": "A book club is a social group where members gather to read and discuss a chosen book. It encourages consistent reading, introduces you to new genres, and creates a space to make friends.",
-    "youtubeVideoId": "https://www.youtube.com/watch?v=uni0LL338oA",
+    "youtubeVideoId": "https://www.youtube.com/embed/uni0LL338oA",
     "scores": {
       "active": 0,
       "creative": 2,
@@ -289,9 +289,9 @@
   },
   {
     "id": 17,
-    "name": "Programming / Coding",
+    "name": "Coding",
     "description": "Coding (or computer programming) is the process of writing step-by-step instructions that tell a computer how to perform a specific task.",
-    "youtubeVideoId": "https://www.youtube.com/watch?v=lj1AxGnIs5g",
+    "youtubeVideoId": "https://www.youtube.com/embed/lj1AxGnIs5g",
     "scores": {
       "active": 0,
       "creative": 3,
@@ -309,7 +309,7 @@
     "id": 18,
     "name": "Video Games",
     "description": "A video game is an interactive electronic game played using a user interface or input device (such as a controller, keyboard, or motion sensor) to produce visual and auditory feedback on a display.",
-    "youtubeVideoId": "https://www.youtube.com/watch?v=8jFreGK27DA",
+    "youtubeVideoId": "https://www.youtube.com/embed/8jFreGK27DA",
     "scores": {
       "active": 0,
       "creative": 1,
@@ -327,7 +327,7 @@
     "id": 19,
     "name": "Jigsaw Puzzles",
     "description": "A jigsaw puzzle is a tiling game where irregularly shaped, interlocking pieces must be assembled to form a complete picture or map",
-    "youtubeVideoId": "https://www.youtube.com/watch?v=K9WqHYd5Y_o",
+    "youtubeVideoId": "https://www.youtube.com/embed/-1Bf2IxLkNY",
     "scores": {
       "active": 0,
       "creative": 1,
@@ -345,7 +345,7 @@
     "id": 20,
     "name": "Crossword Puzzles",
     "description": "A crossword puzzle is a popular word game that consists of a grid of white and black squares. The objective is to fill the white squares with letters, forming intersecting words or phrases based on provided clues.",
-    "youtubeVideoId": "https://www.youtube.com/watch?v=ISgw_vg0Avc",
+    "youtubeVideoId": "https://www.youtube.com/embed/ISgw_vg0Avc",
     "scores": {
       "active": 0,
       "creative": 1,
@@ -363,7 +363,7 @@
     "id": 21,
     "name": "Board Games",
     "description": "A board game is a tabletop simulation where players use physical objects, such as pieces or cards, on a pre-marked surface or board according to specific rules. They range from simple games of chance to complex strategy challenges, and they serve as social activities that build cognitive and communication skills.",
-    "youtubeVideoId": "https://www.youtube.com/watch?v=CzV5VoLaOsI",
+    "youtubeVideoId": "https://www.youtube.com/embed/CzV5VoLaOsI",
     "scores": {
       "active": 0,
       "creative": 1,
@@ -381,7 +381,7 @@
     "id": 22,
     "name": "Role-playing Games",
     "description": "A role-playing game (RPG) is a game where you take on the persona of a character in a fictional world. Instead of just playing to win, you make choices, face risks, and shape the unfolding story based on your character's personality, skills, and motivations.",
-    "youtubeVideoId": "https://www.youtube.com/watch?v=AIuMuIeVa5k",
+    "youtubeVideoId": "https://www.youtube.com/embed/sLRJ3J7DYqI",
     "scores": {
       "active": 0,
       "creative": 5,
@@ -399,7 +399,7 @@
     "id": 23,
     "name": "Hiking",
     "description": "Hiking is the recreational activity of walking through natural environments, such as forests, hills, or mountain trails.",
-    "youtubeVideoId": "https://www.youtube.com/watch?v=upj7N22EMZA",
+    "youtubeVideoId": "https://www.youtube.com/embed/upj7N22EMZA",
     "scores": {
       "active": 5,
       "creative": 0,
@@ -415,9 +415,9 @@
   },
   {
     "id": 24,
-    "name": "Trail Walking",
-    "description": "Trail walking is the recreational activity of walking on unpaved natural paths or tracks.",
-    "youtubeVideoId": "https://www.youtube.com/watch?v=Tq9_kuqGVWg",
+    "name": "Trail Running",
+    "description": "Trail running is the recreational activity of running on unpaved natural paths or tracks.",
+    "youtubeVideoId": "https://www.youtube.com/embed/3_ApMII8vPU",
     "scores": {
       "active": 4,
       "creative": 0,
@@ -428,14 +428,14 @@
       "price": 1,
       "timeCommitment": 2
     },
-    "hobbyImage": "https://images.pexels.com/photos/37210457/pexels-photo-37210457.jpeg",
+    "hobbyImage": "https://images.unsplash.com/photo-1623390003553-4fa3f9fceb89?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "hobbyCategory": [ "Active", "Outdoor" ]
   },
   {
     "id": 25,
     "name": "Rock Climbing",
     "description": "Rock climbing is a physical and mental sport where participants ascend, descend, or traverse natural rock formations or artificial climbing walls.",
-    "youtubeVideoId": "https://www.youtube.com/watch?v=S-4XZgARAuA",
+    "youtubeVideoId": "https://www.youtube.com/embed/30y8Uy0B_uk",
     "scores": {
       "active": 5,
       "creative": 0,
@@ -453,7 +453,7 @@
     "id": 26,
     "name": "Bouldering",
     "description": "Bouldering is a form of rock climbing stripped down to its essentials. It is done on short, low walls or natural boulders without ropes or harnesses, using thick safety mats to protect against falls.",
-    "youtubeVideoId": "https://www.youtube.com/watch?v=JtzthnwhDPI",
+    "youtubeVideoId": "https://www.youtube.com/embed/JtzthnwhDPI",
     "scores": {
       "active": 5,
       "creative": 0,
@@ -471,7 +471,7 @@
     "id": 27,
     "name": "Birdwatching",
     "description": "Birdwatching, or 'birding', is the practice of observing birds in their natural habitats. Ranging from a casual, relaxing outdoor hobby to an obsessive pursuit of rare species, it often involves visual aids like binoculars and listening for calls.",
-    "youtubeVideoId": "https://www.youtube.com/watch?v=G3zv80_0EfY",
+    "youtubeVideoId": "https://www.youtube.com/embed/tH9Mi4vIurY",
     "scores": {
       "active": 2,
       "creative": 1,
@@ -489,7 +489,7 @@
     "id": 28,
     "name": "Theatre",
     "description": "Theatre is a collaborative performing art that uses live actors to present real or imagined events to an audience. Grounded in storytelling, it uses speech, movement, music, and spectacle to connect with spectators.",
-    "youtubeVideoId": "https://www.youtube.com/watch?v=sNWrOuwzax8",
+    "youtubeVideoId": "https://www.youtube.com/embed/sNWrOuwzax8",
     "scores": {
       "active": 1,
       "creative": 5,
@@ -507,7 +507,7 @@
     "id": 29,
     "name": "Chess Club",
     "description": "A chess club is a dedicated, organized environment where enthusiasts of all ages and abilities gather to play, learn, and socialize over the board.",
-    "youtubeVideoId": "https://www.youtube.com/watch?v=IU6k-4rKf-g",
+    "youtubeVideoId": "https://www.youtube.com/embed/OCSbzArwB10",
     "scores": {
       "active": 0,
       "creative": 1,
@@ -518,14 +518,14 @@
       "price": 2,
       "timeCommitment": 2
     },
-    "hobbyImage": "https://plus.unsplash.com/premium_photo-1673089624442-14bc846ded76?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "hobbyImage": "https://images.unsplash.com/photo-1585038021831-8afd9f9ab27f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "hobbyCategory": [ "Social", "Strategic" ]
   },
   {
     "id": 30,
     "name": "Community Gardening",
     "description": "A community garden is a shared parcel of land cultivated by a group of local people. These green spaces act as neighborhood hubs where residents gather to grow fresh fruits, vegetables, and flowers, while fostering social connections and promoting sustainable living.",
-    "youtubeVideoId": "https://www.youtube.com/watch?v=BO8yuSTc3fo",
+    "youtubeVideoId": "https://www.youtube.com/embed/EI94f9_4cBw",
     "scores": {
       "active": 3,
       "creative": 3,
@@ -543,7 +543,7 @@
     "id": 31,
     "name": "Canoeing",
     "description": "Canoeing is a popular water sport and recreational activity where participants kneel or sit facing forward in an open or closed-deck boat and propel the craft using a single-bladed paddle.",
-    "youtubeVideoId": "https://www.youtube.com/watch?v=msyHGo0nMx0&t=120s",
+    "youtubeVideoId": "https://www.youtube.com/embed/MGAfLptYNVk",
     "scores": {
       "active": 5,
       "creative": 0,
@@ -561,7 +561,7 @@
     "id": 32,
     "name": "Dance Classes",
     "description": "Dance classes combine physical fitness, rhythm, and self-expression. They range from structured, foundational techniques like ballet and tap to high-energy, contemporary styles such as hip-hop and lyrical.",
-    "youtubeVideoId": "https://www.youtube.com/watch?v=C62596gVnT8",
+    "youtubeVideoId": "https://www.youtube.com/embed/C62596gVnT8",
     "scores": {
       "active": 5,
       "creative": 4,
@@ -572,14 +572,14 @@
       "price": 3,
       "timeCommitment": 3
     },
-    "hobbyImage": "https://images.unsplash.com/photo-1588540111535-2b7ef1eb7833?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "hobbyImage": "https://images.unsplash.com/photo-1619107372089-9b05ed524774?q=80&w=1175&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "hobbyCategory": [ "Active", "Creative", "Social" ]
   },
   {
     "id": 33,
     "name": "Sound Baths",
     "description": "A sound bath is an immersive, passive meditative experience where you 'bathe' in sound waves and vibrations produced by instruments like crystal singing bowls, gongs, and chimes. The practice aims to shift your brainwaves, calm your nervous system, and induce a deep state of physical and mental relaxation.",
-    "youtubeVideoId": "https://www.youtube.com/watch?v=-O2uiYfBCVY",
+    "youtubeVideoId": "https://www.youtube.com/embed/-O2uiYfBCVY",
     "scores": {
       "active": 0,
       "creative": 0,
@@ -597,7 +597,7 @@
     "id": 34,
     "name": "Meditation",
     "description": "Meditation is a set of techniques used to train attention, cultivate awareness, and achieve a mentally clear and emotionally calm state. Rather than turning off your thoughts, it involves observing them without judgment, allowing you to develop a healthier perspective and deeper self-understanding.",
-    "youtubeVideoId": "https://www.youtube.com/watch?v=JslvBcIVtDg",
+    "youtubeVideoId": "https://www.youtube.com/embed/thcEuMDWxoI",
     "scores": {
       "active": 0,
       "creative": 0,
@@ -615,7 +615,7 @@
     "id": 35,
     "name": "Skin Care",
     "description": "Skin care encompasses the practices, products, and routines dedicated to maintaining the health, integrity, and aesthetic appearance of the skin.",
-    "youtubeVideoId": "https://www.youtube.com/watch?v=xZRsET_MUEg",
+    "youtubeVideoId": "https://www.youtube.com/embed/OrElyY7MFVs",
     "scores": {
       "active": 0,
       "creative": 1,
@@ -633,7 +633,7 @@
     "id": 36,
     "name": "Yoga",
     "description": "Yoga is an ancient mind-body discipline originating in India that connects the physical, mental, and spiritual self.",
-    "youtubeVideoId": "https://www.youtube.com/watch?v=LUc7ljMkC3g",
+    "youtubeVideoId": "https://www.youtube.com/embed/RSAyPvZtCFE",
     "scores": {
       "active": 3,
       "creative": 1,
@@ -651,7 +651,7 @@
     "id": 37,
     "name": "Volunteering",
     "description": "Volunteering is the act of freely giving time, skills, and energy to support a cause, community, or organization without expecting financial payment.",
-    "youtubeVideoId": "https://www.youtube.com/watch?v=tYmvsrkN8po",
+    "youtubeVideoId": "https://www.youtube.com/embed/tYmvsrkN8po",
     "scores": {
       "active": 2,
       "creative": 1,
@@ -662,7 +662,7 @@
       "price": 1,
       "timeCommitment": 3
     },
-    "hobbyImage": "https://images.pexels.com/photos/6646987/pexels-photo-6646987.jpeg",
+    "hobbyImage": "https://images.pexels.com/photos/7156163/pexels-photo-7156163.jpeg",
     "hobbyCategory": [ "Social", "Outdoor" ]
   }
 ]

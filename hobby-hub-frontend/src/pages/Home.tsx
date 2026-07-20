@@ -1,3 +1,4 @@
+import { TakeQuizButton } from "../components/TakeQuizButton";
 import { TrendingHobbies } from "../components/TrendingHobbies";
 
 export function Home() {
@@ -12,9 +13,7 @@ export function Home() {
           trending activities. Whether you want something creative, active or
           relaxing, we help you discover a hobby that feels right for you.
         </p>
-        <button className="text-white bg-blue-600 hover:bg-blue-500 transition-colors rounded px-2 py-1">
-          Take Quiz →
-        </button>
+        <TakeQuizButton />
       </div>
       <TrendingHobbies />
     </>

@@ -6,6 +6,8 @@ import {
   GetPrice,
   GetSkillLevel,
 } from "../components/FeaturesCard";
+import { Link } from "react-router-dom";
+import { TakeQuizButton } from "../components/TakeQuizButton";
 
 export function BrowseAll() {
   const [isLoading, setIsLoading] = useState(true);
@@ -179,9 +181,21 @@ export function BrowseAll() {
           <div className="w-full">
             <h2 className="font-bold text-xl">Browse All</h2>
             <div className="flex flex-col">
-              {filteredHobbies.map((hobby) => (
-                <HobbyPreviewCard key={hobby.id} hobby={hobby} imgSize="30" />
-              ))}
+              {filteredHobbies.length === 0 ? (
+                <div className="flex flex-col items-center">
+                  <p className="w-full text-lg py-2">
+                    Sorry! We have no hobbies with these filters, please try
+                    again or complete our quiz.
+                  </p>
+                  <div className="">
+                    <TakeQuizButton />
+                  </div>
+                </div>
+              ) : (
+                filteredHobbies.map((hobby) => (
+                  <HobbyPreviewCard key={hobby.id} hobby={hobby} imgSize="30" />
+                ))
+              )}
             </div>
           </div>
         </>

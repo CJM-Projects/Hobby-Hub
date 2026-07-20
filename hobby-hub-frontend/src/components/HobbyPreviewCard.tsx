@@ -1,17 +1,18 @@
 import { Link } from "react-router-dom";
 import type { Hobby } from "../models/hobby";
 
-type TrendingHobbyCardProps = {
+type HobbyPreviewCardProps = {
   hobby: Hobby;
+  imgSize?: "24" | "30"
 };
 
-export function TrendingHobbyCard({ hobby }: TrendingHobbyCardProps) {
+export function HobbyPreviewCard({ hobby, imgSize = "24" }: HobbyPreviewCardProps) {
   return (
     <>
       {hobby ? (
         <div className="w-full flex items-center">
           <img
-            className="w-24 h-24 rounded-xl shadow-xl m-1"
+            className={`w-${imgSize} aspect-square object-cover rounded-xl shadow-xl m-1`}
             src={hobby.hobbyImage}
           ></img>
           <div className="flex flex-col p-2">

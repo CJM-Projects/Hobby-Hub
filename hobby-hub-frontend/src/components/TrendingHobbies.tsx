@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { TrendingHobbyCard } from "./TrendingHobbyCard";
+import { HobbyPreviewCard } from "./HobbyPreviewCard";
 import type { Hobby } from "../models/hobby";
 
 export function TrendingHobbies() {
@@ -36,7 +36,7 @@ export function TrendingHobbies() {
           <button className="font-bold text-3xl px-3 cursor-pointer" onClick={prevHobby}>
             ←
           </button>
-          <TrendingHobbyCard hobby={hobbies[index]} />
+          <HobbyPreviewCard hobby={hobbies[index]} />
           <button className="font-bold text-3xl px-3 cursor-pointer" onClick={nextHobby}>
             →
           </button>

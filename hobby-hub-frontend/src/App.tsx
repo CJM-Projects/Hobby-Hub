@@ -10,7 +10,7 @@ import { QuizResultsPage } from "./pages/QuizResultsPage";
 function App() {
     return (
       <BrowserRouter>
-        <div className=" min-h-screen flex flex-col mx-auto " >
+        <div className=" min-h-screen flex flex-col mx-auto" >
           <NavBar />
                 <Routes>
                     <Route path="/" element={<Home />} />

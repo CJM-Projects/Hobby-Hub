@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useSearchParams } from "react-router";
+import { Link, useSearchParams } from "react-router";
 import type { QuizResults } from "../models/QuizResults";
 import { QuizResultsHobbyCard } from "../components/QuizResultsHobbyCard";
 
@@ -32,6 +32,12 @@ export function QuizResultsPage() {
                         ))
                 )}
             </div>
+            <p className="mx-10">Thank you for completing the Hobby Hub quiz to find your new hobby! For more inspiration, use our Browse All hobbies page.</p>
+
+            <button className="max-w-fit text-black bg-gray-200 hover:bg-gray-100 transition-colors rounded px-2 py-1 my-5 mx-auto">
+                <Link to={`/browse-all`}>Browse All Hobbies
+                </Link>
+            </button>
         </>
     );
 }

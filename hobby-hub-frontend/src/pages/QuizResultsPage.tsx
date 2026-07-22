@@ -5,7 +5,7 @@ import { QuizResultsHobbyCard } from "../components/QuizResultsHobbyCard";
 
 
 
-export function QuizResults() {
+export function QuizResultsPage() {
     const [searchParams] = useSearchParams();
     const [isLoading, setIsLoading] = useState(true);
     const [quizResults, setQuizResults] = useState<QuizResults>();
@@ -24,7 +24,7 @@ export function QuizResults() {
 
     return (
         <>
-            <h1>Quiz Results</h1>
+            <h1 className="text-5xl font-bold py-2 text-center">Quiz Results</h1>
             <div>
                 {isLoading ? (<p>Loading...</p>) : (
                         quizResults!.results.map((quizResult) => (

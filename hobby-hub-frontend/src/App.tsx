@@ -6,6 +6,7 @@ import { Home } from "./pages/Home";
 import HobbyDetailsPage from "./DetailsPage/HobbyDetailsPage";
 import { BrowseAll } from "./pages/BrowseAll";
 import { QuizResultsPage } from "./pages/QuizResultsPage";
+import { HobbyQuiz } from "./pages/HobbyQuiz";
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
                     <Route path="/hobby-details/:hobbyName" element={<HobbyDetailsPage /> } />
                     <Route path="/browse-all" element={<BrowseAll />} />
                     <Route path="/quiz-results" element={<QuizResultsPage />} />
+                    <Route path="/quiz" element={<HobbyQuiz />} />
                 </Routes>
           <Footer />
         </div>

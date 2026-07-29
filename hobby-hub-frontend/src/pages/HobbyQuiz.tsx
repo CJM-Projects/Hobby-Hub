@@ -17,7 +17,7 @@ const quizQuestions: QuizProp = {
     questions: [
         {
             question: "Your ideal Saturday afternoon looks like...",
-            image: "/images/quiz/active.jpg",
+            image: "../src/assets/quiz/active.jpg",
             category: "active",
             answers: [
                 { text: "🛋️ Not moving unless snacks are involved", score: 0 },
@@ -30,7 +30,7 @@ const quizQuestions: QuizProp = {
         },
         {
             question: "You just got a blank canvas (literal or metaphorical). What happens?",
-            image: "/images/quiz/creative.jpg",
+            image: "/assets/quiz/creative.jpg",
             category: "creative",
             answers: [
                 { text: "📋 I look for the instructions", score: 0 },
@@ -43,7 +43,7 @@ const quizQuestions: QuizProp = {
         },
         {
             question: "Your hobby's ideal pace is...",
-            image: "/images/quiz/relaxing.jpg",
+            image: "/assets/quiz/relaxing.jpg",
             category: "relaxing",
             answers: [
                 { text: "🐆 Fast, intense, go-go-go", score: 0 },
@@ -56,7 +56,7 @@ const quizQuestions: QuizProp = {
         },
         {
             question: "A stranger asks to join in. Your reaction?",
-            image: "/images/quiz/social.jpg",
+            image: "/assets/quiz/social.jpg",
             category: "social",
             answers: [
                 { text: "🙅 Absolutely not, this is a solo mission", score: 0 },
@@ -69,7 +69,7 @@ const quizQuestions: QuizProp = {
         },
         {
             question: "Where does your hobby live?",
-            image: "/images/quiz/outdoor.jpg",
+            image: "/assets/quiz/outdoor.jpg",
             category: "outdoor",
             answers: [
                 { text: "🏠 Deep indoors, curtains closed", score: 0 },
@@ -82,7 +82,7 @@ const quizQuestions: QuizProp = {
         },
         {
             question: "Something's not working. What's your first move?",
-            image: "/images/quiz/strategic.jpg",
+            image: "/assets/quiz/strategic.jpg",
             category: "strategic",
             answers: [
                 { text: "🎲 Wing it and see what happens", score: 0 },
@@ -95,7 +95,7 @@ const quizQuestions: QuizProp = {
         },
         {
             question: "How do you feel about spending money to start something new?",
-            image: "/images/quiz/price.jpg",
+            image: "/assets/quiz/price.jpg",
             category: "price",
             answers: [
                 { text: "🆓 I'll use whatever's already lying around", score: 1 },
@@ -107,7 +107,7 @@ const quizQuestions: QuizProp = {
         },
         {
             question: "How serious is this hobby relationship going to be?",
-            image: "/images/quiz/time.jpg",
+            image: "/assets/quiz/time.jpg",
             category: "timeCommitment",
             answers: [
                 { text: "💔 A weekend fling, tops", score: 1 },

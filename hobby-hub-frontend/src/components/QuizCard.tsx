@@ -1,8 +1,9 @@
 import type { AnswerOption } from "./Quiz";
 
-export function QuizCard({ question, image, answers, setAnswer } :QuizCardProps) {
-    const handler = (score) => {
+export function QuizCard({ question, image, answers, setAnswer, nextQuestion } :QuizCardProps) {
+    const handler = (score: number) => {
         setAnswer(score);
+        nextQuestion();
     }
     return (
         <div className="flex items-center flex-col gap-7">
@@ -28,6 +29,7 @@ type QuizCardProps =
         question: string;
         image: string;
         answers: AnswerOption[];
-        setAnswer: React.Dispatch<React.SetStateAction<number>>
+        setAnswer: React.Dispatch<React.SetStateAction<number>>;
+        nextQuestion: () => void;
     }
 

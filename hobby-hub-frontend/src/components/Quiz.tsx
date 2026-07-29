@@ -4,8 +4,18 @@ import { QuizCard } from "./QuizCard";
 
 export function Quiz({ questions } : QuizProp) {
     const [currentQuestion, setCurrentQuestion] = useState(0);
+    const [activeAnswer, setActiveAnswer] = useState<number>(null);
+    const [creativeAnswer, setCreativeAnswer] = useState<number>(null);
+    const [relaxingAnswer, setRelaxingAnswer] = useState<number>(null);
+    const [socialAnswer, setSocialAnswer] = useState<number>(null);
+    const [outdoorAnswer, setOutdoorAnswer] = useState<number>(null);
+    const [strategicAnswer, setStrategicAnswer] = useState<number>(null);
+    const [priceAnswer, setPriceAnswer] = useState<number>(null);
+    const [timeAnswer, setTimeAnswer] = useState<number>(null);
 
     const progress = ((currentQuestion) / questions.length) * 100;
+
+    const setters = [setActiveAnswer, setCreativeAnswer, setRelaxingAnswer, setSocialAnswer, setOutdoorAnswer, setStrategicAnswer, setPriceAnswer, setTimeAnswer]
 
     const prevQuestion = () => {
         if (currentQuestion > 0) {
@@ -33,7 +43,10 @@ export function Quiz({ questions } : QuizProp) {
                 </button>
             </div>
             <div>
-                <QuizCard question={questions[currentQuestion].question} image={questions[currentQuestion].image} answers={questions[currentQuestion].answers} />
+                <p>Active: {activeAnswer}, Creative: {creativeAnswer}, Relaxing: {relaxingAnswer}, Social: {socialAnswer}, Outdoor: {outdoorAnswer}, Strategic: {strategicAnswer}, Price: {priceAnswer}, Time: {timeAnswer}  </p>
+            </div>
+            <div>
+                <QuizCard question={questions[currentQuestion].question} image={questions[currentQuestion].image} answers={questions[currentQuestion].answers} setAnswer={setters[currentQuestion]} />
             </div>
         </div>
     )

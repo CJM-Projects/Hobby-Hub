@@ -5,17 +5,20 @@
     "description": "Running is a high-impact, cardiovascular exercise characterized by an aerial phase where both feet are off the ground simultaneously",
     "youtubeVideoId": "https://www.youtube.com/embed/kVnyY17VS9Y",
     "scores": {
-      "active": 5,
-      "creative": 0,
-      "relaxing": 2,
-      "social": 1,
-      "outdoor": 3,
-      "strategic": 1,
+      "active": 6,
+      "creative": 1,
+      "relaxing": 3,
+      "social": 2,
+      "outdoor": 4,
+      "strategic": 2,
       "price": 1,
       "timeCommitment": 3
     },
     "hobbyImage": "https://images.pexels.com/photos/8346669/pexels-photo-8346669.jpeg",
-    "hobbyCategory": [ "Active", "Outdoor" ]
+    "hobbyCategory": [
+      "Active",
+      "Outdoor"
+    ]
   },
   {
     "id": 2,
@@ -23,17 +26,20 @@
     "description": "Tai Chi is a mind-body practice that combines slow, flowing physical movements, deep diaphragmatic breathing, and focused meditation",
     "youtubeVideoId": "https://www.youtube.com/embed/7McCi0z7FU8",
     "scores": {
-      "active": 3,
-      "creative": 1,
-      "relaxing": 5,
-      "social": 2,
-      "outdoor": 2,
-      "strategic": 1,
+      "active": 4,
+      "creative": 2,
+      "relaxing": 6,
+      "social": 3,
+      "outdoor": 3,
+      "strategic": 2,
       "price": 2,
       "timeCommitment": 3
     },
     "hobbyImage": "https://images.pexels.com/photos/8461244/pexels-photo-8461244.jpeg",
-    "hobbyCategory": [ "Active", "Relaxing" ]
+    "hobbyCategory": [
+      "Active",
+      "Relaxing"
+    ]
   },
   {
     "id": 3,
@@ -41,17 +47,20 @@
     "description": "Barre is a popular, low-impact workout that blends balletic movements with Pilates, yoga, and strength training",
     "youtubeVideoId": "https://www.youtube.com/embed/wHIaaQ-RzXI",
     "scores": {
-      "active": 5,
-      "creative": 2,
-      "relaxing": 2,
-      "social": 3,
-      "outdoor": 0,
-      "strategic": 1,
+      "active": 6,
+      "creative": 3,
+      "relaxing": 3,
+      "social": 4,
+      "outdoor": 1,
+      "strategic": 2,
       "price": 4,
       "timeCommitment": 3
     },
     "hobbyImage": "https://images.pexels.com/photos/5153950/pexels-photo-5153950.jpeg",
-    "hobbyCategory": [ "Active", "Creative" ]
+    "hobbyCategory": [
+      "Active",
+      "Creative"
+    ]
   },
   {
     "id": 4,
@@ -59,17 +68,21 @@
     "description": "Archery is the sport, practice, or skill of using a bow to shoot arrows at a target.",
     "youtubeVideoId": "https://www.youtube.com/embed/3YYfOEMXP08",
     "scores": {
-      "active": 4,
-      "creative": 0,
-      "relaxing": 2,
-      "social": 3,
-      "outdoor": 4,
-      "strategic": 3,
+      "active": 5,
+      "creative": 1,
+      "relaxing": 3,
+      "social": 4,
+      "outdoor": 5,
+      "strategic": 4,
       "price": 4,
       "timeCommitment": 3
     },
     "hobbyImage": "https://images.pexels.com/photos/6540748/pexels-photo-6540748.jpeg",
-    "hobbyCategory": [ "Active", "Social", "Strategic" ]
+    "hobbyCategory": [
+      "Active",
+      "Social",
+      "Strategic"
+    ]
   },
   {
     "id": 5,
@@ -77,17 +90,20 @@
     "description": "Padel is a fast-paced racket sport that combines elements of tennis and squash.",
     "youtubeVideoId": "https://www.youtube.com/embed/WpMZ5AE-QjQ",
     "scores": {
-      "active": 5,
-      "creative": 0,
-      "relaxing": 1,
-      "social": 5,
-      "outdoor": 2,
-      "strategic": 2,
+      "active": 6,
+      "creative": 1,
+      "relaxing": 2,
+      "social": 6,
+      "outdoor": 3,
+      "strategic": 3,
       "price": 4,
       "timeCommitment": 3
     },
     "hobbyImage": "https://images.unsplash.com/photo-1646649853703-7645147474ba?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "hobbyCategory": [ "Active", "Social" ]
+    "hobbyCategory": [
+      "Active",
+      "Social"
+    ]
   },
   {
     "id": 6,
@@ -95,17 +111,20 @@
     "description": "Crocheting is a craft in which you use a single hooked needle to interlock loops of yarn, thread, or other fibrous materials to create textured fabrics, garments, and 3D objects.",
     "youtubeVideoId": "https://www.youtube.com/embed/pML_xucNGCg",
     "scores": {
-      "active": 0,
-      "creative": 5,
-      "relaxing": 5,
-      "social": 2,
-      "outdoor": 0,
-      "strategic": 2,
+      "active": 1,
+      "creative": 6,
+      "relaxing": 6,
+      "social": 3,
+      "outdoor": 1,
+      "strategic": 3,
       "price": 2,
       "timeCommitment": 2
     },
     "hobbyImage": "https://images.unsplash.com/photo-1627667539472-75fbc7f4654d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "hobbyCategory": [ "Creative", "Relaxing" ]
+    "hobbyCategory": [
+      "Creative",
+      "Relaxing"
+    ]
   },
   {
     "id": 7,
@@ -113,17 +132,20 @@
     "description": "Embroidery is the ancient craft and art of decorating fabric or other materials using a needle to apply thread or yarn.",
     "youtubeVideoId": "https://www.youtube.com/embed/-WS7ptWFB_k",
     "scores": {
-      "active": 0,
-      "creative": 5,
-      "relaxing": 5,
-      "social": 1,
-      "outdoor": 0,
-      "strategic": 2,
+      "active": 1,
+      "creative": 6,
+      "relaxing": 6,
+      "social": 2,
+      "outdoor": 1,
+      "strategic": 3,
       "price": 2,
       "timeCommitment": 2
     },
     "hobbyImage": "https://images.unsplash.com/photo-1671535108620-d169ce916f09?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "hobbyCategory": [ "Creative", "Relaxing" ]
+    "hobbyCategory": [
+      "Creative",
+      "Relaxing"
+    ]
   },
   {
     "id": 8,
@@ -131,17 +153,20 @@
     "description": "Dressmaking is the craft of designing, constructing, altering, and repairing custom clothing",
     "youtubeVideoId": "https://www.youtube.com/embed/o4MW25Ub94I",
     "scores": {
-      "active": 0,
-      "creative": 5,
-      "relaxing": 3,
-      "social": 1,
-      "outdoor": 0,
-      "strategic": 3,
+      "active": 1,
+      "creative": 6,
+      "relaxing": 4,
+      "social": 2,
+      "outdoor": 1,
+      "strategic": 4,
       "price": 3,
       "timeCommitment": 4
     },
     "hobbyImage": "https://images.pexels.com/photos/1409221/pexels-photo-1409221.jpeg",
-    "hobbyCategory": [ "Creative", "Relaxing" ]
+    "hobbyCategory": [
+      "Creative",
+      "Relaxing"
+    ]
   },
   {
     "id": 9,
@@ -149,35 +174,40 @@
     "description": "Painting is an art form, it uses colors, lines, and textures to express ideas, document history, and evoke emotion on a flat surface.",
     "youtubeVideoId": "https://www.youtube.com/embed/jQAeOjK-XD0",
     "scores": {
-      "active": 0,
-      "creative": 5,
-      "relaxing": 4,
-      "social": 2,
-      "outdoor": 0,
-      "strategic": 1,
+      "active": 1,
+      "creative": 6,
+      "relaxing": 5,
+      "social": 3,
+      "outdoor": 1,
+      "strategic": 2,
       "price": 3,
       "timeCommitment": 3
     },
     "hobbyImage": "https://images.pexels.com/photos/8036823/pexels-photo-8036823.jpeg",
-    "hobbyCategory": [ "Creative", "Relaxing" ]
+    "hobbyCategory": [
+      "Creative",
+      "Relaxing"
+    ]
   },
   {
     "id": 10,
     "name": "Playing an Instrument",
-    "description": "To play an instrument is to intentionally interacting with a physical device—like plucking strings, blowing into a reed, or pressing keys—to produce organized, rhythmic, and expressive sound",
+    "description": "To play an instrument is to intentionally interacting with a physical device-like plucking strings, blowing into a reed, or pressing keys—to produce organized, rhythmic, and expressive sound",
     "youtubeVideoId": "https://www.youtube.com/embed/R0JKCYZ8hng",
     "scores": {
-      "active": 1,
-      "creative": 5,
-      "relaxing": 3,
-      "social": 3,
-      "outdoor": 0,
-      "strategic": 2,
+      "active": 2,
+      "creative": 6,
+      "relaxing": 4,
+      "social": 4,
+      "outdoor": 1,
+      "strategic": 3,
       "price": 4,
       "timeCommitment": 5
     },
     "hobbyImage": "https://images.unsplash.com/photo-1556379118-7034d926d258?q=80&w=1732&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "hobbyCategory": [ "Creative" ]
+    "hobbyCategory": [
+      "Creative"
+    ]
   },
   {
     "id": 11,
@@ -185,17 +215,20 @@
     "description": "Candle making is the craft of combining wax, wicks, and fragrances to produce functional and aesthetic illumination.",
     "youtubeVideoId": "https://www.youtube.com/embed/REWvEttgDOU",
     "scores": {
-      "active": 0,
-      "creative": 4,
-      "relaxing": 4,
-      "social": 2,
-      "outdoor": 0,
-      "strategic": 2,
+      "active": 1,
+      "creative": 5,
+      "relaxing": 5,
+      "social": 3,
+      "outdoor": 1,
+      "strategic": 3,
       "price": 3,
       "timeCommitment": 2
     },
     "hobbyImage": "https://images.pexels.com/photos/8272376/pexels-photo-8272376.jpeg",
-    "hobbyCategory": [ "Creative", "Relaxing" ]
+    "hobbyCategory": [
+      "Creative",
+      "Relaxing"
+    ]
   },
   {
     "id": 12,
@@ -203,17 +236,20 @@
     "description": "Clay modelling is the art of shaping, molding, and sculpting malleable materials into three-dimensional forms.",
     "youtubeVideoId": "https://www.youtube.com/embed/AERR37CbcvQ",
     "scores": {
-      "active": 0,
-      "creative": 5,
-      "relaxing": 4,
-      "social": 2,
-      "outdoor": 0,
-      "strategic": 2,
+      "active": 1,
+      "creative": 6,
+      "relaxing": 5,
+      "social": 3,
+      "outdoor": 1,
+      "strategic": 3,
       "price": 3,
       "timeCommitment": 3
     },
     "hobbyImage": "https://images.pexels.com/photos/26792246/pexels-photo-26792246.jpeg",
-    "hobbyCategory": [ "Creative", "Relaxing" ]
+    "hobbyCategory": [
+      "Creative",
+      "Relaxing"
+    ]
   },
   {
     "id": 13,
@@ -221,17 +257,20 @@
     "description": "A museum visit is an immersive cultural and educational experience where visitors explore history, art, and science.",
     "youtubeVideoId": "https://www.youtube.com/embed/dMTZFDOgRMA",
     "scores": {
-      "active": 1,
-      "creative": 3,
-      "relaxing": 3,
-      "social": 3,
-      "outdoor": 1,
-      "strategic": 2,
+      "active": 2,
+      "creative": 4,
+      "relaxing": 4,
+      "social": 4,
+      "outdoor": 2,
+      "strategic": 3,
       "price": 2,
       "timeCommitment": 2
     },
     "hobbyImage": "https://images.pexels.com/photos/31267774/pexels-photo-31267774.jpeg",
-    "hobbyCategory": [ "Creative", "Relaxing" ]
+    "hobbyCategory": [
+      "Creative",
+      "Relaxing"
+    ]
   },
   {
     "id": 14,
@@ -239,17 +278,20 @@
     "description": "Learning a language is the lifelong, continuous process of building the cognitive, structural, and cultural skills required to understand and communicate in a tongue other than your native language.",
     "youtubeVideoId": "https://www.youtube.com/embed/o_XVt5rdpFY",
     "scores": {
-      "active": 0,
-      "creative": 1,
-      "relaxing": 3,
-      "social": 3,
-      "outdoor": 0,
-      "strategic": 5,
+      "active": 1,
+      "creative": 2,
+      "relaxing": 4,
+      "social": 4,
+      "outdoor": 1,
+      "strategic": 6,
       "price": 2,
       "timeCommitment": 5
     },
     "hobbyImage": "https://plus.unsplash.com/premium_photo-1663040081470-397e31e4b2a6?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "hobbyCategory": [ "Creative", "Strategic" ]
+    "hobbyCategory": [
+      "Creative",
+      "Strategic"
+    ]
   },
   {
     "id": 15,
@@ -257,17 +299,19 @@
     "description": "Watching documentaries is the act of engaging with non-fiction films or television programs that document reality for instruction, education, or entertainment.",
     "youtubeVideoId": "https://www.youtube.com/embed/An-VACvhbfM",
     "scores": {
-      "active": 0,
-      "creative": 0,
-      "relaxing": 4,
-      "social": 1,
-      "outdoor": 0,
-      "strategic": 3,
+      "active": 1,
+      "creative": 1,
+      "relaxing": 5,
+      "social": 2,
+      "outdoor": 1,
+      "strategic": 4,
       "price": 1,
       "timeCommitment": 1
     },
     "hobbyImage": "https://plus.unsplash.com/premium_photo-1733306528612-2aa75dad2f7a?q=80&w=1267&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "hobbyCategory": [ "Strategic" ]
+    "hobbyCategory": [
+      "Strategic"
+    ]
   },
   {
     "id": 16,
@@ -275,17 +319,21 @@
     "description": "A book club is a social group where members gather to read and discuss a chosen book. It encourages consistent reading, introduces you to new genres, and creates a space to make friends.",
     "youtubeVideoId": "https://www.youtube.com/embed/uni0LL338oA",
     "scores": {
-      "active": 0,
-      "creative": 2,
-      "relaxing": 4,
-      "social": 5,
-      "outdoor": 0,
-      "strategic": 2,
+      "active": 1,
+      "creative": 3,
+      "relaxing": 5,
+      "social": 6,
+      "outdoor": 1,
+      "strategic": 3,
       "price": 1,
       "timeCommitment": 2
     },
     "hobbyImage": "https://images.unsplash.com/photo-1618365908648-e71bd5716cba?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "hobbyCategory": [ "Creative", "Relaxing", "Social" ]
+    "hobbyCategory": [
+      "Creative",
+      "Relaxing",
+      "Social"
+    ]
   },
   {
     "id": 17,
@@ -293,17 +341,20 @@
     "description": "Coding (or computer programming) is the process of writing step-by-step instructions that tell a computer how to perform a specific task.",
     "youtubeVideoId": "https://www.youtube.com/embed/lj1AxGnIs5g",
     "scores": {
-      "active": 0,
-      "creative": 3,
-      "relaxing": 2,
-      "social": 1,
-      "outdoor": 0,
-      "strategic": 5,
+      "active": 1,
+      "creative": 4,
+      "relaxing": 3,
+      "social": 2,
+      "outdoor": 1,
+      "strategic": 6,
       "price": 2,
       "timeCommitment": 5
     },
     "hobbyImage": "https://images.unsplash.com/photo-1607706189992-eae578626c86?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "hobbyCategory": [ "Creative", "Strategic" ]
+    "hobbyCategory": [
+      "Creative",
+      "Strategic"
+    ]
   },
   {
     "id": 18,
@@ -311,17 +362,19 @@
     "description": "A video game is an interactive electronic game played using a user interface or input device (such as a controller, keyboard, or motion sensor) to produce visual and auditory feedback on a display.",
     "youtubeVideoId": "https://www.youtube.com/embed/8jFreGK27DA",
     "scores": {
-      "active": 0,
-      "creative": 1,
-      "relaxing": 3,
-      "social": 4,
-      "outdoor": 0,
-      "strategic": 5,
+      "active": 1,
+      "creative": 2,
+      "relaxing": 4,
+      "social": 5,
+      "outdoor": 1,
+      "strategic": 6,
       "price": 3,
       "timeCommitment": 3
     },
     "hobbyImage": "https://images.pexels.com/photos/8154769/pexels-photo-8154769.jpeg",
-    "hobbyCategory": [ "Strategic" ]
+    "hobbyCategory": [
+      "Strategic"
+    ]
   },
   {
     "id": 19,
@@ -329,17 +382,20 @@
     "description": "A jigsaw puzzle is a tiling game where irregularly shaped, interlocking pieces must be assembled to form a complete picture or map",
     "youtubeVideoId": "https://www.youtube.com/embed/-1Bf2IxLkNY",
     "scores": {
-      "active": 0,
-      "creative": 1,
-      "relaxing": 5,
-      "social": 1,
-      "outdoor": 0,
-      "strategic": 5,
+      "active": 1,
+      "creative": 2,
+      "relaxing": 6,
+      "social": 2,
+      "outdoor": 1,
+      "strategic": 6,
       "price": 2,
       "timeCommitment": 2
     },
     "hobbyImage": "https://images.pexels.com/photos/27837160/pexels-photo-27837160.jpeg",
-    "hobbyCategory": [ "Relaxing", "Strategic" ]
+    "hobbyCategory": [
+      "Relaxing",
+      "Strategic"
+    ]
   },
   {
     "id": 20,
@@ -347,17 +403,20 @@
     "description": "A crossword puzzle is a popular word game that consists of a grid of white and black squares. The objective is to fill the white squares with letters, forming intersecting words or phrases based on provided clues.",
     "youtubeVideoId": "https://www.youtube.com/embed/ISgw_vg0Avc",
     "scores": {
-      "active": 0,
-      "creative": 1,
-      "relaxing": 4,
-      "social": 1,
-      "outdoor": 0,
-      "strategic": 5,
+      "active": 1,
+      "creative": 2,
+      "relaxing": 5,
+      "social": 2,
+      "outdoor": 1,
+      "strategic": 6,
       "price": 1,
       "timeCommitment": 1
     },
     "hobbyImage": "https://images.pexels.com/photos/13533591/pexels-photo-13533591.jpeg",
-    "hobbyCategory": [ "Relaxing", "Strategic" ]
+    "hobbyCategory": [
+      "Relaxing",
+      "Strategic"
+    ]
   },
   {
     "id": 21,
@@ -365,17 +424,20 @@
     "description": "A board game is a tabletop simulation where players use physical objects, such as pieces or cards, on a pre-marked surface or board according to specific rules. They range from simple games of chance to complex strategy challenges, and they serve as social activities that build cognitive and communication skills.",
     "youtubeVideoId": "https://www.youtube.com/embed/CzV5VoLaOsI",
     "scores": {
-      "active": 0,
-      "creative": 1,
-      "relaxing": 3,
-      "social": 5,
-      "outdoor": 0,
-      "strategic": 5,
+      "active": 1,
+      "creative": 2,
+      "relaxing": 4,
+      "social": 6,
+      "outdoor": 1,
+      "strategic": 6,
       "price": 2,
       "timeCommitment": 2
     },
     "hobbyImage": "https://images.pexels.com/photos/8111328/pexels-photo-8111328.jpeg",
-    "hobbyCategory": [ "Social", "Strategic" ]
+    "hobbyCategory": [
+      "Social",
+      "Strategic"
+    ]
   },
   {
     "id": 22,
@@ -383,17 +445,20 @@
     "description": "A role-playing game (RPG) is a game where you take on the persona of a character in a fictional world. Instead of just playing to win, you make choices, face risks, and shape the unfolding story based on your character's personality, skills, and motivations.",
     "youtubeVideoId": "https://www.youtube.com/embed/sLRJ3J7DYqI",
     "scores": {
-      "active": 0,
-      "creative": 5,
-      "relaxing": 2,
-      "social": 5,
-      "outdoor": 0,
-      "strategic": 4,
+      "active": 1,
+      "creative": 6,
+      "relaxing": 3,
+      "social": 6,
+      "outdoor": 1,
+      "strategic": 5,
       "price": 2,
       "timeCommitment": 4
     },
     "hobbyImage": "https://images.pexels.com/photos/7150641/pexels-photo-7150641.jpeg",
-    "hobbyCategory": [ "Social", "Strategic" ]
+    "hobbyCategory": [
+      "Social",
+      "Strategic"
+    ]
   },
   {
     "id": 23,
@@ -401,17 +466,20 @@
     "description": "Hiking is the recreational activity of walking through natural environments, such as forests, hills, or mountain trails.",
     "youtubeVideoId": "https://www.youtube.com/embed/upj7N22EMZA",
     "scores": {
-      "active": 5,
-      "creative": 0,
-      "relaxing": 4,
-      "social": 3,
-      "outdoor": 5,
-      "strategic": 1,
+      "active": 6,
+      "creative": 1,
+      "relaxing": 5,
+      "social": 4,
+      "outdoor": 6,
+      "strategic": 2,
       "price": 1,
       "timeCommitment": 3
     },
     "hobbyImage": "https://images.pexels.com/photos/10569915/pexels-photo-10569915.jpeg",
-    "hobbyCategory": [ "Active", "Outdoor" ]
+    "hobbyCategory": [
+      "Active",
+      "Outdoor"
+    ]
   },
   {
     "id": 24,
@@ -419,17 +487,20 @@
     "description": "Trail running is the recreational activity of running on unpaved natural paths or tracks.",
     "youtubeVideoId": "https://www.youtube.com/embed/3_ApMII8vPU",
     "scores": {
-      "active": 4,
-      "creative": 0,
-      "relaxing": 5,
-      "social": 2,
-      "outdoor": 5,
-      "strategic": 1,
+      "active": 5,
+      "creative": 1,
+      "relaxing": 6,
+      "social": 3,
+      "outdoor": 6,
+      "strategic": 2,
       "price": 1,
       "timeCommitment": 2
     },
     "hobbyImage": "https://images.unsplash.com/photo-1623390003553-4fa3f9fceb89?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "hobbyCategory": [ "Active", "Outdoor" ]
+    "hobbyCategory": [
+      "Active",
+      "Outdoor"
+    ]
   },
   {
     "id": 25,
@@ -437,17 +508,20 @@
     "description": "Rock climbing is a physical and mental sport where participants ascend, descend, or traverse natural rock formations or artificial climbing walls.",
     "youtubeVideoId": "https://www.youtube.com/embed/30y8Uy0B_uk",
     "scores": {
-      "active": 5,
-      "creative": 0,
-      "relaxing": 1,
-      "social": 3,
-      "outdoor": 5,
-      "strategic": 3,
+      "active": 6,
+      "creative": 1,
+      "relaxing": 2,
+      "social": 4,
+      "outdoor": 6,
+      "strategic": 4,
       "price": 4,
       "timeCommitment": 4
     },
     "hobbyImage": "https://images.pexels.com/photos/5384283/pexels-photo-5384283.jpeg",
-    "hobbyCategory": [ "Active", "Strategic" ]
+    "hobbyCategory": [
+      "Active",
+      "Strategic"
+    ]
   },
   {
     "id": 26,
@@ -455,17 +529,20 @@
     "description": "Bouldering is a form of rock climbing stripped down to its essentials. It is done on short, low walls or natural boulders without ropes or harnesses, using thick safety mats to protect against falls.",
     "youtubeVideoId": "https://www.youtube.com/embed/JtzthnwhDPI",
     "scores": {
-      "active": 5,
-      "creative": 0,
-      "relaxing": 1,
-      "social": 3,
-      "outdoor": 2,
-      "strategic": 3,
+      "active": 6,
+      "creative": 1,
+      "relaxing": 2,
+      "social": 4,
+      "outdoor": 3,
+      "strategic": 4,
       "price": 3,
       "timeCommitment": 3
     },
     "hobbyImage": "https://images.pexels.com/photos/7591312/pexels-photo-7591312.jpeg",
-    "hobbyCategory": [ "Active", "Strategic" ]
+    "hobbyCategory": [
+      "Active",
+      "Strategic"
+    ]
   },
   {
     "id": 27,
@@ -473,17 +550,20 @@
     "description": "Birdwatching, or 'birding', is the practice of observing birds in their natural habitats. Ranging from a casual, relaxing outdoor hobby to an obsessive pursuit of rare species, it often involves visual aids like binoculars and listening for calls.",
     "youtubeVideoId": "https://www.youtube.com/embed/tH9Mi4vIurY",
     "scores": {
-      "active": 2,
-      "creative": 1,
-      "relaxing": 5,
-      "social": 2,
-      "outdoor": 5,
-      "strategic": 3,
+      "active": 3,
+      "creative": 2,
+      "relaxing": 6,
+      "social": 3,
+      "outdoor": 6,
+      "strategic": 4,
       "price": 2,
       "timeCommitment": 2
     },
     "hobbyImage": "https://images.unsplash.com/photo-1560951750-1e85780f946b?q=80&w=982&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "hobbyCategory": [ "Relaxing", "Outdoor" ]
+    "hobbyCategory": [
+      "Relaxing",
+      "Outdoor"
+    ]
   },
   {
     "id": 28,
@@ -491,17 +571,20 @@
     "description": "Theatre is a collaborative performing art that uses live actors to present real or imagined events to an audience. Grounded in storytelling, it uses speech, movement, music, and spectacle to connect with spectators.",
     "youtubeVideoId": "https://www.youtube.com/embed/sNWrOuwzax8",
     "scores": {
-      "active": 1,
-      "creative": 5,
-      "relaxing": 2,
-      "social": 5,
-      "outdoor": 0,
-      "strategic": 2,
+      "active": 2,
+      "creative": 6,
+      "relaxing": 3,
+      "social": 6,
+      "outdoor": 1,
+      "strategic": 3,
       "price": 3,
       "timeCommitment": 2
     },
     "hobbyImage": "https://images.unsplash.com/photo-1580809361436-42a7ec204889?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "hobbyCategory": [ "Creative", "Social" ]
+    "hobbyCategory": [
+      "Creative",
+      "Social"
+    ]
   },
   {
     "id": 29,
@@ -509,17 +592,20 @@
     "description": "A chess club is a dedicated, organized environment where enthusiasts of all ages and abilities gather to play, learn, and socialize over the board.",
     "youtubeVideoId": "https://www.youtube.com/embed/OCSbzArwB10",
     "scores": {
-      "active": 0,
-      "creative": 1,
-      "relaxing": 2,
-      "social": 5,
-      "outdoor": 0,
-      "strategic": 5,
+      "active": 1,
+      "creative": 2,
+      "relaxing": 3,
+      "social": 6,
+      "outdoor": 1,
+      "strategic": 6,
       "price": 2,
       "timeCommitment": 2
     },
     "hobbyImage": "https://images.unsplash.com/photo-1585038021831-8afd9f9ab27f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "hobbyCategory": [ "Social", "Strategic" ]
+    "hobbyCategory": [
+      "Social",
+      "Strategic"
+    ]
   },
   {
     "id": 30,
@@ -527,17 +613,22 @@
     "description": "A community garden is a shared parcel of land cultivated by a group of local people. These green spaces act as neighborhood hubs where residents gather to grow fresh fruits, vegetables, and flowers, while fostering social connections and promoting sustainable living.",
     "youtubeVideoId": "https://www.youtube.com/embed/EI94f9_4cBw",
     "scores": {
-      "active": 3,
-      "creative": 3,
-      "relaxing": 5,
-      "social": 4,
-      "outdoor": 5,
-      "strategic": 2,
+      "active": 4,
+      "creative": 4,
+      "relaxing": 6,
+      "social": 5,
+      "outdoor": 6,
+      "strategic": 3,
       "price": 1,
       "timeCommitment": 3
     },
     "hobbyImage": "https://images.pexels.com/photos/7658812/pexels-photo-7658812.jpeg",
-    "hobbyCategory": [ "Creative", "Relaxing", "Social", "Outdoor" ]
+    "hobbyCategory": [
+      "Creative",
+      "Relaxing",
+      "Social",
+      "Outdoor"
+    ]
   },
   {
     "id": 31,
@@ -545,17 +636,20 @@
     "description": "Canoeing is a popular water sport and recreational activity where participants kneel or sit facing forward in an open or closed-deck boat and propel the craft using a single-bladed paddle.",
     "youtubeVideoId": "https://www.youtube.com/embed/MGAfLptYNVk",
     "scores": {
-      "active": 5,
-      "creative": 0,
-      "relaxing": 2,
-      "social": 3,
-      "outdoor": 5,
-      "strategic": 3,
+      "active": 6,
+      "creative": 1,
+      "relaxing": 3,
+      "social": 4,
+      "outdoor": 6,
+      "strategic": 4,
       "price": 4,
       "timeCommitment": 3
     },
     "hobbyImage": "https://images.pexels.com/photos/2404667/pexels-photo-2404667.jpeg",
-    "hobbyCategory": [ "Active", "Outdoor" ]
+    "hobbyCategory": [
+      "Active",
+      "Outdoor"
+    ]
   },
   {
     "id": 32,
@@ -563,17 +657,21 @@
     "description": "Dance classes combine physical fitness, rhythm, and self-expression. They range from structured, foundational techniques like ballet and tap to high-energy, contemporary styles such as hip-hop and lyrical.",
     "youtubeVideoId": "https://www.youtube.com/embed/C62596gVnT8",
     "scores": {
-      "active": 5,
-      "creative": 4,
-      "relaxing": 2,
-      "social": 5,
-      "outdoor": 0,
-      "strategic": 2,
+      "active": 6,
+      "creative": 5,
+      "relaxing": 3,
+      "social": 6,
+      "outdoor": 1,
+      "strategic": 3,
       "price": 3,
       "timeCommitment": 3
     },
     "hobbyImage": "https://images.unsplash.com/photo-1619107372089-9b05ed524774?q=80&w=1175&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "hobbyCategory": [ "Active", "Creative", "Social" ]
+    "hobbyCategory": [
+      "Active",
+      "Creative",
+      "Social"
+    ]
   },
   {
     "id": 33,
@@ -581,17 +679,19 @@
     "description": "A sound bath is an immersive, passive meditative experience where you 'bathe' in sound waves and vibrations produced by instruments like crystal singing bowls, gongs, and chimes. The practice aims to shift your brainwaves, calm your nervous system, and induce a deep state of physical and mental relaxation.",
     "youtubeVideoId": "https://www.youtube.com/embed/-O2uiYfBCVY",
     "scores": {
-      "active": 0,
-      "creative": 0,
-      "relaxing": 5,
-      "social": 2,
-      "outdoor": 0,
-      "strategic": 0,
+      "active": 1,
+      "creative": 1,
+      "relaxing": 6,
+      "social": 3,
+      "outdoor": 1,
+      "strategic": 1,
       "price": 3,
       "timeCommitment": 1
     },
     "hobbyImage": "https://images.pexels.com/photos/10574241/pexels-photo-10574241.jpeg",
-    "hobbyCategory": [ "Relaxing" ]
+    "hobbyCategory": [
+      "Relaxing"
+    ]
   },
   {
     "id": 34,
@@ -599,17 +699,19 @@
     "description": "Meditation is a set of techniques used to train attention, cultivate awareness, and achieve a mentally clear and emotionally calm state. Rather than turning off your thoughts, it involves observing them without judgment, allowing you to develop a healthier perspective and deeper self-understanding.",
     "youtubeVideoId": "https://www.youtube.com/embed/thcEuMDWxoI",
     "scores": {
-      "active": 0,
-      "creative": 0,
-      "relaxing": 5,
-      "social": 1,
-      "outdoor": 0,
-      "strategic": 1,
+      "active": 1,
+      "creative": 1,
+      "relaxing": 6,
+      "social": 2,
+      "outdoor": 1,
+      "strategic": 2,
       "price": 1,
       "timeCommitment": 1
     },
     "hobbyImage": "https://images.pexels.com/photos/4057330/pexels-photo-4057330.jpeg",
-    "hobbyCategory": [ "Relaxing" ]
+    "hobbyCategory": [
+      "Relaxing"
+    ]
   },
   {
     "id": 35,
@@ -617,17 +719,19 @@
     "description": "Skin care encompasses the practices, products, and routines dedicated to maintaining the health, integrity, and aesthetic appearance of the skin.",
     "youtubeVideoId": "https://www.youtube.com/embed/OrElyY7MFVs",
     "scores": {
-      "active": 0,
-      "creative": 1,
-      "relaxing": 5,
-      "social": 1,
-      "outdoor": 0,
-      "strategic": 1,
+      "active": 1,
+      "creative": 2,
+      "relaxing": 6,
+      "social": 2,
+      "outdoor": 1,
+      "strategic": 2,
       "price": 2,
       "timeCommitment": 1
     },
     "hobbyImage": "https://images.unsplash.com/photo-1629380108599-ea06489d66f5?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "hobbyCategory": [ "Relaxing" ]
+    "hobbyCategory": [
+      "Relaxing"
+    ]
   },
   {
     "id": 36,
@@ -635,17 +739,20 @@
     "description": "Yoga is an ancient mind-body discipline originating in India that connects the physical, mental, and spiritual self.",
     "youtubeVideoId": "https://www.youtube.com/embed/RSAyPvZtCFE",
     "scores": {
-      "active": 3,
-      "creative": 1,
-      "relaxing": 5,
-      "social": 3,
-      "outdoor": 1,
-      "strategic": 2,
+      "active": 4,
+      "creative": 2,
+      "relaxing": 6,
+      "social": 4,
+      "outdoor": 2,
+      "strategic": 3,
       "price": 2,
       "timeCommitment": 2
     },
     "hobbyImage": "https://images.pexels.com/photos/8436608/pexels-photo-8436608.jpeg",
-    "hobbyCategory": [ "Active", "Relaxing" ]
+    "hobbyCategory": [
+      "Active",
+      "Relaxing"
+    ]
   },
   {
     "id": 37,
@@ -653,16 +760,19 @@
     "description": "Volunteering is the act of freely giving time, skills, and energy to support a cause, community, or organization without expecting financial payment.",
     "youtubeVideoId": "https://www.youtube.com/embed/tYmvsrkN8po",
     "scores": {
-      "active": 2,
-      "creative": 1,
-      "relaxing": 3,
-      "social": 5,
-      "outdoor": 2,
-      "strategic": 2,
+      "active": 3,
+      "creative": 2,
+      "relaxing": 4,
+      "social": 6,
+      "outdoor": 3,
+      "strategic": 3,
       "price": 1,
       "timeCommitment": 3
     },
     "hobbyImage": "https://images.pexels.com/photos/7156163/pexels-photo-7156163.jpeg",
-    "hobbyCategory": [ "Social", "Outdoor" ]
+    "hobbyCategory": [
+      "Social",
+      "Outdoor"
+    ]
   }
 ]

@@ -11,7 +11,7 @@ export function QuizCard({ question, image, answers, setAnswer, nextQuestion } :
                 <h1 className=" text-3xl font-bold text-slate-700">{question}</h1>
             </div>
             <div >
-                <img className="w-250 h-[60vh] bg-cover bg-center rounded-md" src={image}></img>
+                <img className="w-250 h-[60vh] object-cover object-center rounded-md" src={image}></img>
             </div>
             <div className="flex flex-wrap justify-center items-center gap-4">
                 {answers.map((answer) => (

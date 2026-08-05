@@ -3,7 +3,7 @@ import { Footer } from "./components/Footer";
 import { NavBar } from "./components/NavBar";
 import { AboutUs } from "./pages/AboutUs";
 import { Home } from "./pages/Home"; 
-import HobbyDetailsPage from "./DetailsPage/HobbyDetailsPage";
+import HobbyDetailsPage from "./pages/HobbyDetailsPage";
 import { BrowseAll } from "./pages/BrowseAll";
 import { QuizResultsPage } from "./pages/QuizResultsPage";
 import { HobbyQuiz } from "./pages/HobbyQuiz";

@@ -10,4 +10,7 @@
     <ShouldRunBuildScript>true</ShouldRunBuildScript>
     <BuildCommand>npm run build</BuildCommand>
   </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="src\DetailsPage\" />
+  </ItemGroup>
 </Project>

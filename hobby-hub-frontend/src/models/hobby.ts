@@ -2,6 +2,7 @@ export type Hobby = {
     id: number;
     name: string;
     description: string;
+    longDescription: string;
     scores: HobbyScores;
     youtubeVideoId: string;
     hobbyImage: string;

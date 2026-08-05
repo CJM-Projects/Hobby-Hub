@@ -30,7 +30,7 @@ function HobbyDetailsPage() {
                 : <>
                     <TitleCard hobby={hobby} />
                     <FeaturesCard hobby={hobby} />
-                    <DescriptionCard />
+                        <DescriptionCard hobby={hobby} />
                     <VideoPlayer url={hobby.youtubeVideoId} />
                   </>
             }
@@ -40,7 +40,3 @@ function HobbyDetailsPage() {
 
 export default HobbyDetailsPage;
 
-// TODO: Image, Title, Short Description Component
-// TODO: Features bar Component
-// TODO: Large Description and Materials Component
-// TODO: Video player Component

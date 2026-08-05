@@ -3,16 +3,16 @@ import type { Hobby } from "../models/hobby";
 
 type HobbyPreviewCardProps = {
   hobby: Hobby;
-  imgSize?: "w-24" | "w-32"
+  
 };
 
-export function HobbyPreviewCard({ hobby, imgSize = "w-24" }: HobbyPreviewCardProps) {
+export function HobbyPreviewCard({ hobby }: HobbyPreviewCardProps) {
   return (
     <>
       {hobby ? (
         <div className="w-full flex items-center">
           <img
-            className={`${imgSize} aspect-square object-cover rounded-xl shadow-xl m-1`}
+            className={`w-32 aspect-square object-cover rounded-xl shadow-xl m-1`}
             src={hobby.hobbyImage}
           ></img>
           <div className="flex flex-col p-2">

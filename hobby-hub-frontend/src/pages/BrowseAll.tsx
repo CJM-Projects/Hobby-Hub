@@ -193,7 +193,7 @@ export function BrowseAll() {
                 </div>
               ) : (
                 filteredHobbies.map((hobby) => (
-                  <HobbyPreviewCard key={hobby.id} hobby={hobby} imgSize="w-32" />
+                  <HobbyPreviewCard key={hobby.id} hobby={hobby} />
                 ))
               )}
             </div>

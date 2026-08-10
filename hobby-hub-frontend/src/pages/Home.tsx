@@ -7,16 +7,16 @@ export function Home() {
         <>
             <div className="flex flex-col items-center py-4 max-w-full">
                 <div className="flex items-center">
-                    <div className="flex flex-col gap-5 align-center">
-                        <h1 className="text-5xl font-bold px-20 py-2">Discover your next favourite hobby</h1>
-                        <p className="mx-auto max-w-6xl px-20 py-2">
+                    <div className="flex flex-col gap-5 align-center flex-shrink px-4 md:px-10 lg:px-20">
+                        <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold py-2">Discover your next favourite hobby</h1>
+                        <p className="mx-auto max-w-6xl py-2">
                             Answer a few quick questions and we'll recommend hobbies that match your personality, interests, budget and lifestyle.
                         </p>
-                        <div className="px-20">
+                        <div className="">
                             <TakeQuizButton />
                         </div>
                     </div>
-                    <img className="w-full max-w-md md:max-w-lg lg:max-w-xl object-contain" src="..\src\assets\home-page-img.png"></img>
+                    <img className="w-1/2 object-contain" src="..\src\assets\home-page-img.png"></img>
                 </div>
                 <TrendingHobbies />
                 <CategoriesSection category="Creative" />

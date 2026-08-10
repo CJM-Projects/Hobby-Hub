@@ -65,11 +65,23 @@ function CategoriesSection({ category }: CategoriesSectionProps) {
                     </button>
                 </div>
 
-                <div className="grid grid-cols-1 gap-6 grid-flow-col grid-rows-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-                    <CategoriesCard hobby={sampleHobby} />
-                    <CategoriesCard hobby={sampleHobby} />
-                    <CategoriesCard hobby={sampleHobby} />
-                    <CategoriesCard hobby={sampleHobby} />
+                <div className="flex gap-6 w-full justify-evenly">
+                   
+                    <div className="flex-shrink w-1/4 min-w-[150px] opacity-100">
+                        <CategoriesCard hobby={sampleHobby} />
+                    </div>
+
+                    <div className="flex-shrink w-1/4 min-w-[150px] hidden sm:block sm:opacity-100 opacity-0">
+                        <CategoriesCard hobby={sampleHobby} />
+                    </div>
+
+                    <div className="flex-shrink w-1/4 min-w-[150px] hidden md:block md:opacity-100 opacity-0">
+                        <CategoriesCard hobby={sampleHobby} />
+                    </div>
+
+                    <div className="flex-shrink w-1/4 min-w-[150px] hidden lg:block lg:opacity-100 opacity-0">
+                        <CategoriesCard hobby={sampleHobby} />
+                    </div>
                 </div>
 
             </div>

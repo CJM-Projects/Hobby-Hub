@@ -10,6 +10,8 @@ namespace Hobby_hub.Data_Models
 
         public string Description { get; set; } = string.Empty;
 
+        public string LongDescription {  get; set; } = string.Empty;
+
         public HobbyScores Scores { get; set; } = new();
 
         public string YoutubeVideoId { get; set; } = string.Empty;

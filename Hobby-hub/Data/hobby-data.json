@@ -3,6 +3,7 @@
     "id": 1,
     "name": "Running",
     "description": "Running is a high-impact, cardiovascular exercise characterized by an aerial phase where both feet are off the ground simultaneously",
+    "longDescription": "Running is one of the simplest and most rewarding hobbies you can take up. Whether you want to improve your fitness, lose weight, reduce stress, or train for an organised race, running can be adapted to suit any goal. Beginners can start with short run-and-walk sessions before gradually increasing distance and pace. Regular running strengthens the heart and lungs, improves endurance, boosts mood through the release of endorphins, and can be enjoyed almost anywhere with very little equipment. Many runners also enjoy joining local clubs, participating in charity events, or exploring scenic routes to keep the hobby exciting.",
     "youtubeVideoId": "https://www.youtube.com/embed/kVnyY17VS9Y",
     "scores": {
       "active": 6,
@@ -15,15 +16,13 @@
       "timeCommitment": 3
     },
     "hobbyImage": "https://images.pexels.com/photos/8346669/pexels-photo-8346669.jpeg",
-    "hobbyCategory": [
-      "Active",
-      "Outdoor"
-    ]
+    "hobbyCategory": [ "Active", "Outdoor" ]
   },
   {
     "id": 2,
     "name": "Tai Chi",
     "description": "Tai Chi is a mind-body practice that combines slow, flowing physical movements, deep diaphragmatic breathing, and focused meditation",
+    "longDescription": "Tai Chi is a gentle form of exercise that combines slow, controlled movements with breathing techniques and mindfulness. Originally developed as a martial art, it is now widely practised for its physical and mental health benefits. Regular practice can improve balance, flexibility, posture, and coordination while reducing stress and promoting relaxation. Tai Chi is suitable for all ages and fitness levels because movements can be adapted to individual ability. Classes are often welcoming and social, making it an excellent hobby for anyone looking to improve wellbeing while learning a calming new skill.",
     "youtubeVideoId": "https://www.youtube.com/embed/7McCi0z7FU8",
     "scores": {
       "active": 4,
@@ -36,15 +35,13 @@
       "timeCommitment": 3
     },
     "hobbyImage": "https://images.pexels.com/photos/8461244/pexels-photo-8461244.jpeg",
-    "hobbyCategory": [
-      "Active",
-      "Relaxing"
-    ]
+    "hobbyCategory": [ "Active", "Relaxing" ]
   },
   {
     "id": 3,
     "name": "Barre",
     "description": "Barre is a popular, low-impact workout that blends balletic movements with Pilates, yoga, and strength training",
+    "longDescription": "Barre combines elements of ballet, Pilates, yoga, and strength training into a low-impact workout that focuses on posture, flexibility, balance, and muscular endurance. Classes often involve small, controlled movements that target specific muscle groups, making them suitable for beginners as well as experienced exercisers. Despite the gentle appearance, barre provides a challenging full-body workout that improves core strength and stability. Whether you attend studio classes or follow sessions at home, barre offers a fun and supportive way to stay active while building confidence and improving overall fitness.",
     "youtubeVideoId": "https://www.youtube.com/embed/wHIaaQ-RzXI",
     "scores": {
       "active": 6,
@@ -57,15 +54,13 @@
       "timeCommitment": 3
     },
     "hobbyImage": "https://images.pexels.com/photos/5153950/pexels-photo-5153950.jpeg",
-    "hobbyCategory": [
-      "Active",
-      "Creative"
-    ]
+    "hobbyCategory": [ "Active", "Creative" ]
   },
   {
     "id": 4,
     "name": "Archery",
     "description": "Archery is the sport, practice, or skill of using a bow to shoot arrows at a target.",
+    "longDescription": "Archery is a rewarding hobby that combines precision, concentration, and patience. Participants learn how to safely handle a bow, develop accurate shooting techniques, and steadily improve their consistency through regular practice. Although it requires focus and control, archery is suitable for people of many ages and fitness levels. Many clubs provide equipment for beginners, making it easy to get started without a large investment. Whether you enjoy casual target shooting or competitive tournaments, archery offers a satisfying blend of physical skill and mental discipline.",
     "youtubeVideoId": "https://www.youtube.com/embed/3YYfOEMXP08",
     "scores": {
       "active": 5,
@@ -78,16 +73,13 @@
       "timeCommitment": 3
     },
     "hobbyImage": "https://images.pexels.com/photos/6540748/pexels-photo-6540748.jpeg",
-    "hobbyCategory": [
-      "Active",
-      "Social",
-      "Strategic"
-    ]
+    "hobbyCategory": [ "Active", "Social", "Strategic" ]
   },
   {
     "id": 5,
     "name": "Padel",
     "description": "Padel is a fast-paced racket sport that combines elements of tennis and squash.",
+    "longDescription": "Padel is a fun and highly social racket sport played in doubles on an enclosed court. It combines the fast pace of tennis with the strategic use of walls found in squash, making rallies exciting and accessible for players of all abilities. Because the court is smaller than a tennis court, beginners can quickly enjoy longer rallies while improving coordination, fitness, and teamwork. Local clubs often organise coaching sessions, friendly matches, and leagues, making padel a fantastic hobby for meeting new people while staying active.",
     "youtubeVideoId": "https://www.youtube.com/embed/WpMZ5AE-QjQ",
     "scores": {
       "active": 6,
@@ -100,15 +92,13 @@
       "timeCommitment": 3
     },
     "hobbyImage": "https://images.unsplash.com/photo-1646649853703-7645147474ba?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "hobbyCategory": [
-      "Active",
-      "Social"
-    ]
+    "hobbyCategory": [ "Active", "Social" ]
   },
   {
     "id": 6,
     "name": "Crocheting",
     "description": "Crocheting is a craft in which you use a single hooked needle to interlock loops of yarn, thread, or other fibrous materials to create textured fabrics, garments, and 3D objects.",
+    "longDescription": "Crocheting is a relaxing and creative hobby that involves using a single crochet hook and yarn to create everything from blankets and scarves to toys, clothing, and home decorations. It is easy to learn through beginner patterns and online tutorials, making it suitable for complete beginners. Many people find the repetitive movements calming and use crochet as a way to reduce stress while expressing their creativity. As your skills improve, you can experiment with different stitches, colours, and patterns to produce personalised handmade gifts and unique projects.",
     "youtubeVideoId": "https://www.youtube.com/embed/pML_xucNGCg",
     "scores": {
       "active": 1,
@@ -121,15 +111,13 @@
       "timeCommitment": 2
     },
     "hobbyImage": "https://images.unsplash.com/photo-1627667539472-75fbc7f4654d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "hobbyCategory": [
-      "Creative",
-      "Relaxing"
-    ]
+    "hobbyCategory": [ "Creative", "Relaxing" ]
   },
   {
     "id": 7,
     "name": "Embroidery",
     "description": "Embroidery is the ancient craft and art of decorating fabric or other materials using a needle to apply thread or yarn.",
+    "longDescription": "Embroidery is a timeless craft that uses decorative stitches to transform plain fabric into colourful works of art. Beginners can start with simple patterns before progressing to more detailed designs featuring flowers, landscapes, lettering, or intricate illustrations. The hobby encourages patience, creativity, and attention to detail while providing a calming activity that can be enjoyed almost anywhere. Many people use embroidery to personalise clothing, create framed artwork, or make thoughtful handmade gifts that showcase their growing skills.",
     "youtubeVideoId": "https://www.youtube.com/embed/-WS7ptWFB_k",
     "scores": {
       "active": 1,
@@ -142,15 +130,13 @@
       "timeCommitment": 2
     },
     "hobbyImage": "https://images.unsplash.com/photo-1671535108620-d169ce916f09?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "hobbyCategory": [
-      "Creative",
-      "Relaxing"
-    ]
+    "hobbyCategory": [ "Creative", "Relaxing" ]
   },
   {
     "id": 8,
     "name": "Dressmaking",
     "description": "Dressmaking is the craft of designing, constructing, altering, and repairing custom clothing",
+    "longDescription": "Dressmaking is a rewarding hobby that allows you to create clothing tailored to your own style and measurements. Starting with simple sewing patterns, you'll learn skills such as measuring, cutting fabric, sewing seams, inserting zips, and adding finishing touches. As your confidence grows, you can experiment with different fabrics, techniques, and designs to create unique garments that aren't available in shops. Dressmaking combines creativity with practical problem-solving and gives you the satisfaction of wearing something you made yourself.",
     "youtubeVideoId": "https://www.youtube.com/embed/o4MW25Ub94I",
     "scores": {
       "active": 1,
@@ -163,15 +149,13 @@
       "timeCommitment": 4
     },
     "hobbyImage": "https://images.pexels.com/photos/1409221/pexels-photo-1409221.jpeg",
-    "hobbyCategory": [
-      "Creative",
-      "Relaxing"
-    ]
+    "hobbyCategory": [ "Creative", "Relaxing" ]
   },
   {
     "id": 9,
     "name": "Painting",
     "description": "Painting is an art form, it uses colors, lines, and textures to express ideas, document history, and evoke emotion on a flat surface.",
+    "longDescription": "Painting is a creative hobby that allows you to express ideas, emotions, and imagination through colour and technique. Whether using watercolours, acrylics, oils, or gouache, beginners can start with simple subjects before developing their own artistic style. Painting improves observation skills, encourages creativity, and provides a relaxing escape from everyday stress. There are countless tutorials, local classes, and online communities to help you learn new techniques, making it a hobby that continues to evolve as your confidence and artistic ability grow.",
     "youtubeVideoId": "https://www.youtube.com/embed/jQAeOjK-XD0",
     "scores": {
       "active": 1,
@@ -184,15 +168,13 @@
       "timeCommitment": 3
     },
     "hobbyImage": "https://images.pexels.com/photos/8036823/pexels-photo-8036823.jpeg",
-    "hobbyCategory": [
-      "Creative",
-      "Relaxing"
-    ]
+    "hobbyCategory": [ "Creative", "Relaxing" ]
   },
   {
     "id": 10,
     "name": "Playing an Instrument",
     "description": "To play an instrument is to intentionally interacting with a physical device-like plucking strings, blowing into a reed, or pressing keys—to produce organized, rhythmic, and expressive sound",
+    "longDescription": "Learning to play a musical instrument is a rewarding hobby that develops creativity, discipline, and confidence. Whether you choose the guitar, piano, violin, drums, or another instrument, regular practice gradually builds technique, coordination, and musical understanding. Playing music can improve memory, concentration, and emotional wellbeing while providing a creative outlet for self-expression. Many people enjoy performing with bands, orchestras, or local groups, while others simply play for personal enjoyment. With plenty of beginner-friendly resources available, it's never too late to start learning.",
     "youtubeVideoId": "https://www.youtube.com/embed/R0JKCYZ8hng",
     "scores": {
       "active": 2,
@@ -205,14 +187,13 @@
       "timeCommitment": 5
     },
     "hobbyImage": "https://images.unsplash.com/photo-1556379118-7034d926d258?q=80&w=1732&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "hobbyCategory": [
-      "Creative"
-    ]
+    "hobbyCategory": [ "Creative" ]
   },
   {
     "id": 11,
     "name": "Candle Making",
     "description": "Candle making is the craft of combining wax, wicks, and fragrances to produce functional and aesthetic illumination.",
+    "longDescription": "Candle making is a creative hobby that allows you to design beautiful, personalised candles for your home or as thoughtful handmade gifts. Beginners can experiment with different types of wax, fragrances, colours, and decorative containers while learning how to safely melt and pour wax. As your skills develop, you can create layered designs, scented collections, and unique seasonal candles. The hobby is both relaxing and rewarding, giving you the opportunity to combine creativity with practical skills while producing something that is both decorative and functional.",
     "youtubeVideoId": "https://www.youtube.com/embed/REWvEttgDOU",
     "scores": {
       "active": 1,
@@ -225,15 +206,13 @@
       "timeCommitment": 2
     },
     "hobbyImage": "https://images.pexels.com/photos/8272376/pexels-photo-8272376.jpeg",
-    "hobbyCategory": [
-      "Creative",
-      "Relaxing"
-    ]
+    "hobbyCategory": [ "Creative", "Relaxing" ]
   },
   {
     "id": 12,
     "name": "Clay Modelling",
     "description": "Clay modelling is the art of shaping, molding, and sculpting malleable materials into three-dimensional forms.",
+    "longDescription": "Clay modelling is a hands-on hobby that lets you transform simple clay into sculptures, ornaments, pottery, or decorative pieces. It encourages creativity while helping develop patience, fine motor skills, and attention to detail. Beginners can start with air-dry clay before progressing to ceramic clay and kiln-fired projects. Whether you enjoy sculpting realistic figures, miniature models, or functional household items, clay modelling offers endless opportunities to learn new techniques and express your imagination through three-dimensional art.",
     "youtubeVideoId": "https://www.youtube.com/embed/AERR37CbcvQ",
     "scores": {
       "active": 1,
@@ -246,15 +225,13 @@
       "timeCommitment": 3
     },
     "hobbyImage": "https://images.pexels.com/photos/26792246/pexels-photo-26792246.jpeg",
-    "hobbyCategory": [
-      "Creative",
-      "Relaxing"
-    ]
+    "hobbyCategory": [ "Creative", "Relaxing" ]
   },
   {
     "id": 13,
     "name": "Visiting Museums",
     "description": "A museum visit is an immersive cultural and educational experience where visitors explore history, art, and science.",
+    "longDescription": "Visiting museums is an enjoyable hobby that combines learning, culture, and curiosity. Museums offer the opportunity to explore fascinating collections covering art, science, history, technology, and natural history while discovering new perspectives on the world. Every visit provides something different, whether you're admiring famous artworks, exploring interactive exhibits, or learning about local heritage. Many museums also host talks, workshops, and special exhibitions throughout the year, making this an affordable hobby that encourages lifelong learning and inspires creativity.",
     "youtubeVideoId": "https://www.youtube.com/embed/dMTZFDOgRMA",
     "scores": {
       "active": 2,
@@ -267,15 +244,13 @@
       "timeCommitment": 2
     },
     "hobbyImage": "https://images.pexels.com/photos/31267774/pexels-photo-31267774.jpeg",
-    "hobbyCategory": [
-      "Creative",
-      "Relaxing"
-    ]
+    "hobbyCategory": [ "Creative", "Relaxing" ]
   },
   {
     "id": 14,
     "name": "Learning a Language",
     "description": "Learning a language is the lifelong, continuous process of building the cognitive, structural, and cultural skills required to understand and communicate in a tongue other than your native language.",
+    "longDescription": "Learning a new language is a rewarding hobby that strengthens memory, improves communication skills, and opens the door to new cultures. Whether your goal is travelling, working abroad, or simply challenging yourself, there are countless apps, online courses, books, and conversation groups to help you practise. Progress comes through regular study and real-world use, making every small milestone feel rewarding. As your confidence grows, you'll gain a deeper appreciation of different cultures while developing a valuable lifelong skill.",
     "youtubeVideoId": "https://www.youtube.com/embed/o_XVt5rdpFY",
     "scores": {
       "active": 1,
@@ -288,15 +263,13 @@
       "timeCommitment": 5
     },
     "hobbyImage": "https://plus.unsplash.com/premium_photo-1663040081470-397e31e4b2a6?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "hobbyCategory": [
-      "Creative",
-      "Strategic"
-    ]
+    "hobbyCategory": [ "Creative", "Strategic" ]
   },
   {
     "id": 15,
     "name": "Watching Documentaries",
     "description": "Watching documentaries is the act of engaging with non-fiction films or television programs that document reality for instruction, education, or entertainment.",
+    "longDescription": "Watching documentaries is an engaging hobby that allows you to explore real-world topics from the comfort of your home. From history and nature to true crime, science, business, and space exploration, documentaries can introduce you to new ideas while encouraging critical thinking. Many people enjoy discussing what they've learned with friends or using documentaries as a starting point for further reading. It's an inexpensive hobby that combines relaxation with continuous learning, making it ideal for curious minds.",
     "youtubeVideoId": "https://www.youtube.com/embed/An-VACvhbfM",
     "scores": {
       "active": 1,
@@ -309,14 +282,13 @@
       "timeCommitment": 1
     },
     "hobbyImage": "https://plus.unsplash.com/premium_photo-1733306528612-2aa75dad2f7a?q=80&w=1267&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "hobbyCategory": [
-      "Strategic"
-    ]
+    "hobbyCategory": [ "Strategic" ]
   },
   {
     "id": 16,
     "name": "Joining a Book Club",
     "description": "A book club is a social group where members gather to read and discuss a chosen book. It encourages consistent reading, introduces you to new genres, and creates a space to make friends.",
+    "longDescription": "Joining a book club is a fantastic way to combine reading with meaningful conversation and social interaction. Members read the same book before meeting to share opinions, discuss themes, and hear different perspectives. Book clubs often introduce participants to genres and authors they might never have chosen themselves, helping to broaden reading habits. Whether meeting in person or online, book clubs create welcoming communities where friendships develop through a shared love of literature and lifelong learning.",
     "youtubeVideoId": "https://www.youtube.com/embed/uni0LL338oA",
     "scores": {
       "active": 1,
@@ -329,16 +301,13 @@
       "timeCommitment": 2
     },
     "hobbyImage": "https://images.unsplash.com/photo-1618365908648-e71bd5716cba?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "hobbyCategory": [
-      "Creative",
-      "Relaxing",
-      "Social"
-    ]
+    "hobbyCategory": [ "Creative", "Relaxing", "Social" ]
   },
   {
     "id": 17,
     "name": "Coding",
     "description": "Coding (or computer programming) is the process of writing step-by-step instructions that tell a computer how to perform a specific task.",
+    "longDescription": "Coding is a hobby that combines creativity with logical problem-solving to build websites, apps, games, and software. Beginners can start with beginner-friendly languages such as Python or JavaScript before progressing to more advanced technologies and personal projects. Every project presents a new challenge, helping you develop analytical thinking while creating something useful. There are thousands of free tutorials and supportive online communities, making coding an accessible hobby that can even develop into a rewarding career.",
     "youtubeVideoId": "https://www.youtube.com/embed/lj1AxGnIs5g",
     "scores": {
       "active": 1,
@@ -351,15 +320,13 @@
       "timeCommitment": 5
     },
     "hobbyImage": "https://images.unsplash.com/photo-1607706189992-eae578626c86?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "hobbyCategory": [
-      "Creative",
-      "Strategic"
-    ]
+    "hobbyCategory": [ "Creative", "Strategic" ]
   },
   {
     "id": 18,
     "name": "Video Games",
     "description": "A video game is an interactive electronic game played using a user interface or input device (such as a controller, keyboard, or motion sensor) to produce visual and auditory feedback on a display.",
+    "longDescription": "Video games offer entertainment, challenge, and opportunities to connect with people around the world. From story-driven adventures and creative sandbox games to competitive multiplayer titles and strategic simulations, there is a genre for every interest. Gaming can improve reaction times, problem-solving, teamwork, and decision-making while providing a fun way to relax after a busy day. Many players also enjoy joining online communities, streaming gameplay, or participating in tournaments, making gaming both a social and engaging hobby.",
     "youtubeVideoId": "https://www.youtube.com/embed/8jFreGK27DA",
     "scores": {
       "active": 1,
@@ -372,14 +339,13 @@
       "timeCommitment": 3
     },
     "hobbyImage": "https://images.pexels.com/photos/8154769/pexels-photo-8154769.jpeg",
-    "hobbyCategory": [
-      "Strategic"
-    ]
+    "hobbyCategory": [ "Strategic" ]
   },
   {
     "id": 19,
     "name": "Jigsaw Puzzles",
     "description": "A jigsaw puzzle is a tiling game where irregularly shaped, interlocking pieces must be assembled to form a complete picture or map",
+    "longDescription": "Completing jigsaw puzzles is a calming hobby that exercises patience, concentration, and problem-solving skills. Puzzles are available in a huge range of sizes and difficulty levels, from a few hundred pieces to thousands. Many people enjoy working on them alone as a relaxing activity or with family and friends as a collaborative challenge. Finishing a puzzle provides a real sense of achievement, and particularly beautiful designs can even be framed and displayed as artwork.",
     "youtubeVideoId": "https://www.youtube.com/embed/-1Bf2IxLkNY",
     "scores": {
       "active": 1,
@@ -392,15 +358,13 @@
       "timeCommitment": 2
     },
     "hobbyImage": "https://images.pexels.com/photos/27837160/pexels-photo-27837160.jpeg",
-    "hobbyCategory": [
-      "Relaxing",
-      "Strategic"
-    ]
+    "hobbyCategory": [ "Relaxing", "Strategic" ]
   },
   {
     "id": 20,
     "name": "Crossword Puzzles",
     "description": "A crossword puzzle is a popular word game that consists of a grid of white and black squares. The objective is to fill the white squares with letters, forming intersecting words or phrases based on provided clues.",
+    "longDescription": "Crossword puzzles are an enjoyable hobby that challenge your vocabulary, memory, and general knowledge. Whether completed in newspapers, books, or mobile apps, they provide a fun mental workout that helps improve language skills and critical thinking. Beginners can start with easier puzzles before tackling cryptic or advanced crosswords as their confidence grows. Because they require very little equipment and can be completed almost anywhere, crosswords are an affordable and rewarding hobby for anyone who enjoys solving problems.",
     "youtubeVideoId": "https://www.youtube.com/embed/ISgw_vg0Avc",
     "scores": {
       "active": 1,
@@ -413,15 +377,13 @@
       "timeCommitment": 1
     },
     "hobbyImage": "https://images.pexels.com/photos/13533591/pexels-photo-13533591.jpeg",
-    "hobbyCategory": [
-      "Relaxing",
-      "Strategic"
-    ]
+    "hobbyCategory": [ "Relaxing", "Strategic" ]
   },
   {
     "id": 21,
     "name": "Board Games",
     "description": "A board game is a tabletop simulation where players use physical objects, such as pieces or cards, on a pre-marked surface or board according to specific rules. They range from simple games of chance to complex strategy challenges, and they serve as social activities that build cognitive and communication skills.",
+    "longDescription": "Board games are a fantastic hobby for bringing people together while encouraging strategic thinking, teamwork, and friendly competition. Modern board games cover a huge variety of themes and mechanics, from cooperative adventures and mystery-solving to city building and resource management. Whether you're playing with family, friends, or at a local board game café, every game offers a new challenge and an opportunity to learn different strategies. It's an affordable hobby that helps develop communication, problem-solving, and social skills while creating memorable experiences with others.",
     "youtubeVideoId": "https://www.youtube.com/embed/CzV5VoLaOsI",
     "scores": {
       "active": 1,
@@ -434,15 +396,13 @@
       "timeCommitment": 2
     },
     "hobbyImage": "https://images.pexels.com/photos/8111328/pexels-photo-8111328.jpeg",
-    "hobbyCategory": [
-      "Social",
-      "Strategic"
-    ]
+    "hobbyCategory": [ "Social", "Strategic" ]
   },
   {
     "id": 22,
     "name": "Role-playing Games",
     "description": "A role-playing game (RPG) is a game where you take on the persona of a character in a fictional world. Instead of just playing to win, you make choices, face risks, and shape the unfolding story based on your character's personality, skills, and motivations.",
+    "longDescription": "Role-playing games combine storytelling, imagination, and teamwork to create unforgettable adventures. Players work together to overcome challenges, solve mysteries, and develop unique characters while a game master guides the story. Every session is different, allowing creativity and collaboration to shape the experience. RPGs encourage communication, problem-solving, and improvisation, making them an excellent hobby for people who enjoy fantasy, science fiction, or collaborative storytelling. Many local gaming groups and online communities welcome complete beginners.",
     "youtubeVideoId": "https://www.youtube.com/embed/sLRJ3J7DYqI",
     "scores": {
       "active": 1,
@@ -455,15 +415,13 @@
       "timeCommitment": 4
     },
     "hobbyImage": "https://images.pexels.com/photos/7150641/pexels-photo-7150641.jpeg",
-    "hobbyCategory": [
-      "Social",
-      "Strategic"
-    ]
+    "hobbyCategory": [ "Social", "Strategic" ]
   },
   {
     "id": 23,
     "name": "Hiking",
     "description": "Hiking is the recreational activity of walking through natural environments, such as forests, hills, or mountain trails.",
+    "longDescription": "Hiking is a rewarding outdoor hobby that allows you to explore nature while improving your physical fitness and mental wellbeing. Trails range from gentle countryside walks to challenging mountain routes, meaning there's something suitable for every experience level. Hiking helps build endurance, strengthen muscles, and reduce stress while offering opportunities to discover beautiful scenery and wildlife. Many people enjoy hiking with friends, family, or local walking groups, making it both a social and adventurous way to spend time outdoors.",
     "youtubeVideoId": "https://www.youtube.com/embed/upj7N22EMZA",
     "scores": {
       "active": 6,
@@ -476,15 +434,13 @@
       "timeCommitment": 3
     },
     "hobbyImage": "https://images.pexels.com/photos/10569915/pexels-photo-10569915.jpeg",
-    "hobbyCategory": [
-      "Active",
-      "Outdoor"
-    ]
+    "hobbyCategory": [ "Active", "Outdoor" ]
   },
   {
     "id": 24,
     "name": "Trail Running",
     "description": "Trail running is the recreational activity of running on unpaved natural paths or tracks.",
+    "longDescription": "Trail running combines the fitness benefits of running with the adventure of exploring forests, hills, and countryside paths. Unlike road running, uneven terrain keeps every route interesting while improving balance, agility, and coordination. Many trail runners enjoy escaping busy streets and experiencing peaceful natural surroundings as they exercise. Beginners can start on well-maintained trails before progressing to longer or more challenging routes. It's an exciting hobby that offers both physical challenge and a strong connection with nature.",
     "youtubeVideoId": "https://www.youtube.com/embed/3_ApMII8vPU",
     "scores": {
       "active": 5,
@@ -497,15 +453,13 @@
       "timeCommitment": 2
     },
     "hobbyImage": "https://images.unsplash.com/photo-1623390003553-4fa3f9fceb89?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "hobbyCategory": [
-      "Active",
-      "Outdoor"
-    ]
+    "hobbyCategory": [ "Active", "Outdoor" ]
   },
   {
     "id": 25,
     "name": "Rock Climbing",
     "description": "Rock climbing is a physical and mental sport where participants ascend, descend, or traverse natural rock formations or artificial climbing walls.",
+    "longDescription": "Rock climbing is an exciting hobby that challenges both body and mind. Climbers develop strength, flexibility, balance, and problem-solving skills as they work out the best route to reach the top. Beginners often start on indoor climbing walls where qualified instructors teach essential techniques and safety procedures before moving outdoors. Every climb presents a different challenge, making progress highly rewarding. Whether climbing recreationally or aiming for more advanced routes, it's a hobby that builds confidence and resilience.",
     "youtubeVideoId": "https://www.youtube.com/embed/30y8Uy0B_uk",
     "scores": {
       "active": 6,
@@ -518,15 +472,13 @@
       "timeCommitment": 4
     },
     "hobbyImage": "https://images.pexels.com/photos/5384283/pexels-photo-5384283.jpeg",
-    "hobbyCategory": [
-      "Active",
-      "Strategic"
-    ]
+    "hobbyCategory": [ "Active", "Strategic" ]
   },
   {
     "id": 26,
     "name": "Bouldering",
     "description": "Bouldering is a form of rock climbing stripped down to its essentials. It is done on short, low walls or natural boulders without ropes or harnesses, using thick safety mats to protect against falls.",
+    "longDescription": "Bouldering is a dynamic form of climbing that focuses on solving short but challenging climbing problems without the use of ropes. Climbers rely on technique, strength, balance, and careful planning to reach the top of each route. Indoor bouldering gyms regularly change their routes, ensuring there's always a new challenge to tackle. The supportive climbing community makes it easy for beginners to learn from others, while the sense of achievement after completing a difficult climb keeps many people coming back.",
     "youtubeVideoId": "https://www.youtube.com/embed/JtzthnwhDPI",
     "scores": {
       "active": 6,
@@ -539,15 +491,13 @@
       "timeCommitment": 3
     },
     "hobbyImage": "https://images.pexels.com/photos/7591312/pexels-photo-7591312.jpeg",
-    "hobbyCategory": [
-      "Active",
-      "Strategic"
-    ]
+    "hobbyCategory": [ "Active", "Strategic" ]
   },
   {
     "id": 27,
     "name": "Birdwatching",
     "description": "Birdwatching, or 'birding', is the practice of observing birds in their natural habitats. Ranging from a casual, relaxing outdoor hobby to an obsessive pursuit of rare species, it often involves visual aids like binoculars and listening for calls.",
+    "longDescription": "Birdwatching is a peaceful hobby that encourages you to slow down and appreciate the wildlife around you. Armed with a pair of binoculars and a bird identification guide or mobile app, you can explore parks, woodlands, wetlands, and gardens while spotting different species throughout the year. Many birdwatchers keep personal lists of species they've seen or enjoy photographing birds in their natural habitats. It's a relaxing outdoor activity that helps develop observation skills while fostering a deeper appreciation of nature and conservation.",
     "youtubeVideoId": "https://www.youtube.com/embed/tH9Mi4vIurY",
     "scores": {
       "active": 3,
@@ -560,15 +510,13 @@
       "timeCommitment": 2
     },
     "hobbyImage": "https://images.unsplash.com/photo-1560951750-1e85780f946b?q=80&w=982&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "hobbyCategory": [
-      "Relaxing",
-      "Outdoor"
-    ]
+    "hobbyCategory": [ "Relaxing", "Outdoor" ]
   },
   {
     "id": 28,
     "name": "Theatre",
     "description": "Theatre is a collaborative performing art that uses live actors to present real or imagined events to an audience. Grounded in storytelling, it uses speech, movement, music, and spectacle to connect with spectators.",
+    "longDescription": "Taking part in theatre is a creative hobby that combines acting, storytelling, teamwork, and performance. Whether you're interested in acting on stage, singing in musicals, helping backstage, or working with costumes and set design, there are many ways to get involved. Community theatre groups welcome people of all experience levels and provide opportunities to build confidence, improve communication skills, and meet like-minded people. Performing in front of an audience can be challenging, but it's also incredibly rewarding and enjoyable.",
     "youtubeVideoId": "https://www.youtube.com/embed/sNWrOuwzax8",
     "scores": {
       "active": 2,
@@ -581,15 +529,13 @@
       "timeCommitment": 2
     },
     "hobbyImage": "https://images.unsplash.com/photo-1580809361436-42a7ec204889?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "hobbyCategory": [
-      "Creative",
-      "Social"
-    ]
+    "hobbyCategory": [ "Creative", "Social" ]
   },
   {
     "id": 29,
     "name": "Chess Club",
     "description": "A chess club is a dedicated, organized environment where enthusiasts of all ages and abilities gather to play, learn, and socialize over the board.",
+    "longDescription": "Joining a chess club is an excellent hobby for anyone who enjoys strategy, planning, and friendly competition. Regular games help improve concentration, pattern recognition, decision-making, and critical thinking while providing opportunities to learn from more experienced players. Clubs often organise tournaments, coaching sessions, and casual games suitable for every skill level. Beyond the game itself, chess clubs create welcoming communities where members can socialise, challenge each other, and continually develop their skills in an enjoyable environment.",
     "youtubeVideoId": "https://www.youtube.com/embed/OCSbzArwB10",
     "scores": {
       "active": 1,
@@ -602,15 +548,13 @@
       "timeCommitment": 2
     },
     "hobbyImage": "https://images.unsplash.com/photo-1585038021831-8afd9f9ab27f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "hobbyCategory": [
-      "Social",
-      "Strategic"
-    ]
+    "hobbyCategory": [ "Social", "Strategic" ]
   },
   {
     "id": 30,
     "name": "Community Gardening",
     "description": "A community garden is a shared parcel of land cultivated by a group of local people. These green spaces act as neighborhood hubs where residents gather to grow fresh fruits, vegetables, and flowers, while fostering social connections and promoting sustainable living.",
+    "longDescription": "Community gardening brings people together to grow flowers, fruit, vegetables, and herbs in shared outdoor spaces. It's a rewarding hobby that combines gentle physical activity with learning about plants, sustainability, and seasonal growing. Working alongside others creates a strong sense of community while providing opportunities to share gardening knowledge and make new friends. Whether you're planting vegetables, maintaining flower beds, or helping organise community events, gardening offers a relaxing way to spend time outdoors while making a positive impact on your local area.",
     "youtubeVideoId": "https://www.youtube.com/embed/EI94f9_4cBw",
     "scores": {
       "active": 4,
@@ -623,17 +567,13 @@
       "timeCommitment": 3
     },
     "hobbyImage": "https://images.pexels.com/photos/7658812/pexels-photo-7658812.jpeg",
-    "hobbyCategory": [
-      "Creative",
-      "Relaxing",
-      "Social",
-      "Outdoor"
-    ]
+    "hobbyCategory": [ "Creative", "Relaxing", "Social", "Outdoor" ]
   },
   {
     "id": 31,
     "name": "Canoeing",
     "description": "Canoeing is a popular water sport and recreational activity where participants kneel or sit facing forward in an open or closed-deck boat and propel the craft using a single-bladed paddle.",
+    "longDescription": "Canoeing is an enjoyable outdoor hobby that combines adventure, fitness, and exploration on lakes, rivers, and calm coastal waters. Beginners can learn basic paddling techniques through local clubs or introductory sessions before progressing to longer journeys or more challenging routes. Canoeing helps improve upper-body strength, balance, coordination, and teamwork when paddling with others. Many enthusiasts enjoy exploring scenic waterways, spotting wildlife, or simply spending time in nature, making it a relaxing yet physically rewarding hobby suitable for a wide range of ages and abilities.",
     "youtubeVideoId": "https://www.youtube.com/embed/MGAfLptYNVk",
     "scores": {
       "active": 6,
@@ -655,6 +595,7 @@
     "id": 32,
     "name": "Dance Classes",
     "description": "Dance classes combine physical fitness, rhythm, and self-expression. They range from structured, foundational techniques like ballet and tap to high-energy, contemporary styles such as hip-hop and lyrical.",
+    "longDescription": "Dance classes are a fun and energetic hobby that combine exercise with creativity and self-expression. Whether you enjoy salsa, ballroom, hip-hop, ballet, contemporary, or street dance, there's a style to suit every personality and fitness level. Regular classes improve coordination, balance, flexibility, and cardiovascular fitness while building confidence through learning new routines. Dancing is also highly social, providing opportunities to meet new people and work towards performances or showcases. Above all, it's an enjoyable way to stay active while expressing yourself through movement.",
     "youtubeVideoId": "https://www.youtube.com/embed/C62596gVnT8",
     "scores": {
       "active": 6,
@@ -677,6 +618,7 @@
     "id": 33,
     "name": "Sound Baths",
     "description": "A sound bath is an immersive, passive meditative experience where you 'bathe' in sound waves and vibrations produced by instruments like crystal singing bowls, gongs, and chimes. The practice aims to shift your brainwaves, calm your nervous system, and induce a deep state of physical and mental relaxation.",
+    "longDescription": "Sound baths are deeply relaxing wellness sessions that use soothing sounds and vibrations from instruments such as crystal singing bowls, gongs, chimes, and tuning forks to promote calm and mindfulness. Participants usually lie comfortably while focusing on the sounds, allowing the experience to encourage relaxation and mental clarity. Many people attend sound baths to reduce stress, unwind after a busy week, or complement other mindfulness practices. No previous experience is required, making it an accessible hobby for anyone looking to prioritise their wellbeing.",
     "youtubeVideoId": "https://www.youtube.com/embed/-O2uiYfBCVY",
     "scores": {
       "active": 1,
@@ -697,6 +639,7 @@
     "id": 34,
     "name": "Meditation",
     "description": "Meditation is a set of techniques used to train attention, cultivate awareness, and achieve a mentally clear and emotionally calm state. Rather than turning off your thoughts, it involves observing them without judgment, allowing you to develop a healthier perspective and deeper self-understanding.",
+    "longDescription": "Meditation is a mindfulness practice that helps you develop greater awareness, focus, and emotional balance. Even just a few minutes each day can help reduce stress, improve concentration, and create a greater sense of calm. There are many styles of meditation to explore, including guided meditation, breathing exercises, body scans, and mindfulness techniques. Beginners can use free apps, videos, or local classes to get started. With regular practice, meditation can become a valuable daily habit that supports both mental and physical wellbeing.",
     "youtubeVideoId": "https://www.youtube.com/embed/thcEuMDWxoI",
     "scores": {
       "active": 1,
@@ -717,6 +660,7 @@
     "id": 35,
     "name": "Skin Care",
     "description": "Skin care encompasses the practices, products, and routines dedicated to maintaining the health, integrity, and aesthetic appearance of the skin.",
+    "longDescription": "Skin care can be an enjoyable self-care hobby that focuses on maintaining healthy skin while creating relaxing daily routines. Learning about different skin types, ingredients, and products helps you build a routine that suits your individual needs. Many people enjoy exploring techniques such as facial massage, masks, and hydration while developing a better understanding of how lifestyle factors affect skin health. Beyond improving appearance, skin care encourages consistency, mindfulness, and taking time each day to look after yourself.",
     "youtubeVideoId": "https://www.youtube.com/embed/OrElyY7MFVs",
     "scores": {
       "active": 1,
@@ -737,6 +681,7 @@
     "id": 36,
     "name": "Yoga",
     "description": "Yoga is an ancient mind-body discipline originating in India that connects the physical, mental, and spiritual self.",
+    "longDescription": "Yoga is a versatile hobby that combines movement, breathing, and mindfulness to improve both physical and mental wellbeing. Regular practice helps increase flexibility, strength, balance, and posture while reducing stress and promoting relaxation. There are many styles to choose from, including gentle restorative yoga, dynamic Vinyasa, and strength-focused Power Yoga, making it suitable for all fitness levels. Whether practising at home or attending local classes, yoga offers a supportive way to build healthy habits and create a sense of calm in everyday life.",
     "youtubeVideoId": "https://www.youtube.com/embed/RSAyPvZtCFE",
     "scores": {
       "active": 4,
@@ -758,6 +703,7 @@
     "id": 37,
     "name": "Volunteering",
     "description": "Volunteering is the act of freely giving time, skills, and energy to support a cause, community, or organization without expecting financial payment.",
+    "longDescription": "Volunteering is a meaningful hobby that allows you to make a positive difference while developing valuable skills and meeting new people. Opportunities are available in charities, community groups, animal shelters, food banks, environmental projects, and many other organisations. Whether you volunteer regularly or occasionally, you'll gain experience, build confidence, and contribute to causes that matter to you. Volunteering can also improve communication, teamwork, and leadership skills while providing a strong sense of purpose and connection with your local community.",
     "youtubeVideoId": "https://www.youtube.com/embed/tYmvsrkN8po",
     "scores": {
       "active": 3,

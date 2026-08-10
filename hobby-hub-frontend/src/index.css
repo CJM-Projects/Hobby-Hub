@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+@theme {
+    --color-sagegreen: #F1F6E7;
+}
+
 html {
     overflow-y: scroll;
 }
+

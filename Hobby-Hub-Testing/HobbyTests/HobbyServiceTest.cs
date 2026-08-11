@@ -262,4 +262,76 @@ public class HobbyServiceTest
         Assert.That(result, Is.Empty);
     }
 
+    [Test]
+    public async Task GetHobbiesByCategoryAsync_ShouldReturnHobbiesWithinSpecifiedCategory()
+    {
+        var category = Category.Active;
+        var activeHobbies = new List<Hobby>
+        {
+            new Hobby
+            {
+                Id = 1,
+                Name = "Running",
+                Description = "Running is a high-impact, cardiovascular exercise characterized by an aerial phase where both feet are off the ground simultaneously",
+                YoutubeVideoId = "https://www.youtube.com/watch?v=kVnyY17VS9Y",
+                HobbyImage = "https://images.pexels.com/photos/8346669/pexels-photo-8346669.jpeg",
+                HobbyCategory =
+                    [
+                        Category.Active,
+                        Category.Outdoor
+                    ],
+                Scores = new HobbyScores
+                {
+                    Active = 5,
+                    Creative = 0,
+                    Relaxing = 2,
+                    Social = 1,
+                    Outdoor = 3,
+                    Strategic = 1,
+                    Price = 1,
+                    TimeCommitment = 3
+                }
+            },
+            new Hobby
+            {
+                Id = 2,
+                Name = "Tai Chi",
+                Description = "Tai Chi is a mind-body practice that combines slow, flowing physical movements, deep diaphragmatic breathing, and focused meditation",
+                YoutubeVideoId = "https://www.youtube.com/watch?v=7McCi0z7FU8",
+                HobbyImage = "https://images.pexels.com/photos/8461244/pexels-photo-8461244.jpeg",
+                HobbyCategory =
+                [
+                    Category.Active,
+                    Category.Relaxing
+                ],
+                Scores = new HobbyScores
+                {
+                    Active = 3,
+                    Creative = 1,
+                    Relaxing = 5,
+                    Social = 2,
+                    Outdoor = 2,
+                    Strategic = 1,
+                    Price = 2,
+                    TimeCommitment = 3
+                }
+            }
+        };
+        _mockHobbyRepo.Setup(repo => repo.GetHobbiesByCategoryAsync(category)).ReturnsAsync(activeHobbies);
+
+        var result = await _hobbyService.GetHobbiesByCategoryAsync(category);
+
+        Assert.That(result, Is.EqualTo(activeHobbies));
+    }
+
+    [Test]
+    public async Task GetHobbiesByCategoryAsync_ShouldReturnEmptyList_WhenNoHobbiesExistInCategory()
+    {
+        var category = Category.Strategic;
+        _mockHobbyRepo.Setup(repo => repo.GetHobbiesByCategoryAsync(category)).ReturnsAsync([]);
+
+        var result = await _hobbyService.GetHobbiesByCategoryAsync(category);
+
+        Assert.That(result, Is.Empty);
+    }
 }

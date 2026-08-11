@@ -74,7 +74,7 @@ export function BrowseAll() {
           <div className="flex flex-col w-2xs px-2 me-12 border-r-2">
             <h2 className="font-bold text-xl">Filters</h2>
             <details open>
-              <summary>Catagory</summary>
+              <summary>Category</summary>
               <ul>
                 {categories.map((category) => (
                   <li key={category}>
@@ -193,7 +193,7 @@ export function BrowseAll() {
                 </div>
               ) : (
                 filteredHobbies.map((hobby) => (
-                  <HobbyPreviewCard key={hobby.id} hobby={hobby} imgSize="w-32" />
+                  <HobbyPreviewCard key={hobby.id} hobby={hobby} />
                 ))
               )}
             </div>

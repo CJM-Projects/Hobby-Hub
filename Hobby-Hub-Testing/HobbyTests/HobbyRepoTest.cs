@@ -16,7 +16,7 @@ public class HobbyRepoTest
     }
 
     [Test]
-    public async Task GetAllHobbiesAsyn_ReturnsListOfHobbies()
+    public async Task GetAllHobbiesAsync_ReturnsListOfHobbies()
     {
         var result = await _hobbyRepo.GetAllHobbiesAsync();
         Assert.That(result, Is.Not.Null);
@@ -44,7 +44,7 @@ public class HobbyRepoTest
         {
             Assert.That(result!.Name, Is.EqualTo("Running"));
             Assert.That(result.Description, Does.Contain("cardiovascular"));
-            Assert.That(result.Scores.Active, Is.EqualTo(5));
+            Assert.That(result.Scores.Active, Is.EqualTo(6));
             Assert.That(result.HobbyCategory, Does.Contain(Category.Active));
             Assert.That(result.HobbyCategory, Does.Contain(Category.Outdoor));
         });
@@ -80,5 +80,23 @@ public class HobbyRepoTest
         var result = await _hobbyRepo.GetTrendingHobbiesAsync();
         var distinctCount = result.Select(h => h.Id).Distinct().Count();
         Assert.That(distinctCount, Is.EqualTo(result.Count));
+    }
+
+    [Test]
+    public async Task GetHobbiesByCategoryAsync_ReturnsListOfHobbies()
+    {
+        var category = Category.Active;
+        var result = await _hobbyRepo.GetHobbiesByCategoryAsync(category);
+        Assert.That(result, Is.Not.Null);
+        Assert.That(result, Is.InstanceOf<List<Hobby>>());
+        Assert.That(result, Is.Not.Empty);
+    }
+
+    [Test]
+    public async Task GetHobbiesByCategoryAsync_ShouldReturnCorrectNumberOfHobbiesWithinCategory()
+    {
+        var category = Category.Active;
+        var result = await _hobbyRepo.GetHobbiesByCategoryAsync(category);
+        Assert.That(result.Count, Is.EqualTo(12));
     }
 }

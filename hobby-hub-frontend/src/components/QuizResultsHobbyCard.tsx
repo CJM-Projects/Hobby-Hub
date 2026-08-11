@@ -18,7 +18,7 @@ export function QuizResultsHobbyCard({ quizResult }: QuizResultsHobbyCardProps) 
                         <div className="flex flex-col p-2">
                             <p>{quizResult.description}</p>
                             <button className="max-w-fit text-black bg-gray-200 hover:bg-gray-100 transition-colors rounded px-2 py-1 my-2">
-                                <Link to={`/hobby-details/${quizResult.name}`}>View Details
+                                <Link to={`/hobby-details/${quizResult.name.toLowerCase()}`}>View Details
                                 </Link>
                             </button>
                         </div>

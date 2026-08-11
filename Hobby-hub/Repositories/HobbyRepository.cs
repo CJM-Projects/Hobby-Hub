@@ -1,4 +1,5 @@
 ﻿using Hobby_hub.Data_Models;
+using Hobby_hub.Data_Models.Enum;
 using System.Globalization;
 using System.Text.Json;
 using System.Text.Json.Serialization;
@@ -10,6 +11,7 @@ namespace Hobby_hub.Repositories
         Task<List<Hobby>> GetAllHobbiesAsync();
         Task<Hobby?> GetHobbyByNameAsync(string hobbyName);
         Task<List<Hobby>> GetTrendingHobbiesAsync();
+        Task<List<Hobby>> GetHobbiesByCategoryAsync(Category categoryName);
     }
     public class HobbyRepository : IHobbyRepository
     {
@@ -50,6 +52,15 @@ namespace Hobby_hub.Repositories
                 .ToList();
 
             return trending;
+        }
+
+        public async Task<List<Hobby>> GetHobbiesByCategoryAsync(Category categoryName)
+        {
+            var hobbies = await GetAllHobbiesAsync();
+            var filteredHobbies = hobbies
+                .Where(h => h.HobbyCategory.Contains(categoryName))
+                .ToList();
+            return filteredHobbies;
         }
     }
 }

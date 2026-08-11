@@ -17,7 +17,7 @@ function CategoriesSection({ category }: CategoriesSectionProps) {
       .then((json) => setHobbies(json))
       .then(() => setIsLoading(false))
       .catch((err) => {
-        console.error("Failed to fetch trending hobbies.", err);
+        console.error(`Failed to fetch hobbies within category ${category}.`, err);
         setIsLoading(false);
       });
   }, []);

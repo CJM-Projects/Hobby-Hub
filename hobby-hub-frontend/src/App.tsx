@@ -8,6 +8,7 @@ import { BrowseAll } from "./pages/BrowseAll";
 import { QuizResultsPage } from "./pages/QuizResultsPage";
 import { HobbyQuiz } from "./pages/HobbyQuiz";
 import { NotFound } from "./pages/NotFound";
+import { CategoryPage } from "./pages/CategoryPage";
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
                     <Route path="/" element={<Home />} />
                     <Route path="/about-us" element={<AboutUs />} />
                     <Route path="/hobby-details/:hobbyName" element={<HobbyDetailsPage /> } />
+                    <Route path="/category/:category" element={<CategoryPage /> } />
                     <Route path="/browse-all" element={<BrowseAll />} />
                     <Route path="/quiz-results" element={<QuizResultsPage />} />
                     <Route path="/quiz" element={<HobbyQuiz />} />

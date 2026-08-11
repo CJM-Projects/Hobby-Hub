@@ -1,4 +1,5 @@
 ﻿using Hobby_hub.Data_Models;
+using Hobby_hub.Data_Models.Enum;
 using Hobby_hub.Repositories;
 
 namespace Hobby_hub.Services
@@ -8,6 +9,7 @@ namespace Hobby_hub.Services
         Task<List<Hobby>> GetAllHobbiesAsync();
         Task<Hobby?> GetHobbyByNameAsync(string hobbyName);
         Task<List<Hobby>> GetTrendingHobbiesAsync();
+        Task<List<Hobby>> GetHobbiesByCategoryAsync(Category categoryName);
     }
     public class HobbyService : IHobbyService
     {
@@ -31,6 +33,11 @@ namespace Hobby_hub.Services
         public async Task<List<Hobby>> GetTrendingHobbiesAsync()
         {
             return await _hobbyRepository.GetTrendingHobbiesAsync();
+        }
+
+        public async Task<List<Hobby>> GetHobbiesByCategoryAsync(Category categoryName)
+        {
+            return await _hobbyRepository.GetHobbiesByCategoryAsync(categoryName);
         }
     }
 }

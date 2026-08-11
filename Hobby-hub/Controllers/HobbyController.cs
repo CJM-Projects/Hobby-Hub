@@ -1,6 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Hobby_hub.Data_Models;
+﻿using Hobby_hub.Data_Models.Enum;
 using Hobby_hub.Services;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Hobby_hub.Controllers
 {
@@ -39,6 +39,13 @@ namespace Hobby_hub.Controllers
         public async Task<IActionResult> GetTrendingHobbiesAsync()
         {
             var hobbies = await _hobbyService.GetTrendingHobbiesAsync();
+            return Ok(hobbies);
+        }
+
+        [HttpGet("category/{categoryName}")]
+        public async Task<IActionResult> GetHobbiesByCategoryAsync(Category categoryName)
+        {
+            var hobbies = await _hobbyService.GetHobbiesByCategoryAsync(categoryName);
             return Ok(hobbies);
         }
     }

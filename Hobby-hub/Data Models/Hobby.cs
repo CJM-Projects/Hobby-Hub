@@ -18,7 +18,7 @@ namespace Hobby_hub.Data_Models
 
         public string HobbyImage {  get; set; } = string.Empty;
 
-        public List<Category> HobbyCategory { get; set; }  
+        public List<Category> HobbyCategory { get; set; } = [];
     }
 
 }

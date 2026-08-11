@@ -27,7 +27,7 @@ export function TrendingHobbies() {
   };
 
   return (
-    <div className="mx-auto max-w-7xl px-20 w-full">
+    <div className="mx-auto max-w-7xl px-20 py-4 w-full">
       <h2 className="font-bold text-xl">Trending Hobbies</h2>
       {isLoading ? (
         <p>Loading...</p>

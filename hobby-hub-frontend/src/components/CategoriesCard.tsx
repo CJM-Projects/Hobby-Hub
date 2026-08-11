@@ -1,16 +1,14 @@
 
-import type { Hobby } from "../models/hobby";
+import { Link } from "react-router-dom";
+import type { Category, Hobby } from "../models/hobby";
 
 type CategoriesCardProps = {
-    hobby: Hobby
+    hobby: Hobby;
+    category: Category
 }
-export function CategoriesCard({ hobby }: CategoriesCardProps) {
+export function CategoriesCard({ hobby, category }: CategoriesCardProps) {
     return (
-        // <div className= "border-3 border-teal-900 bg-sagegreen rounded-xl px-4 py-4 m-8 w-80">
-        //     <img className="h-60 object-cover rounded-xl" src={hobby.hobbyImage}></img>
-        //     <p className="text-xl font-bold py-2">{ hobby.name }</p>
-        // </div>
-        <div className="overflow-hidden rounded-2xl bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl">
+        <div className="h-full overflow-hidden rounded-2xl bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl">
             <div className="aspect-[4/3] overflow-hidden">
                 <img
                     src={hobby.hobbyImage}
@@ -23,18 +21,50 @@ export function CategoriesCard({ hobby }: CategoriesCardProps) {
                 <h3 className="text-xl font-bold text-zinc-900">
                     {hobby.name}
                 </h3>
-
-                <p className="mt-2 line-clamp-2 text-sm text-zinc-600">
-                    {hobby.description}
-                </p>
-
-                <button className="mt-4 font-semibold text-green-600">
-                    Explore hobby →
+                <button className={`mt-4 font-semibold ${categoryStyles[category].button}`}>
+                    <Link to={`/hobby-details/${hobby.name.toLowerCase()}`}>Explore hobby →</Link>
                 </button>
             </div>
         </div>
     )
 }
 
+const categoryStyles = {
+  Active: {
+    background: "bg-green-50",
+    text: "text-green-600",
+    button: "text-green-600 hover:text-green-500",
+  },
+
+  Creative: {
+    background: "bg-orange-50",
+    text: "text-orange-600",
+    button: "text-orange-600 hover:text-orange-500",
+  },
+
+  Relaxing: {
+    background: "bg-purple-50",
+    text: "text-purple-600",
+    button: "text-purple-600 hover:text-purple-500",
+  },
+
+  Social: {
+    background: "bg-yellow-50",
+    text: "text-yellow-600",
+    button: "text-yellow-600 hover:text-yellow-500",
+  },
+
+  Outdoor: {
+    background: "bg-teal-50",
+    text: "text-teal-600",
+    button: "text-teal-600 hover:text-teal-500",
+  },
+
+  Strategic: {
+    background: "bg-blue-50",
+    text: "text-blue-600",
+    button: "text-blue-600 hover:text-blue-500",
+  },
+};
 
 

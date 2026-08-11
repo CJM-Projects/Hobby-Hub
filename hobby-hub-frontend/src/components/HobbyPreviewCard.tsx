@@ -19,7 +19,7 @@ export function HobbyPreviewCard({ hobby }: HobbyPreviewCardProps) {
             <h3 className="font-bold">{hobby.name}</h3>
             <p className="h-16 text-sm line-clamp-3">{hobby.description}</p>
             <button className="max-w-fit text-black bg-gray-200 hover:bg-gray-100 transition-colors rounded px-2 py-1 my-2">
-              <Link to={`/hobby-details/${hobby.name}`}>View Details</Link>
+              <Link to={`/hobby-details/${hobby.name.toLowerCase()}`}>View Details</Link>
             </button>
           </div>
         </div>

@@ -1,92 +1,107 @@
-import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
 import type { Category, Hobby } from "../models/hobby";
 import { CategoriesCard } from "./CategoriesCard";
+import { Link } from "react-router-dom";
 
 type CategoriesSectionProps = {
-    category: Category
-}
-const sampleHobby: Hobby = {
-    id: 1,
-    name: "Sample Hobby",
-    description: "This is a sample hobby for demonstration purposes.",
-    longDescription: "This is a longer description of the sample hobby, providing more details and information.",
-    hobbyCategory: ["Creative"],
-    scores: {
-        active: 3,
-        creative: 5,
-        relaxing: 2,
-        social: 4,
-        outdoor: 1,
-        strategic: 3,
-        price: 2,
-        timeCommitment: 3
-    },
-    youtubeVideoId: "",
-    hobbyImage: "https://images.unsplash.com/photo-1646649853703-7645147474ba?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  category: Category;
 };
 
 function CategoriesSection({ category }: CategoriesSectionProps) {
-    return (
-        // <section>
-        //     <div>
-        //         <h1>{category}</h1>
-        //         <Link to={`/hobby-category/${category}`}>View more → </Link>
-        //     </div>
+  const [isLoading, setIsLoading] = useState(true);
+  const [hobbies, setHobbies] = useState<Hobby[]>([]);
 
-        //     <div className="">
-        //         <CategoriesCard hobby={sampleHobby} />
-        //         <CategoriesCard hobby={sampleHobby} />
-        //         <CategoriesCard hobby={sampleHobby} />
-        //         <CategoriesCard hobby={sampleHobby} />
-        //     </div>
+  useEffect(() => {
+    fetch(`https://localhost:7203/hobby/category/${category}`)
+      .then((response) => response.json())
+      .then((json) => setHobbies(json))
+      .then(() => setIsLoading(false))
+      .catch((err) => {
+        console.error("Failed to fetch trending hobbies.", err);
+        setIsLoading(false);
+      });
+  }, []);
 
+  return (
+    <section className="mx-auto max-w-7xl px-6 py-6">
+      <div className={`rounded-3xl px-8 py-10 ${categoryStyles[category].background}`}>
+        <div className="mb-8 flex items-end justify-between">
+          <div>
+            <p className={`mb-2 text-sm font-semibold uppercase tracking-wider ${categoryStyles[category].text}`}>
+              Explore
+            </p>
 
-        // </section>
-        <section className="mx-auto max-w-7xl px-6 py-12">
-            <div className="rounded-3xl bg-green-50 px-8 py-10">
+            <h2 className="text-3xl font-bold text-zinc-900">
+              {category} hobbies
+            </h2>
+          </div>
 
-                <div className="mb-8 flex items-end justify-between">
-                    <div>
-                        <p className="mb-2 text-sm font-semibold uppercase tracking-wider text-green-800">
-                            Explore
-                        </p>
-
-                        <h2 className="text-3xl font-bold text-zinc-900">
-                            Active hobbies
-                        </h2>
-
-                        <p className="mt-2 max-w-xl text-zinc-600">
-                            Get moving, try something new and find an activity you enjoy.
-                        </p>
-                    </div>
-
-                    <button className="font-semibold text-green-900 hover:text-green-600">
-                        View all →
-                    </button>
-                </div>
-
-                <div className="flex gap-6 w-full justify-evenly">
-                   
-                    <div className="flex-shrink w-1/4 min-w-[150px] opacity-100">
-                        <CategoriesCard hobby={sampleHobby} />
-                    </div>
-
-                    <div className="flex-shrink w-1/4 min-w-[150px] hidden sm:block sm:opacity-100 opacity-0">
-                        <CategoriesCard hobby={sampleHobby} />
-                    </div>
-
-                    <div className="flex-shrink w-1/4 min-w-[150px] hidden md:block md:opacity-100 opacity-0">
-                        <CategoriesCard hobby={sampleHobby} />
-                    </div>
-
-                    <div className="flex-shrink w-1/4 min-w-[150px] hidden lg:block lg:opacity-100 opacity-0">
-                        <CategoriesCard hobby={sampleHobby} />
-                    </div>
-                </div>
-
+          <button className={`font-semibold ${categoryStyles[category].button}`}>
+            <Link to={`/category/${category.toLowerCase()}`}>View all →</Link>
+          </button>
+        </div>
+        {isLoading ? (
+          <p>Loading...</p>
+        ) : (
+          <div className="flex gap-6 w-full justify-evenly">
+            <div className="shrink w-1/4 min-w-[150px] opacity-100">
+              <CategoriesCard hobby={hobbies[0]} category={category} />
             </div>
-        </section>
-    )
+
+            <div className="shrink w-1/4 min-w-[150px] hidden sm:block sm:opacity-100 opacity-0">
+              <CategoriesCard hobby={hobbies[1]} category={category} />
+            </div>
+
+            <div className="shrink w-1/4 min-w-[150px] hidden md:block md:opacity-100 opacity-0">
+              <CategoriesCard hobby={hobbies[2]} category={category} />
+            </div>
+
+            <div className="shrink w-1/4 min-w-[150px] hidden lg:block lg:opacity-100 opacity-0">
+              <CategoriesCard hobby={hobbies[3]} category={category} />
+            </div>
+          </div>
+        )}
+      </div>
+    </section>
+  );
 }
+
+const categoryStyles = {
+  Active: {
+    background: "bg-green-50",
+    text: "text-green-600",
+    button: "text-green-600 hover:text-green-500",
+  },
+
+  Creative: {
+    background: "bg-orange-50",
+    text: "text-orange-600",
+    button: "text-orange-600 hover:text-orange-500",
+  },
+
+  Relaxing: {
+    background: "bg-purple-50",
+    text: "text-purple-600",
+    button: "text-purple-600 hover:text-purple-500",
+  },
+
+  Social: {
+    background: "bg-yellow-50",
+    text: "text-yellow-600",
+    button: "text-yellow-600 hover:text-yellow-500",
+  },
+
+  Outdoor: {
+    background: "bg-teal-50",
+    text: "text-teal-600",
+    button: "text-teal-600 hover:text-teal-500",
+  },
+
+  Strategic: {
+    background: "bg-blue-50",
+    text: "text-blue-600",
+    button: "text-blue-600 hover:text-blue-500",
+  },
+};
 
 export default CategoriesSection;

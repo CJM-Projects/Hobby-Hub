@@ -3,7 +3,7 @@ import appLogo from "../assets/logo.png";
 
 export function NavBar() {
   return (
-    <nav className="flex items-center justify-between h-24 mx-4">
+    <nav className="flex items-center justify-between h-24 px-4 sticky top-0 bg-white">
       <Link to="/"><img className="object-contain h-24" src={appLogo}></img></Link>
       <div className="flex gap-3 items-end">
         <Link className="hover:font-bold" to="/">Home</Link>

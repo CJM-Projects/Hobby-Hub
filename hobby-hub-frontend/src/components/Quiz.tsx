@@ -61,7 +61,7 @@ export function Quiz({ questions }: QuizProp) {
   };
 
   return (
-    <div className="flex items-center gap-4 flex-col m-5">
+    <div className="flex items-center gap-3 flex-col m-5">
       <div className="w-full h-4 bg-gray-200 rounded-full overflow-hidden">
         <div
           className="h-full bg-blue-500 transition-all duration-300"
@@ -70,14 +70,14 @@ export function Quiz({ questions }: QuizProp) {
       </div>
       <div className="flex w-full justify-between">
         <button
-          className="max-w-100 text-xl py-2 px-4 text-center font-medium rounded-xl border border-slate-200 text-slate-700 transition-all duration-200 hover:border-indigo-500 hover:bg-indigo-50/50 hover:text-indigo-900 shadow-sm disabled:cursor-not-allowed disabled:bg-zinc-300 disabled:border-transparent disabled:text-black"
+          className="max-w-100 text-xl py-1 px-4 text-center font-medium rounded-xl border border-slate-200 text-slate-700 transition-all duration-200 hover:border-indigo-500 hover:bg-indigo-50/50 hover:text-indigo-900 shadow-sm disabled:cursor-not-allowed disabled:bg-zinc-300 disabled:border-transparent disabled:text-black"
           onClick={prevQuestion}
           disabled={currentQuestion === 0}
         >
           ← Prev
         </button>
         <button
-          className="max-w-100 text-xl py-2 px-4 text-center font-medium rounded-xl border border-slate-200 bg-white text-slate-700 transition-all duration-200 hover:border-indigo-500 hover:bg-indigo-50/50 hover:text-indigo-900 shadow-sm disabled:cursor-not-allowed disabled:bg-zinc-300 disabled:border-transparent disabled:text-black"
+          className="max-w-100 text-xl py-1 px-4 text-center font-medium rounded-xl border border-slate-200 bg-white text-slate-700 transition-all duration-200 hover:border-indigo-500 hover:bg-indigo-50/50 hover:text-indigo-900 shadow-sm disabled:cursor-not-allowed disabled:bg-zinc-300 disabled:border-transparent disabled:text-black"
           onClick={nextQuestion}
           disabled={isLastQuestion || !hasAnsweredCurrent}
         >

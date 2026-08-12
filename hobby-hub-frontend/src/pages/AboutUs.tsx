@@ -44,20 +44,17 @@ export function AboutUs() {
         <div>
           <p>
             Research shows that hobbies are vital for well-being. A landmark
-            study published in
-            <span>
-              {" "}
-              <a
+            study published in 
+            {" "} <a
                 href="https://www.nature.com/articles/s41591-023-02506-1"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Read the Nature Medicine study (opens in a new tab)"
                 className="underline hover:no-underline text-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-600 rounded"
               >
-                Nature Medicine
-              </a>
-            </span>{" "}
-            found that engaging in hobbies is tied to a 29% reduction in
+                 Nature Medicine 
+             </a> {" "}
+             found that engaging in hobbies is tied to a 29% reduction in
             all-cause mortality risk, while also significantly boosting
             happiness, life satisfaction, and lowering depressive symptoms
             across global populations.

@@ -1,7 +1,8 @@
 @import "tailwindcss";
 
 @theme {
-    --color-sagegreen: #F1F6E7;
+    --color-logogreen: #279D83;
+    --color-hoverlogogreen: #1E7A66;
 }
 
 html {

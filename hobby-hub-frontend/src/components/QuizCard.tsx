@@ -8,13 +8,13 @@ export function QuizCard({
   onAnswerSelected,
 }: QuizCardProps) {
   return (
-    <div className="flex items-center flex-col gap-7">
+    <div className="flex items-center flex-col gap-3">
       <div>
         <h1 className=" text-3xl font-bold text-slate-700">{question}</h1>
       </div>
       <div>
         <img
-          className="w-250 h-[60vh] object-cover object-center rounded-md"
+          className="w-200 h-[50vh] object-cover object-center rounded-md"
           src={image}
           alt={question}
         ></img>

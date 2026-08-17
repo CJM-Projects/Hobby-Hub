@@ -9,6 +9,7 @@ import { QuizResultsPage } from "./pages/QuizResultsPage";
 import { HobbyQuiz } from "./pages/HobbyQuiz";
 import { NotFound } from "./pages/NotFound";
 import { CategoryPage } from "./pages/CategoryPage";
+import ContactUs from "./pages/ContactUs";
 
 function App() {
     return (
@@ -23,6 +24,7 @@ function App() {
                     <Route path="/browse-all" element={<BrowseAll />} />
                     <Route path="/quiz-results" element={<QuizResultsPage />} />
                     <Route path="/quiz" element={<HobbyQuiz />} />
+                    <Route path="/contact-us" element={<ContactUs />} />
                     <Route path="*" element={<NotFound />} />
                 </Routes>
           <Footer />

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import linkIcon from '../assets/linkIcon.png'; 
 export function Footer() {
     return (
@@ -5,7 +6,7 @@ export function Footer() {
         <hr></hr> 
         <div className="mx-auto max-w-6xl px-20 py-2">
             <h3 className="font-bold">Support</h3>
-                <a className="flex items-center gap-1 text-xs" href="./contact-us">Contact Us <img className="object-contain h-2.5 inline-block" src={linkIcon}></img></a>
+                <Link className="flex items-center gap-1 text-xs" to="./contact-us">Contact Us <img className="object-contain h-2.5 inline-block" src={linkIcon}></img></Link>
         </div>
       </footer>
   );

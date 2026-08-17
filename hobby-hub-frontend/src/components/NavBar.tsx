@@ -4,34 +4,6 @@ import appNameLogo from "../assets/HobbyHubNameLogo.png";
 
 export function NavBar() {
     return (
-        // <nav className="sticky top-0 z-50 bg-white border-b border-zinc-200">
-        //     <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6">
-
-        //         <div className="flex flex-row items-center gap-1">
-        //             <Link to="/"><img className="object-contain h-20" src={appLogo}></img></Link>
-        //             <img src={appNameLogo} className="object-contain h-15"></img>
-        //         </div>
-        //         <div className="flex gap-3 items-end">
-        //             <Link to="/">Home</Link>
-        //             <Link to="/quiz">Quiz</Link>
-        //             <Link to="/about-us">About Us</Link>
-        //             <div className="float-left overflow-hidden group">
-        //                 <p>Browse Hobbies</p>
-        //                 <div className="hidden absolute z-1 group-hover:block bg-white shadow-lg pl-2 pr-8">
-        //                     <Link className="block float-none hover:font-bold" to="/category/active">Active</Link>
-        //                     <Link className="block float-none hover:font-bold" to="/category/creative">Creative</Link>
-        //                     <Link className="block float-none hover:font-bold" to="/category/strategic">Strategic</Link>
-        //                     <Link className="block float-none hover:font-bold" to="/category/relaxing">Relaxing</Link>
-        //                     <Link className="block float-none hover:font-bold" to="/category/social">Social</Link>
-        //                     <Link className="block float-none hover:font-bold" to="/category/outdoor">Outdoor</Link>
-        //                     <Link className="block float-none hover:font-bold" to="/browse-all">Browse All</Link>
-        //                 </div>
-        //             </div>
-        //         </div>
-        //     </div>
-        // </nav>
-
-
         <nav className="sticky top-0 z-50 border-b border-zinc-200 bg-white">
             <div className="mx-auto flex h-20 items-center justify-between px-6">
 

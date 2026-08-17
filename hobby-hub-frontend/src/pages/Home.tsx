@@ -22,6 +22,7 @@ export function Home() {
           <img
             className="w-1/2 object-contain"
             src="..\src\assets\home-page-img.png"
+            alt="Animated image of a women painting a picture of a mountain range"
           ></img>
         </div>
         <TrendingHobbies />

@@ -113,7 +113,7 @@ export function NavBar() {
                     {/* Quiz CTA */}
                     <Link
                         to="/quiz"
-                        className="rounded-full bg-logogreen px-5 py-2.5 font-semibold text-white transition-all hover:-translate-y-0.5 hover:bg-hoverlogogreen hover:shadow-md"
+                        className="rounded-full bg-logopurple px-5 py-2.5 font-semibold text-white transition-all hover:-translate-y-0.5 hover:bg-hoverlogopurple hover:shadow-md"
                     >
                         Take the Quiz
                     </Link>

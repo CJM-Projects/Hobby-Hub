@@ -39,7 +39,7 @@ export function GetSkillLevel(hobby: Hobby) {
     if (hobby.scores.strategic === 3 || hobby.scores.strategic === 4) {
         return "Intermediate";
     }
-    if (hobby.scores.strategic === 5) {
+    if (hobby.scores.strategic === 5 || hobby.scores.strategic === 6) {
         return "Advanced";
     }
     
@@ -67,7 +67,7 @@ export function GetPersonality(hobby: Hobby) {
     if (hobby.scores.social === 3 || hobby.scores.social === 4) {
         return "Ambivert";
     }
-    if (hobby.scores.social === 5) {
+    if (hobby.scores.social === 5 || hobby.scores.social === 6) {
         return "Extrovert";
     }
 }

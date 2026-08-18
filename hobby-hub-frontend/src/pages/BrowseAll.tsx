@@ -179,7 +179,7 @@ export function BrowseAll() {
             </details>
           </div>
           <div className="w-full">
-            <h2 className="font-bold text-xl">Browse All</h2>
+            <h1 className="font-bold text-xl">Browse All</h1>
             <div className="flex flex-col">
               {filteredHobbies.length === 0 ? (
                 <div className="flex flex-col items-center">

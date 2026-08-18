@@ -156,7 +156,7 @@
       "timeCommitment": 4
     },
     "hobbyImage": "https://images.pexels.com/photos/1409221/pexels-photo-1409221.jpeg",
-    "hobbyImageAltText": "A vibrant collection of sewing tools and fabrics spread on a cutting mat, ideal for craft enthusiasts.",
+    "hobbyImageAltText": "A vibrant collection of sewing tools and fabrics spread on a cutting mat.",
     "hobbyCategory": [ "Creative", "Relaxing" ]
   },
   {
@@ -196,7 +196,7 @@
       "timeCommitment": 5
     },
     "hobbyImage": "https://images.unsplash.com/photo-1556379118-7034d926d258?q=80&w=1732&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "hobbyImageAltText": "A wide collection of acoustic musical instruments, including guitars, violins, banjos, a trumpet, and small hand drums, hangs tightly packed against a white wall.",
+    "hobbyImageAltText": "A wide collection of acoustic musical instruments hangs tightly packed against a white wall.",
     "hobbyCategory": [ "Creative" ]
   },
   {
@@ -256,7 +256,7 @@
       "timeCommitment": 2
     },
     "hobbyImage": "https://images.pexels.com/photos/31267774/pexels-photo-31267774.jpeg",
-    "hobbyImageAltText": "Discover the stunning interior of a Scottish art gallery, showcasing classical sculptures and architectural beauty.",
+    "hobbyImageAltText": "Art gallery, showcasing classical sculptures and architectural beauty.",
     "hobbyCategory": [ "Creative", "Relaxing" ]
   },
   {
@@ -416,7 +416,7 @@
       "timeCommitment": 2
     },
     "hobbyImage": "https://images.pexels.com/photos/8111328/pexels-photo-8111328.jpeg",
-    "hobbyImageAltText": "People playing a colourful tile board game at a wooden table, arranging patterned squares on game boards.",
+    "hobbyImageAltText": "People playing a colourful tile board game at a wooden table.",
     "hobbyCategory": [ "Social", "Strategic" ]
   },
   {
@@ -476,7 +476,7 @@
       "timeCommitment": 2
     },
     "hobbyImage": "https://images.unsplash.com/photo-1623390003553-4fa3f9fceb89?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "hobbyImageAltText": "Person wearing bright orange running gear jogging along a sunlit forest trail surrounded by tall trees and green foliage.",
+    "hobbyImageAltText": "Person wearing orange running gear jogging along a forest trail surrounded by trees.",
     "hobbyCategory": [ "Active", "Outdoor" ]
   },
   {
@@ -496,7 +496,7 @@
       "timeCommitment": 4
     },
     "hobbyImage": "https://images.pexels.com/photos/5384283/pexels-photo-5384283.jpeg",
-    "hobbyImageAltText": "Two people climbing side by side on an indoor rock wall, each secured with a yellow rope and wearing harnesses, surrounded by colourful climbing holds on a textured grey surface.",
+    "hobbyImageAltText": "Two people climbing side by side on an indoor rock wall.",
     "hobbyCategory": [ "Active", "Strategic" ]
   },
   {
@@ -516,7 +516,7 @@
       "timeCommitment": 3
     },
     "hobbyImage": "https://images.pexels.com/photos/7591312/pexels-photo-7591312.jpeg",
-    "hobbyImageAltText": "Group of four people at an indoor bouldering gym, two sitting on padded flooring and two standing near a climbing wall covered with colourful holds, discussing routes and preparing to climb.",
+    "hobbyImageAltText": "Four people at an indoor bouldering gym, two sitting on padded flooring and two standing.",
     "hobbyCategory": [ "Active", "Strategic" ]
   },
   {
@@ -536,7 +536,7 @@
       "timeCommitment": 2
     },
     "hobbyImage": "https://images.unsplash.com/photo-1560951750-1e85780f946b?q=80&w=982&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "hobbyImageAltText": "Black binoculars resting on an open bird guidebook showing illustrated pages of various owl species, placed on a weathered wooden surface outdoors.",
+    "hobbyImageAltText": "Black binoculars on an open bird guidebook showing illustrated pages of owl species.",
     "hobbyCategory": [ "Relaxing", "Outdoor" ]
   },
   {
@@ -556,7 +556,7 @@
       "timeCommitment": 2
     },
     "hobbyImage": "https://images.unsplash.com/photo-1580809361436-42a7ec204889?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "hobbyImageAltText": "Interior of an theatre house with red velvet curtains and gold detailing, featuring multiple tiers of balconies with glowing lights and audience members seated before a performance.",
+    "hobbyImageAltText": "A tiered theatre with red velvet curtains and a seated audience.",
     "hobbyCategory": [ "Creative", "Social" ]
   },
   {
@@ -576,7 +576,7 @@
       "timeCommitment": 2
     },
     "hobbyImage": "https://images.unsplash.com/photo-1585038021831-8afd9f9ab27f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "hobbyImageAltText": "Wooden chessboard with all pieces arranged in their starting positions, illuminated by warm sunlight streaming through a nearby window, creating soft shadows and a calm atmosphere.",
+    "hobbyImageAltText": "Wooden chessboard with all pieces arranged in their starting positions.",
     "hobbyCategory": [ "Social", "Strategic" ]
   },
   {
@@ -639,7 +639,7 @@
       "timeCommitment": 3
     },
     "hobbyImage": "https://images.unsplash.com/photo-1619107372089-9b05ed524774?q=80&w=1175&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "hobbyImageAltText": "Group of people participating in a fitness or dance class indoors, wearing athletic clothing and moving energetically across a wooden floor in a well-lit studio.",
+    "hobbyImageAltText": "Group of people in a dance class, wearing athletic clothing and moving energetically in a studio.",
     "hobbyCategory": [
       "Active",
       "Creative",
@@ -685,7 +685,7 @@
       "timeCommitment": 1
     },
     "hobbyImage": "https://images.pexels.com/photos/4057330/pexels-photo-4057330.jpeg",
-    "hobbyImageAltText": "Two women practicing indoors, focusing on mindfulness and relaxation. They are standing and have their eyes closed, hands pressed together at their chest.",
+    "hobbyImageAltText": "Two women standing in meditation with eyes closed and hands at their chest.",
     "hobbyCategory": [
       "Relaxing"
     ]
@@ -707,7 +707,7 @@
       "timeCommitment": 1
     },
     "hobbyImage": "https://images.unsplash.com/photo-1629380108599-ea06489d66f5?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "hobbyImageAltText": "A neatly arranged collection of skincare and personal care products on a woven basket, including bottles, jars, and tubes of creams, oils, and lotions, with a glass container of cotton pads, a long-handled exfoliating brush, and a folded white towel in the background.",
+    "hobbyImageAltText": "A collection of skincare and personal care products on a woven basket.",
     "hobbyCategory": [
       "Relaxing"
     ]

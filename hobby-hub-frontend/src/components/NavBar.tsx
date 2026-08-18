@@ -11,16 +11,13 @@ export function NavBar() {
                 <div className="flex items-center gap-1">
                     <Link to="/">
                         <img
-                            className="h-16 w-16 object-contain"
+                            className="h-16 w-16 inline-block object-contain"
                             src={appLogo}
                             alt="Hobby Hub logo"
                         />
-                    </Link>
-
-                    <Link to="/">
                         <img
                             src={appNameLogo}
-                            className="h-12 object-contain"
+                            className="h-12 inline-block object-contain"
                             alt="Hobby Hub"
                         />
                     </Link>

@@ -67,7 +67,8 @@ namespace Hobby_hub.Services
                     Name = hobbies.First(h => h.Id == s.Key).Name,
                     Similarity = s.Value,
                     Description = hobbies.First(h => h.Id == s.Key).Description,
-                    HobbyImage = hobbies.First(h => h.Id == s.Key).HobbyImage
+                    HobbyImage = hobbies.First(h => h.Id == s.Key).HobbyImage,
+                    HobbyImageAltText = hobbies.First(h => h.Id == s.Key).HobbyImageAltText
                 })
                 .ToList();
 

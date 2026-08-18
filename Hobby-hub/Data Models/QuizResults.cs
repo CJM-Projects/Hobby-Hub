@@ -10,5 +10,6 @@
         public required double Similarity { get; set; }
         public required string Description { get; set; }
         public required string HobbyImage { get; set; }
+        public required string HobbyImageAltText { get; set; }
     }
 }

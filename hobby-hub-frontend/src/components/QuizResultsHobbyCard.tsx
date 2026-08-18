@@ -13,7 +13,7 @@ export function QuizResultsHobbyCard({ quizResult }: QuizResultsHobbyCardProps) 
                     <h2 className="font-bold text-2xl text-center">{quizResult.name} - {(quizResult.similarity * 100).toFixed(1)}% Match</h2>
                     <div className="w-full flex items-center">
 
-                        <img className="w-32 aspect-square object-cover rounded-xl shadow-xl m-1" src={quizResult.hobbyImage} alt={quizResult.name} />
+                        <img className="w-32 aspect-square object-cover rounded-xl shadow-xl m-1" src={quizResult.hobbyImage} alt={quizResult.hobbyImageAltText} />
 
                         <div className="flex flex-col p-2">
                             <p>{quizResult.description}</p>

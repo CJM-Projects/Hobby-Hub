@@ -14,6 +14,7 @@ export function HobbyPreviewCard({ hobby }: HobbyPreviewCardProps) {
           <img
             className={`w-32 aspect-square object-cover rounded-xl shadow-xl m-1`}
             src={hobby.hobbyImage}
+            alt={hobby.hobbyImageAltText}
           ></img>
           <div className="flex flex-col p-2">
             <h3 className="font-bold">{hobby.name}</h3>

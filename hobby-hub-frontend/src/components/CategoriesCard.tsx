@@ -12,7 +12,7 @@ export function CategoriesCard({ hobby, category }: CategoriesCardProps) {
             <div className="aspect-[4/3] overflow-hidden">
                 <img
                     src={hobby.hobbyImage}
-                    alt={hobby.name}
+                    alt={hobby.hobbyImageAltText}
                     className="h-full w-full object-cover transition duration-500 hover:scale-105"
                 />
             </div>

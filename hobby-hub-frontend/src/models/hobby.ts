@@ -6,6 +6,7 @@ export type Hobby = {
     scores: HobbyScores;
     youtubeVideoId: string;
     hobbyImage: string;
+    hobbyImageAltText: string;
     hobbyCategory: Category[];
 }
 

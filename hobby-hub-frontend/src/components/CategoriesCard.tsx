@@ -1,32 +1,32 @@
-
 import { Link } from "react-router-dom";
 import type { Category, Hobby } from "../models/hobby";
 
 type CategoriesCardProps = {
-    hobby: Hobby;
-    category: Category
-}
+  hobby: Hobby;
+  category: Category;
+};
 export function CategoriesCard({ hobby, category }: CategoriesCardProps) {
-    return (
-        <div className="h-full overflow-hidden rounded-2xl bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl">
-            <div className="aspect-[4/3] overflow-hidden">
-                <img
-                    src={hobby.hobbyImage}
-                    alt={hobby.hobbyImageAltText}
-                    className="h-full w-full object-cover transition duration-500 hover:scale-105"
-                />
-            </div>
+  return (
+    <div className="h-full overflow-hidden rounded-2xl bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl">
+      <div className="aspect-[4/3] overflow-hidden">
+        <img
+          src={hobby.hobbyImage}
+          alt={hobby.hobbyImageAltText}
+          className="h-full w-full object-cover transition duration-500 hover:scale-105"
+        />
+      </div>
 
-            <div className="p-5">
-                <h3 className="text-xl font-bold text-zinc-900">
-                    {hobby.name}
-                </h3>
-                <button className={`mt-4 font-semibold ${categoryStyles[category].button}`}>
-                    <Link to={`/hobby-details/${hobby.name.toLowerCase()}`}>Explore hobby →</Link>
-                </button>
-            </div>
-        </div>
-    )
+      <div className="p-5">
+        <h3 className="text-xl font-bold text-zinc-900">{hobby.name}</h3>
+        <Link
+          className={`mt-4 font-semibold ${categoryStyles[category].button}`}
+          to={`/hobby-details/${hobby.name.toLowerCase()}`}
+        >
+          Explore hobby →
+        </Link>
+      </div>
+    </div>
+  );
 }
 
 const categoryStyles = {
@@ -66,5 +66,3 @@ const categoryStyles = {
     button: "text-blue-600 hover:text-blue-500",
   },
 };
-
-

@@ -11,16 +11,13 @@ export function NavBar() {
                 <div className="flex items-center gap-1">
                     <Link to="/">
                         <img
-                            className="h-16 w-16 object-contain"
+                            className="h-16 w-16 inline-block object-contain"
                             src={appLogo}
                             alt="Hobby Hub logo"
                         />
-                    </Link>
-
-                    <Link to="/">
                         <img
                             src={appNameLogo}
-                            className="h-12 object-contain"
+                            className="h-12 inline-block object-contain"
                             alt="Hobby Hub"
                         />
                     </Link>
@@ -113,7 +110,7 @@ export function NavBar() {
                     {/* Quiz CTA */}
                     <Link
                         to="/quiz"
-                        className="rounded-full bg-logogreen px-5 py-2.5 font-semibold text-white transition-all hover:-translate-y-0.5 hover:bg-hoverlogogreen hover:shadow-md"
+                        className="rounded-full bg-logopurple px-5 py-2.5 font-semibold text-white transition-all hover:-translate-y-0.5 hover:bg-hoverlogopurple hover:shadow-md"
                     >
                         Take the Quiz
                     </Link>

@@ -36,14 +36,12 @@ function CategoriesSection({ category }: CategoriesSectionProps) {
             </h2>
           </div>
 
-          <button className={`font-semibold ${categoryStyles[category].button}`}>
-            <Link to={`/category/${category.toLowerCase()}`}>View all →</Link>
-          </button>
+                  <Link className={`font-semibold ${categoryStyles[category].button}`} to={`/category/${category.toLowerCase()}`}>View all <span aria-hidden="true">→</span></Link>
         </div>
         {isLoading ? (
           <p>Loading...</p>
         ) : (
-          <div className="flex gap-6 w-full justify-evenly">
+          <div aria-live="polite" className="flex gap-6 w-full justify-evenly">
             <div className="shrink w-1/4 min-w-[150px] opacity-100">
               <CategoriesCard hobby={hobbies[0]} category={category} />
             </div>
@@ -69,14 +67,14 @@ function CategoriesSection({ category }: CategoriesSectionProps) {
 const categoryStyles = {
   Active: {
     background: "bg-green-50",
-    text: "text-green-600",
-    button: "text-green-600 hover:text-green-500",
+    text: "text-green-700",
+    button: "text-green-700 hover:text-green-600",
   },
 
   Creative: {
     background: "bg-orange-50",
-    text: "text-orange-600",
-    button: "text-orange-600 hover:text-orange-500",
+    text: "text-orange-700",
+    button: "text-orange-700 hover:text-orange-600",
   },
 
   Relaxing: {

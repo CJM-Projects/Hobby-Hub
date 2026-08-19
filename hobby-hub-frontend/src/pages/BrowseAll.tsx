@@ -66,7 +66,7 @@ export function BrowseAll() {
   }, []);
 
   return (
-    <div className="flex px-10 py-4">
+    <main className="flex px-10 py-4">
       {isLoading ? (
         <p>Loading...</p>
       ) : (
@@ -179,7 +179,7 @@ export function BrowseAll() {
             </details>
           </div>
           <div className="w-full">
-            <h2 className="font-bold text-xl">Browse All</h2>
+            <h1 className="font-bold text-xl">Browse All</h1>
             <div className="flex flex-col">
               {filteredHobbies.length === 0 ? (
                 <div className="flex flex-col items-center">
@@ -200,6 +200,6 @@ export function BrowseAll() {
           </div>
         </>
       )}
-    </div>
+    </main>
   );
 }

@@ -2,7 +2,7 @@ import { VideoPlayer } from "../components/VideoPlayer";
 
 export function AboutUs() {
   return (
-    <div>
+    <main>
       <div className="bg-zinc-100 py-4">
         <h1 className="mb-4 font-bold text-5xl py-2 text-center">About Us</h1>
         <div className="mx-auto max-w-6xl px-20 py-2">
@@ -15,7 +15,7 @@ export function AboutUs() {
           </p>
           <br />
           <p>
-            We're a small team of developers — Chris, Jodie and Marcus — working
+            We're a small team of developers: Chris, Jodie and Marcus, working
             together to design and build tool that feels welcoming, accessible
             and fun to use. Our goal was to take the stress out of choosing a
             new hobby by offering personalised quiz results, detailed hobby
@@ -39,7 +39,8 @@ export function AboutUs() {
       <div className="mx-auto max-w-6xl px-20 py-2">
         <h2 className="font-bold text-3xl">Why hobbies are important:</h2>
         <VideoPlayer
-          url={"https://www.youtube.com/embed/7b9THb3cQbg"}
+                  url={"https://www.youtube.com/embed/7b9THb3cQbg"}
+                  title={"Why hobbies are important"}
         ></VideoPlayer>
         <div>
           <p>
@@ -50,7 +51,7 @@ export function AboutUs() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Read the Nature Medicine study (opens in a new tab)"
-                className="underline hover:no-underline text-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-600 rounded"
+                className="underline hover:no-underline text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-600 rounded"
               >
                  Nature Medicine 
              </a> {" "}
@@ -62,6 +63,6 @@ export function AboutUs() {
           <br></br>
         </div>
       </div>
-    </div>
+    </main>
   );
 }

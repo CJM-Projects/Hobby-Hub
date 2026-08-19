@@ -2,7 +2,8 @@ import type { AnswerOption } from "./Quiz";
 
 export function QuizCard({
   question,
-  image,
+    image,
+  altText,
   answers,
   selectedScore,
   onAnswerSelected,
@@ -16,7 +17,7 @@ export function QuizCard({
         <img
           className="w-200 h-[50vh] object-cover object-center rounded-md"
           src={image}
-          alt={question}
+          alt={altText}
         ></img>
       </div>
       <div className="flex flex-wrap justify-center items-center gap-4">
@@ -33,7 +34,7 @@ export function QuizCard({
               key={answer.text}
               onClick={() => onAnswerSelected(answer.score)}
             >
-              {answer.text}
+                  <span aria-hidden="true">{answer.emoji}</span> {answer.text}
             </button>
           );
         })}
@@ -45,6 +46,7 @@ export function QuizCard({
 type QuizCardProps = {
   question: string;
   image: string;
+  altText: string;
   answers: AnswerOption[];
   selectedScore: number | null;
   onAnswerSelected: (score: number) => void;

@@ -7,4 +7,5 @@ export type QuizResult = {
     similarity: number;
     description: string;
     hobbyImage: string;
+    hobbyImageAltText: string;
 }

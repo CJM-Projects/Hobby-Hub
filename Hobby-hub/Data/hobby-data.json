@@ -16,6 +16,7 @@
       "timeCommitment": 3
     },
     "hobbyImage": "https://images.pexels.com/photos/8346669/pexels-photo-8346669.jpeg",
+    "hobbyImageAltText": "A man with a prosthetic leg and a woman jogging on a scenic pathway.",
     "hobbyCategory": [ "Active", "Outdoor" ]
   },
   {
@@ -35,6 +36,7 @@
       "timeCommitment": 3
     },
     "hobbyImage": "https://images.pexels.com/photos/8461244/pexels-photo-8461244.jpeg",
+    "hobbyImageAltText": "Adult man performing Tai Chi on a grassy field, showcasing martial arts mindfulness in nature.",
     "hobbyCategory": [ "Active", "Relaxing" ]
   },
   {
@@ -54,6 +56,7 @@
       "timeCommitment": 3
     },
     "hobbyImage": "https://images.pexels.com/photos/5153950/pexels-photo-5153950.jpeg",
+    "hobbyImageAltText": "A graceful ballet dancer stretches at a barre in a studio, demonstrating flexibility and technique.",
     "hobbyCategory": [ "Active", "Creative" ]
   },
   {
@@ -73,6 +76,7 @@
       "timeCommitment": 3
     },
     "hobbyImage": "https://images.pexels.com/photos/6540748/pexels-photo-6540748.jpeg",
+    "hobbyImageAltText": "A woman aiming a bow and arrow at a target during outdoor archery practice.",
     "hobbyCategory": [ "Active", "Social", "Strategic" ]
   },
   {
@@ -92,6 +96,7 @@
       "timeCommitment": 3
     },
     "hobbyImage": "https://images.unsplash.com/photo-1646649853703-7645147474ba?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "hobbyImageAltText": "Two padel rackets on the ground.",
     "hobbyCategory": [ "Active", "Social" ]
   },
   {
@@ -111,6 +116,7 @@
       "timeCommitment": 2
     },
     "hobbyImage": "https://images.unsplash.com/photo-1627667539472-75fbc7f4654d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "hobbyImageAltText": "Green white and yellow knit textile.",
     "hobbyCategory": [ "Creative", "Relaxing" ]
   },
   {
@@ -130,6 +136,7 @@
       "timeCommitment": 2
     },
     "hobbyImage": "https://images.unsplash.com/photo-1671535108620-d169ce916f09?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "hobbyImageAltText": "A close up of a embroidery on a black cloth with a pair of scissors.",
     "hobbyCategory": [ "Creative", "Relaxing" ]
   },
   {
@@ -149,6 +156,7 @@
       "timeCommitment": 4
     },
     "hobbyImage": "https://images.pexels.com/photos/1409221/pexels-photo-1409221.jpeg",
+    "hobbyImageAltText": "A vibrant collection of sewing tools and fabrics spread on a cutting mat.",
     "hobbyCategory": [ "Creative", "Relaxing" ]
   },
   {
@@ -168,6 +176,7 @@
       "timeCommitment": 3
     },
     "hobbyImage": "https://images.pexels.com/photos/8036823/pexels-photo-8036823.jpeg",
+    "hobbyImageAltText": "Colorful art supplies and abstract paintings in a cozy artist's studio setting.",
     "hobbyCategory": [ "Creative", "Relaxing" ]
   },
   {
@@ -187,6 +196,7 @@
       "timeCommitment": 5
     },
     "hobbyImage": "https://images.unsplash.com/photo-1556379118-7034d926d258?q=80&w=1732&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "hobbyImageAltText": "A wide collection of acoustic musical instruments hangs tightly packed against a white wall.",
     "hobbyCategory": [ "Creative" ]
   },
   {
@@ -206,6 +216,7 @@
       "timeCommitment": 2
     },
     "hobbyImage": "https://images.pexels.com/photos/8272376/pexels-photo-8272376.jpeg",
+    "hobbyImageAltText": "A person pours wax into glass jars for candle making, showcasing a hands-on small business craft.",
     "hobbyCategory": [ "Creative", "Relaxing" ]
   },
   {
@@ -225,6 +236,7 @@
       "timeCommitment": 3
     },
     "hobbyImage": "https://images.pexels.com/photos/26792246/pexels-photo-26792246.jpeg",
+    "hobbyImageAltText": "Close-up of hands sculpting clay pieces, showcasing creativity and craftsmanship in action.",
     "hobbyCategory": [ "Creative", "Relaxing" ]
   },
   {
@@ -244,6 +256,7 @@
       "timeCommitment": 2
     },
     "hobbyImage": "https://images.pexels.com/photos/31267774/pexels-photo-31267774.jpeg",
+    "hobbyImageAltText": "Art gallery, showcasing classical sculptures and architectural beauty.",
     "hobbyCategory": [ "Creative", "Relaxing" ]
   },
   {
@@ -262,7 +275,8 @@
       "price": 2,
       "timeCommitment": 5
     },
-    "hobbyImage": "https://plus.unsplash.com/premium_photo-1663040081470-397e31e4b2a6?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "hobbyImage": "https://images.pexels.com/photos/6929197/pexels-photo-6929197.jpeg",
+    "hobbyImageAltText": "Hands engaged in note-taking and learning from an open book on a wooden table.",
     "hobbyCategory": [ "Creative", "Strategic" ]
   },
   {
@@ -281,7 +295,8 @@
       "price": 1,
       "timeCommitment": 1
     },
-    "hobbyImage": "https://plus.unsplash.com/premium_photo-1733306528612-2aa75dad2f7a?q=80&w=1267&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "hobbyImage": "https://images.pexels.com/photos/9807277/pexels-photo-9807277.jpeg",
+    "hobbyImageAltText": "Three people enjoying a relaxed movie night at home, sitting on a couch in a cozy living room.",
     "hobbyCategory": [ "Strategic" ]
   },
   {
@@ -301,6 +316,7 @@
       "timeCommitment": 2
     },
     "hobbyImage": "https://images.unsplash.com/photo-1618365908648-e71bd5716cba?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "hobbyImageAltText": "A large, messy pile of overlapping non-fiction and self-help books scattered across a surface.",
     "hobbyCategory": [ "Creative", "Relaxing", "Social" ]
   },
   {
@@ -320,6 +336,7 @@
       "timeCommitment": 5
     },
     "hobbyImage": "https://images.unsplash.com/photo-1607706189992-eae578626c86?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "hobbyImageAltText": "A computer monitor displaying code within a code editor interface using a dark mode theme.",
     "hobbyCategory": [ "Creative", "Strategic" ]
   },
   {
@@ -339,6 +356,7 @@
       "timeCommitment": 3
     },
     "hobbyImage": "https://images.pexels.com/photos/8154769/pexels-photo-8154769.jpeg",
+    "hobbyImageAltText": "Two individuals hold video game controllers, focused on playing indoors.",
     "hobbyCategory": [ "Strategic" ]
   },
   {
@@ -358,6 +376,7 @@
       "timeCommitment": 2
     },
     "hobbyImage": "https://images.pexels.com/photos/27837160/pexels-photo-27837160.jpeg",
+    "hobbyImageAltText": "A detailed image of an incomplete jigsaw puzzle with pieces scattered on a table surface.",
     "hobbyCategory": [ "Relaxing", "Strategic" ]
   },
   {
@@ -377,6 +396,7 @@
       "timeCommitment": 1
     },
     "hobbyImage": "https://images.pexels.com/photos/13533591/pexels-photo-13533591.jpeg",
+    "hobbyImageAltText": "A person solving a monochrome crossword puzzle indoors, using a pen.",
     "hobbyCategory": [ "Relaxing", "Strategic" ]
   },
   {
@@ -396,6 +416,7 @@
       "timeCommitment": 2
     },
     "hobbyImage": "https://images.pexels.com/photos/8111328/pexels-photo-8111328.jpeg",
+    "hobbyImageAltText": "People playing a colourful tile board game at a wooden table.",
     "hobbyCategory": [ "Social", "Strategic" ]
   },
   {
@@ -415,6 +436,7 @@
       "timeCommitment": 4
     },
     "hobbyImage": "https://images.pexels.com/photos/7150641/pexels-photo-7150641.jpeg",
+    "hobbyImageAltText": "A vibrant board game scene featuring dice and a colorful map layout.",
     "hobbyCategory": [ "Social", "Strategic" ]
   },
   {
@@ -434,6 +456,7 @@
       "timeCommitment": 3
     },
     "hobbyImage": "https://images.pexels.com/photos/10569915/pexels-photo-10569915.jpeg",
+    "hobbyImageAltText": "Four hikers with backpacks walking downhill on a sunny day with mountains in the background.",
     "hobbyCategory": [ "Active", "Outdoor" ]
   },
   {
@@ -453,6 +476,7 @@
       "timeCommitment": 2
     },
     "hobbyImage": "https://images.unsplash.com/photo-1623390003553-4fa3f9fceb89?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "hobbyImageAltText": "Person wearing orange running gear jogging along a forest trail surrounded by trees.",
     "hobbyCategory": [ "Active", "Outdoor" ]
   },
   {
@@ -472,6 +496,7 @@
       "timeCommitment": 4
     },
     "hobbyImage": "https://images.pexels.com/photos/5384283/pexels-photo-5384283.jpeg",
+    "hobbyImageAltText": "Two people climbing side by side on an indoor rock wall.",
     "hobbyCategory": [ "Active", "Strategic" ]
   },
   {
@@ -491,6 +516,7 @@
       "timeCommitment": 3
     },
     "hobbyImage": "https://images.pexels.com/photos/7591312/pexels-photo-7591312.jpeg",
+    "hobbyImageAltText": "Four people at an indoor bouldering gym, two sitting on padded flooring and two standing.",
     "hobbyCategory": [ "Active", "Strategic" ]
   },
   {
@@ -510,6 +536,7 @@
       "timeCommitment": 2
     },
     "hobbyImage": "https://images.unsplash.com/photo-1560951750-1e85780f946b?q=80&w=982&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "hobbyImageAltText": "Black binoculars on an open bird guidebook showing illustrated pages of owl species.",
     "hobbyCategory": [ "Relaxing", "Outdoor" ]
   },
   {
@@ -529,6 +556,7 @@
       "timeCommitment": 2
     },
     "hobbyImage": "https://images.unsplash.com/photo-1580809361436-42a7ec204889?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "hobbyImageAltText": "A tiered theatre with red velvet curtains and a seated audience.",
     "hobbyCategory": [ "Creative", "Social" ]
   },
   {
@@ -548,6 +576,7 @@
       "timeCommitment": 2
     },
     "hobbyImage": "https://images.unsplash.com/photo-1585038021831-8afd9f9ab27f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "hobbyImageAltText": "Wooden chessboard with all pieces arranged in their starting positions.",
     "hobbyCategory": [ "Social", "Strategic" ]
   },
   {
@@ -567,6 +596,7 @@
       "timeCommitment": 3
     },
     "hobbyImage": "https://images.pexels.com/photos/7658812/pexels-photo-7658812.jpeg",
+    "hobbyImageAltText": "Senior woman tending to a garden, watering plants on a sunny day.",
     "hobbyCategory": [ "Creative", "Relaxing", "Social", "Outdoor" ]
   },
   {
@@ -586,6 +616,7 @@
       "timeCommitment": 3
     },
     "hobbyImage": "https://images.pexels.com/photos/2404667/pexels-photo-2404667.jpeg",
+    "hobbyImageAltText": "Aerial shot of two people kayaking on clear, turquoise water in a tranquil setting.",
     "hobbyCategory": [
       "Active",
       "Outdoor"
@@ -608,6 +639,7 @@
       "timeCommitment": 3
     },
     "hobbyImage": "https://images.unsplash.com/photo-1619107372089-9b05ed524774?q=80&w=1175&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "hobbyImageAltText": "Group of people in a dance class, wearing athletic clothing and moving energetically in a studio.",
     "hobbyCategory": [
       "Active",
       "Creative",
@@ -631,6 +663,7 @@
       "timeCommitment": 1
     },
     "hobbyImage": "https://images.pexels.com/photos/10574241/pexels-photo-10574241.jpeg",
+    "hobbyImageAltText": "Elegant gold singing bowl with a wooden mallet, perfect for meditation and relaxation.",
     "hobbyCategory": [
       "Relaxing"
     ]
@@ -652,6 +685,7 @@
       "timeCommitment": 1
     },
     "hobbyImage": "https://images.pexels.com/photos/4057330/pexels-photo-4057330.jpeg",
+    "hobbyImageAltText": "Two women standing in meditation with eyes closed and hands at their chest.",
     "hobbyCategory": [
       "Relaxing"
     ]
@@ -673,6 +707,7 @@
       "timeCommitment": 1
     },
     "hobbyImage": "https://images.unsplash.com/photo-1629380108599-ea06489d66f5?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "hobbyImageAltText": "A collection of skincare and personal care products on a woven basket.",
     "hobbyCategory": [
       "Relaxing"
     ]
@@ -694,6 +729,7 @@
       "timeCommitment": 2
     },
     "hobbyImage": "https://images.pexels.com/photos/8436608/pexels-photo-8436608.jpeg",
+    "hobbyImageAltText": "Adults in a yoga class performing stretches on mats in a well-lit studio.",
     "hobbyCategory": [
       "Active",
       "Relaxing"
@@ -716,6 +752,7 @@
       "timeCommitment": 3
     },
     "hobbyImage": "https://images.pexels.com/photos/7156163/pexels-photo-7156163.jpeg",
+    "hobbyImageAltText": "Three volunteers organizing donation boxes with clothes and food items in a community center.",
     "hobbyCategory": [
       "Social",
       "Outdoor"

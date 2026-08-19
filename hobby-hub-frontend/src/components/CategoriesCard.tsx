@@ -32,14 +32,14 @@ export function CategoriesCard({ hobby, category }: CategoriesCardProps) {
 const categoryStyles = {
   Active: {
     background: "bg-green-50",
-    text: "text-green-600",
-    button: "text-green-600 hover:text-green-500",
+    text: "text-green-700",
+    button: "text-green-700 hover:text-green-600",
   },
 
   Creative: {
     background: "bg-orange-50",
-    text: "text-orange-600",
-    button: "text-orange-600 hover:text-orange-500",
+    text: "text-orange-700",
+    button: "text-orange-700 hover:text-orange-600",
   },
 
   Relaxing: {

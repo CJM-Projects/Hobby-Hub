@@ -4,7 +4,7 @@ import { TrendingHobbies } from "../components/TrendingHobbies";
 
 export function Home() {
   return (
-    <>
+    <main>
       <div className="flex flex-col items-center py-4 max-w-full">
         <div className="flex items-center">
           <div className="flex flex-col gap-5 align-center flex-shrink px-4 md:px-10 lg:px-20">
@@ -30,6 +30,6 @@ export function Home() {
         <CategoriesSection category="Creative" />
         <CategoriesSection category="Strategic" />
       </div>
-    </>
+    </main>
   );
 }

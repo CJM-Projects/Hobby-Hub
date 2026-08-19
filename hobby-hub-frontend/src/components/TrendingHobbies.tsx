@@ -33,12 +33,14 @@ export function TrendingHobbies() {
         <p>Loading...</p>
       ) : (
         <div className="flex justify-between">
-          <button className="font-bold text-3xl px-3 cursor-pointer" onClick={prevHobby}>
-            ←
+                      <button aria-label="Previous trending hobby" className="font-bold text-3xl px-3 cursor-pointer focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600" onClick={prevHobby}>
+                          <span aria-hidden="true">←</span>
           </button>
-          <HobbyPreviewCard hobby={hobbies[index]} />
-          <button className="font-bold text-3xl px-3 cursor-pointer" onClick={nextHobby}>
-            →
+            <div aria-live="polite"> 
+              <HobbyPreviewCard hobby={hobbies[index]} />
+            </div>
+                      <button aria-label="Next trending hobby" className="font-bold text-3xl px-3 cursor-pointer focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600" onClick={nextHobby}>
+            <span aria-hidden="true">→</span>
           </button>
         </div>
       )}

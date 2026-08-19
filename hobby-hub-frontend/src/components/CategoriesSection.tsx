@@ -36,12 +36,12 @@ function CategoriesSection({ category }: CategoriesSectionProps) {
             </h2>
           </div>
 
-          <Link className={`font-semibold ${categoryStyles[category].button}`}  to={`/category/${category.toLowerCase()}`}>View all →</Link>
+                  <Link className={`font-semibold ${categoryStyles[category].button}`} to={`/category/${category.toLowerCase()}`}>View all <span aria-hidden="true">→</span></Link>
         </div>
         {isLoading ? (
           <p>Loading...</p>
         ) : (
-          <div className="flex gap-6 w-full justify-evenly">
+          <div aria-live="polite" className="flex gap-6 w-full justify-evenly">
             <div className="shrink w-1/4 min-w-[150px] opacity-100">
               <CategoriesCard hobby={hobbies[0]} category={category} />
             </div>

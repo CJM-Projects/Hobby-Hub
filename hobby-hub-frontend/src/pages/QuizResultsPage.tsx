@@ -20,7 +20,7 @@ export function QuizResultsPage() {
   }, []);
 
   return (
-    <>
+    <main>
       <h1 className="text-5xl font-bold py-2 text-center">Quiz Results</h1>
       <div>
         {isLoading ? (
@@ -30,18 +30,20 @@ export function QuizResultsPage() {
             <QuizResultsHobbyCard quizResult={quizResult} />
           ))
         )}
-      </div>
-      <p className="mx-10">
+          </div>
+          <section className="text-center my-8">
+      <p className="mx-10 mb-4">
         Thank you for completing the Hobby Hub quiz to find your new hobby! For
         more inspiration, use our Browse All hobbies page.
       </p>
-
+      
       <Link
-        className="max-w-fit text-black bg-gray-200 hover:bg-gray-100 transition-colors rounded px-2 py-1 my-5 mx-auto"
+        className="max-w-fit text-black bg-gray-200 hover:bg-gray-100 transition-colors rounded px-2 py-1 my-5 mx-auto focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600"
         to={`/browse-all`}
       >
         Browse All Hobbies
-      </Link>
-    </>
+              </Link>
+          </section>
+    </main>
   );
 }

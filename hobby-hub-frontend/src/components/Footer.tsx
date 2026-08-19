@@ -5,7 +5,7 @@ export function Footer() {
     <footer className="bottom-0">
       <hr></hr>
       <div className="mx-auto max-w-6xl px-20 py-2">
-        <h3 className="font-bold">Support</h3>
+        <h2 className="font-bold">Support</h2>
         <Link className="flex items-center gap-1 text-xs" to="./contact-us">
           Contact Us{" "}
           <img

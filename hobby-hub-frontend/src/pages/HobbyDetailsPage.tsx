@@ -23,7 +23,7 @@ function HobbyDetailsPage() {
     }, [])
 
     return (
-      <div>
+      <main>
             {
                 isLoading
                 ? <p>Loading...</p>
@@ -34,7 +34,7 @@ function HobbyDetailsPage() {
                     <VideoPlayer url={hobby.youtubeVideoId} title={`Youtube video about ${hobby.name}`} />
                   </>
             }
-      </div>
+      </main>
   );
 }
 

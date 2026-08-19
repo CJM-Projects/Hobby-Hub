@@ -16,7 +16,7 @@ export function HobbyPreviewCard({ hobby }: HobbyPreviewCardProps) {
             alt={hobby.hobbyImageAltText}
           ></img>
           <div className="flex flex-col p-2">
-            <h3 className="font-bold">{hobby.name}</h3>
+            <h2 className="font-bold">{hobby.name}</h2>
             <p className="h-16 text-sm line-clamp-3">{hobby.description}</p>
             <Link
               className="max-w-fit text-black bg-gray-200 hover:bg-gray-100 transition-colors rounded px-2 py-1 my-2"

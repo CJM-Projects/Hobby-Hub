@@ -5,7 +5,7 @@ export function TakeQuizButton() {
       className="text-white bg-blue-600 hover:bg-blue-500 transition-colors rounded px-2 py-1"
       to={`/quiz`}
     >
-      Take the quiz →
+      Take the quiz <span aria-hidden="true">→</span>
     </Link>
   );
 }

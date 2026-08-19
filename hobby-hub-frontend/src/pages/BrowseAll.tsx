@@ -66,7 +66,7 @@ export function BrowseAll() {
   }, []);
 
   return (
-    <div className="flex px-10 py-4">
+    <main className="flex px-10 py-4">
       {isLoading ? (
         <p>Loading...</p>
       ) : (
@@ -200,6 +200,6 @@ export function BrowseAll() {
           </div>
         </>
       )}
-    </div>
+    </main>
   );
 }

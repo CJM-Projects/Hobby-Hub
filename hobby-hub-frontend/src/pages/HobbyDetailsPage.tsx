@@ -31,7 +31,7 @@ function HobbyDetailsPage() {
                     <TitleCard hobby={hobby} />
                     <FeaturesCard hobby={hobby} />
                         <DescriptionCard hobby={hobby} />
-                    <VideoPlayer url={hobby.youtubeVideoId} />
+                    <VideoPlayer url={hobby.youtubeVideoId} title={`Youtube video about ${hobby.name}`} />
                   </>
             }
       </div>

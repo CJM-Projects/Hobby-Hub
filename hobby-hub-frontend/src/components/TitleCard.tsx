@@ -1,9 +1,8 @@
 import type { Hobby } from "../models/hobby.ts";
 
-type TitleCardProps =
-    {
-        hobby: Hobby
-    }
+type TitleCardProps = {
+  hobby: Hobby;
+};
 
 export function TitleCard({ hobby }:  TitleCardProps  ) {
     return (
@@ -28,7 +27,5 @@ export function TitleCard({ hobby }:  TitleCardProps  ) {
       </header>
   );
 }
-
-
 
 export default TitleCard;

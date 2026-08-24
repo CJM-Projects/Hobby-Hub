@@ -1,5 +1,13 @@
-import { Quiz } from "../components/Quiz"
-import type { QuizProp } from "../components/Quiz"
+import { Quiz } from "../components/Quiz";
+import type { QuizProp } from "../components/Quiz";
+import activeImg from "../assets/quiz/active.jpg";
+import creativeImg from "../assets/quiz/creative.png";
+import outdoorImg from "../assets/quiz/outdoor.png";
+import priceImg from "../assets/quiz/price.png";
+import relaxingImg from "../assets/quiz/relaxing.png";
+import socialImg from "../assets/quiz/social.png";
+import strategicImg from "../assets/quiz/strategic.png";
+import timeImg from "../assets/quiz/time.png";
 
 export function HobbyQuiz() {
 
@@ -17,7 +25,7 @@ const quizQuestions: QuizProp = {
     questions: [
         {
             question: "Your ideal Saturday afternoon looks like...",
-            image: "../src/assets/quiz/active.jpg",
+            image: activeImg,
             altText: "A coach and students stretching on a field of grass",
             category: "active",
             answers: [
@@ -31,7 +39,7 @@ const quizQuestions: QuizProp = {
         },
         {
             question: "You just got a blank canvas (literal or metaphorical). What happens?",
-            image: "../src/assets/quiz/creative.png",
+            image: creativeImg,
             altText: "Painting of a light bulb",
             category: "creative",
             answers: [
@@ -45,7 +53,7 @@ const quizQuestions: QuizProp = {
         },
         {
             question: "Your hobby's ideal pace is...",
-            image: "../src/assets/quiz/relaxing.png",
+            image: relaxingImg,
             altText: "A person relaxing under trees",
             category: "relaxing",
             answers: [
@@ -59,7 +67,7 @@ const quizQuestions: QuizProp = {
         },
         {
             question: "A stranger asks to join in. Your reaction?",
-            image: "../src/assets/quiz/social.png",
+            image: socialImg,
             altText: "People socialising at a festival",
             category: "social",
             answers: [
@@ -73,7 +81,7 @@ const quizQuestions: QuizProp = {
         },
         {
             question: "Where does your hobby live?",
-            image: "../src/assets/quiz/outdoor.png",
+            image: outdoorImg,
             altText: "Four friends on a hike",
             category: "outdoor",
             answers: [
@@ -87,7 +95,7 @@ const quizQuestions: QuizProp = {
         },
         {
             question: "Something's not working. What's your first move?",
-            image: "../src/assets/quiz/strategic.png",
+            image: strategicImg,
             altText: "Person completing math equations on a chalkboard",
             category: "strategic",
             answers: [
@@ -101,7 +109,7 @@ const quizQuestions: QuizProp = {
         },
         {
             question: "How do you feel about spending money to start something new?",
-            image: "../src/assets/quiz/price.png",
+            image: priceImg,
             altText: "A person showing an empty wallet",
             category: "price",
             answers: [
@@ -114,7 +122,7 @@ const quizQuestions: QuizProp = {
         },
         {
             question: "How serious is this hobby relationship going to be?",
-            image: "../src/assets/quiz/time.png",
+            image: timeImg,
             altText: "An hourglass placed on a calendar",
             category: "timeCommitment",
             answers: [

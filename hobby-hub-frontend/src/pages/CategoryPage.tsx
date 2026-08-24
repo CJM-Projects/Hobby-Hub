@@ -3,6 +3,7 @@ import { Navigate, useParams } from "react-router";
 import type { Hobby } from "../models/hobby";
 import { HobbyPreviewCard } from "../components/HobbyPreviewCard";
 import { TakeQuizButton } from "../components/TakeQuizButton";
+import { API_URL } from "../config";
 
 const VALID_CATEGORY = [
   "Active",
@@ -23,7 +24,7 @@ export function CategoryPage() {
   );
 
   useEffect(() => {
-    fetch(`https://localhost:7203/hobby/category/${category}`)
+    fetch(`${API_URL}/hobby/category/${category}`)
       .then((response) => response.json())
       .then((json) => setHobbies(json))
       .then(() => setIsLoading(false))

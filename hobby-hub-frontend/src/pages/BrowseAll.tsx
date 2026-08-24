@@ -7,6 +7,7 @@ import {
   GetSkillLevel,
 } from "../components/FeaturesCard";
 import { TakeQuizButton } from "../components/TakeQuizButton";
+import { API_URL } from "../config";
 
 export function BrowseAll() {
   const [isLoading, setIsLoading] = useState(true);
@@ -54,7 +55,7 @@ export function BrowseAll() {
   const personalities = ["Introvert", "Ambivert", "Extrovert"];
 
   useEffect(() => {
-    fetch(`https://localhost:7203/hobby`)
+    fetch(`${API_URL}/hobby`)
       .then((response) => response.json())
       .then((json) => setHobbies(json))
       .then(() => setIsLoading(false))

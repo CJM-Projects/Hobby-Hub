@@ -5,6 +5,7 @@ import TitleCard from "../components/TitleCard";
 import { VideoPlayer } from "../components/VideoPlayer";
 import type { Hobby } from "../models/hobby";
 import { useParams } from "react-router";
+import { API_URL } from "../config";
 
 function HobbyDetailsPage() {
   const [isLoading, setIsLoading] = useState(true);
@@ -13,7 +14,7 @@ function HobbyDetailsPage() {
 
   useEffect(() => {
     try {
-      fetch(`https://localhost:7203/hobby/${params.hobbyName}`)
+      fetch(`${API_URL}/hobby/${params.hobbyName}`)
         .then((response) => response.json())
         .then((json) => setHobby(json))
         .then(() => setIsLoading(false));

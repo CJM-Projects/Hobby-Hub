@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import type { Category, Hobby } from "../models/hobby";
 import { CategoriesCard } from "./CategoriesCard";
 import { Link } from "react-router-dom";
+import { API_URL } from "../config";
 
 type CategoriesSectionProps = {
   category: Category;
@@ -12,22 +13,29 @@ function CategoriesSection({ category }: CategoriesSectionProps) {
   const [hobbies, setHobbies] = useState<Hobby[]>([]);
 
   useEffect(() => {
-    fetch(`https://localhost:7203/hobby/category/${category}`)
+    fetch(`${API_URL}/hobby/category/${category}`)
       .then((response) => response.json())
       .then((json) => setHobbies(json))
       .then(() => setIsLoading(false))
       .catch((err) => {
-        console.error(`Failed to fetch hobbies within category ${category}.`, err);
+        console.error(
+          `Failed to fetch hobbies within category ${category}.`,
+          err,
+        );
         setIsLoading(false);
       });
   }, []);
 
   return (
     <section className="mx-auto max-w-7xl px-6 py-6">
-      <div className={`rounded-3xl px-8 py-10 ${categoryStyles[category].background}`}>
+      <div
+        className={`rounded-3xl px-8 py-10 ${categoryStyles[category].background}`}
+      >
         <div className="mb-8 flex items-end justify-between">
           <div>
-            <p className={`mb-2 text-sm font-semibold uppercase tracking-wider ${categoryStyles[category].text}`}>
+            <p
+              className={`mb-2 text-sm font-semibold uppercase tracking-wider ${categoryStyles[category].text}`}
+            >
               Explore
             </p>
 
@@ -36,7 +44,12 @@ function CategoriesSection({ category }: CategoriesSectionProps) {
             </h2>
           </div>
 
-                  <Link className={`font-semibold ${categoryStyles[category].button}`} to={`/category/${category.toLowerCase()}`}>View all <span aria-hidden="true">→</span></Link>
+          <Link
+            className={`font-semibold ${categoryStyles[category].button}`}
+            to={`/category/${category.toLowerCase()}`}
+          >
+            View all <span aria-hidden="true">→</span>
+          </Link>
         </div>
         {isLoading ? (
           <p>Loading...</p>

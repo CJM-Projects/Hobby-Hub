@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Link, useSearchParams } from "react-router";
 import type { QuizResults } from "../models/QuizResults";
 import { QuizResultsHobbyCard } from "../components/QuizResultsHobbyCard";
+import { API_URL } from "../config";
 
 export function QuizResultsPage() {
   const [searchParams] = useSearchParams();
@@ -9,7 +10,7 @@ export function QuizResultsPage() {
   const [quizResults, setQuizResults] = useState<QuizResults>();
 
   useEffect(() => {
-    fetch(`https://localhost:7203/Quiz/results?${searchParams.toString()}`)
+    fetch(`${API_URL}/Quiz/results?${searchParams.toString()}`)
       .then((response) => response.json())
       .then((json) => setQuizResults(json))
       .then(() => setIsLoading(false))

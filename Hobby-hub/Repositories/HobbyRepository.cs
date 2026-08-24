@@ -15,7 +15,7 @@ namespace Hobby_hub.Repositories
     }
     public class HobbyRepository : IHobbyRepository
     {
-        private readonly string _filePath = @".\Data\hobby-data.json";
+        private readonly string _filePath = Path.Combine(".", "Data", "hobby-data.json");
         public async Task<List<Hobby>> GetAllHobbiesAsync()
         {
             var file = File.ReadAllText(_filePath);

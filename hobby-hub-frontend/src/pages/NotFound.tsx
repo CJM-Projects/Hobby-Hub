@@ -3,7 +3,7 @@ import notFoundImg from "../assets/404.png";
 
 export function NotFound() {
   return (
-    <div className="flex justify-between items-center px-5">
+    <main className="flex justify-between items-center px-5">
       <div className="flex flex-col items-center gap-5">
         <h1 className="text-4xl">Uh Oh. This page doesn't exist!</h1>
         <h2 className="text-2xl">
@@ -18,8 +18,9 @@ export function NotFound() {
       </div>
       <img
         className="h-[80vh] object-scale-down object-center"
-        src={notFoundImg}
+              src={notFoundImg}
+              alt="Illustration of two people holding disconnected plugs under a 404 Page not found message"
       ></img>
-    </div>
+    </main>
   );
 }

@@ -8,8 +8,8 @@ export function NavBar() {
             <div className="mx-auto flex h-20 items-center justify-between px-6">
 
                 {/* Logo */}
-                <div className="flex items-center gap-1">
-                    <Link to="/">
+                <div>
+                    <Link to="/" className="flex items-center gap-1 flex-nowrap">
                         <img
                             className="h-16 w-16 inline-block object-contain"
                             src={appLogo}
@@ -17,7 +17,7 @@ export function NavBar() {
                         />
                         <img
                             src={appNameLogo}
-                            className="h-12 inline-block object-contain"
+                            className="h-12  object-contain hidden sm:inline-block"
                             alt="Hobby Hub"
                         />
                     </Link>

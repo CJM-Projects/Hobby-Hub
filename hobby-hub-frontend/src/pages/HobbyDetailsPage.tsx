@@ -24,15 +24,23 @@ function HobbyDetailsPage() {
   }, []);
 
   if (isLoading) {
-    return <div>Loading...</div>;
+      return (
+          <main>
+            <div>Loading...</div>
+          </main>
+      );
   }
 
   if (!hobby) {
-    return <div>Hobby not found.</div>;
+      return (
+          <main>
+            <div>Hobby not found.</div>
+          </main>
+      );
   }
 
   return (
-    <div>
+    <main>
       <TitleCard hobby={hobby} />
       <FeaturesCard hobby={hobby} />
       <DescriptionCard hobby={hobby} />
@@ -40,7 +48,7 @@ function HobbyDetailsPage() {
         url={hobby.youtubeVideoId}
         title={`Youtube video about ${hobby.name}`}
       />
-    </div>
+    </main>
   );
 }
 

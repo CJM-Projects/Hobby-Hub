@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link, Navigate, useParams } from "react-router";
-import { QuizResultsHobbyCard } from "../components/QuizResultsHobbyCard";
+import { Navigate, useParams } from "react-router";
 import type { Hobby } from "../models/hobby";
 import { HobbyPreviewCard } from "../components/HobbyPreviewCard";
 import { TakeQuizButton } from "../components/TakeQuizButton";

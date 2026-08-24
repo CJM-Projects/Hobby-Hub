@@ -1,6 +1,7 @@
 import CategoriesSection from "../components/CategoriesSection";
 import { TakeQuizButton } from "../components/TakeQuizButton";
 import { TrendingHobbies } from "../components/TrendingHobbies";
+import homePageImg from "../assets/home-page-img.png";
 
 export function Home() {
   return (
@@ -21,7 +22,7 @@ export function Home() {
           </div>
           <img
             className="w-1/2 object-contain"
-            src="..\src\assets\home-page-img.png"
+            src={homePageImg}
             alt="Animated image of a women painting a picture of a mountain range"
           ></img>
         </div>

@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import linkIcon from "../assets/linkIcon.png";
+
 export function Footer() {
   return (
     <footer className="bottom-0">

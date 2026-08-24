@@ -6,7 +6,6 @@ import {
   GetPrice,
   GetSkillLevel,
 } from "../components/FeaturesCard";
-import { Link } from "react-router-dom";
 import { TakeQuizButton } from "../components/TakeQuizButton";
 
 export function BrowseAll() {

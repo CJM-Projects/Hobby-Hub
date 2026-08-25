@@ -9,7 +9,7 @@ export function HobbyPreviewCard({ hobby }: HobbyPreviewCardProps) {
   return (
     <>
       {hobby ? (
-        <div className="w-full flex items-center">
+        <div className="w-full flex flex-wrap items-center">
           <img
             className={`w-32 aspect-square object-cover rounded-xl shadow-xl m-1`}
             src={hobby.hobbyImage}

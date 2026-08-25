@@ -35,7 +35,7 @@ export function CategoryPage() {
         );
         setIsLoading(false);
       });
-  }, []);
+  }, [category]);
 
   return (
     <>

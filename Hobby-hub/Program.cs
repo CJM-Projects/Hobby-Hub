@@ -30,7 +30,7 @@ builder.Services.AddHealthChecks()
 builder.Services.AddTransient<ExceptionHandlerMiddleware>();
 
 var allowedOrigins = builder.Configuration.GetSection("AllowedOrigins").Get<string[]>()!;
-
+Console.WriteLine(allowedOrigins[0]);
 builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(optionsCORS =>

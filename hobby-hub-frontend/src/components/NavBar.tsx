@@ -44,7 +44,7 @@ export function NavBar() {
                             </span>
                         </button>
 
-                        <div className="invisible absolute left-0 top-full z-10 mt-3 w-36 rounded-xl border border-zinc-100 bg-white p-2 opacity-0 shadow-lg transition-all duration-200 group-hover:visible group-hover:opacity-100">
+                        <div className="invisible absolute left-0 top-full z-10 mt-3 w-38 rounded-xl border border-zinc-100 bg-white p-2 opacity-0 shadow-lg transition-all duration-200 group-hover:visible group-hover:opacity-100">
 
                             <Link
                                 className="block rounded-lg px-4 py-2 text-zinc-700 hover:bg-green-50 hover:text-green-700"

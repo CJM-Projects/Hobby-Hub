@@ -61,8 +61,8 @@ export function Quiz({ questions }: QuizProp) {
   };
 
   return (
-    <div className="flex items-center gap-3 flex-col m-5">
-      <div className="w-full h-4 bg-gray-200 rounded-full overflow-hidden">
+    <div className="flex items-center gap-2 flex-col m-5">
+      <div className="w-full h-2.5 bg-gray-200 rounded-full overflow-hidden">
         <div
           className="h-full bg-blue-500 transition-all duration-300"
                   style={{ width: `${progress}%` }}
@@ -71,15 +71,20 @@ export function Quiz({ questions }: QuizProp) {
       </div>
       <div className="flex w-full justify-between">
         <button
-          className="max-w-100 text-xl py-1 px-4 text-center font-medium rounded-xl border border-slate-200 text-slate-700 transition-all duration-200 hover:border-indigo-500 hover:bg-indigo-50/50 hover:text-indigo-900 shadow-sm disabled:cursor-not-allowed disabled:bg-zinc-300 disabled:border-transparent disabled:text-black"
+          className="max-w-100 h-fit text-xl py-1 px-4 text-center font-medium rounded-xl border border-slate-200 text-slate-700 transition-all duration-200 hover:border-indigo-500 hover:bg-indigo-50/50 hover:text-indigo-900 shadow-sm disabled:cursor-not-allowed disabled:bg-zinc-300 disabled:border-transparent disabled:text-black"
           onClick={prevQuestion}
           disabled={currentQuestion === 0}
           aria-label="Previous question"
         >
                   <span aria-hidden="true">←</span> Prev
         </button>
+              <div className="text-center">
+                  <h1 className="text-xl md:text-2xl lg:text-3xl font-bold text-slate-700">
+                      {questions[currentQuestion].question}
+                  </h1>
+              </div>
         <button
-          className="max-w-100 text-xl py-1 px-4 text-center font-medium rounded-xl border border-slate-200 bg-white text-slate-700 transition-all duration-200 hover:border-indigo-500 hover:bg-indigo-50/50 hover:text-indigo-900 shadow-sm disabled:cursor-not-allowed disabled:bg-zinc-300 disabled:border-transparent disabled:text-black"
+          className="max-w-100 h-fit text-xl py-1 px-4 text-center font-medium rounded-xl border border-slate-200 bg-white text-slate-700 transition-all duration-200 hover:border-indigo-500 hover:bg-indigo-50/50 hover:text-indigo-900 shadow-sm disabled:cursor-not-allowed disabled:bg-zinc-300 disabled:border-transparent disabled:text-black"
           onClick={nextQuestion}
           disabled={isLastQuestion || !hasAnsweredCurrent}
           aria-label="Next question"
@@ -90,7 +95,6 @@ export function Quiz({ questions }: QuizProp) {
       <div>
         <QuizCard
           key={currentQuestion}
-          question={questions[currentQuestion].question}
           image={questions[currentQuestion].image}
           altText={questions[currentQuestion].altText }
           answers={questions[currentQuestion].answers}

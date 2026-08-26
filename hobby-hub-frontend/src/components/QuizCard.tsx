@@ -1,7 +1,6 @@
 import type { AnswerOption } from "./Quiz";
 
 export function QuizCard({
-  question,
     image,
   altText,
   answers,
@@ -11,22 +10,19 @@ export function QuizCard({
   return (
     <div className="flex items-center flex-col gap-3">
       <div>
-        <h1 className=" text-3xl font-bold text-slate-700">{question}</h1>
-      </div>
-      <div>
         <img
           className="w-200 h-[50vh] object-cover object-center rounded-md"
           src={image}
           alt={altText}
         ></img>
       </div>
-      <div className="flex flex-wrap justify-center items-center gap-4">
+      <div className="flex flex-wrap justify-center items-center gap-3">
         {answers.map((answer) => {
           const isSelected = answer.score === selectedScore;
 
           return (
             <button
-              className={`w-full max-w-100 p-4 text-center font-medium rounded-xl border transition-all duration-200 shadow-sm ${
+              className={`w-full max-w-110 p-3 text-center font-medium rounded-xl border transition-all duration-200 shadow-sm ${
                 isSelected
                   ? "border-indigo-500 bg-indigo-50 text-indigo-900 ring-2 ring-indigo-500"
                   : "border-slate-200 bg-white text-slate-700 hover:border-indigo-500 hover:bg-indigo-50/50 hover:text-indigo-900"
@@ -44,7 +40,6 @@ export function QuizCard({
 }
 
 type QuizCardProps = {
-  question: string;
   image: string;
   altText: string;
   answers: AnswerOption[];

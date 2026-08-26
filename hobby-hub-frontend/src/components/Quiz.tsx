@@ -58,6 +58,10 @@ export function Quiz({ questions }: QuizProp) {
     }
 
     nextQuestion();
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
   };
 
   return (
@@ -65,7 +69,7 @@ export function Quiz({ questions }: QuizProp) {
       <div className="w-full h-2.5 bg-gray-200 rounded-full overflow-hidden">
         <div
           className="h-full bg-blue-500 transition-all duration-300"
-                  style={{ width: `${progress}%` }}
+          style={{ width: `${progress}%` }}
           aria-label={`Question ${currentQuestion + 1} of ${questions.length}`}
         ></div>
       </div>
@@ -76,27 +80,27 @@ export function Quiz({ questions }: QuizProp) {
           disabled={currentQuestion === 0}
           aria-label="Previous question"
         >
-                  <span aria-hidden="true">←</span> Prev
+          <span aria-hidden="true">←</span> Prev
         </button>
-              <div className="text-center">
-                  <h1 className="text-xl md:text-2xl lg:text-3xl font-bold text-slate-700">
-                      {questions[currentQuestion].question}
-                  </h1>
-              </div>
+        <div className="text-center">
+          <h1 className="text-xl md:text-2xl lg:text-3xl font-bold text-slate-700">
+            {questions[currentQuestion].question}
+          </h1>
+        </div>
         <button
           className="max-w-100 h-fit text-xl py-1 px-4 text-center font-medium rounded-xl border border-slate-200 bg-white text-slate-700 transition-all duration-200 hover:border-indigo-500 hover:bg-indigo-50/50 hover:text-indigo-900 shadow-sm disabled:cursor-not-allowed disabled:bg-zinc-300 disabled:border-transparent disabled:text-black"
           onClick={nextQuestion}
           disabled={isLastQuestion || !hasAnsweredCurrent}
           aria-label="Next question"
         >
-                  Next <span aria-hidden="true">→</span>
+          Next <span aria-hidden="true">→</span>
         </button>
       </div>
       <div>
         <QuizCard
           key={currentQuestion}
           image={questions[currentQuestion].image}
-          altText={questions[currentQuestion].altText }
+          altText={questions[currentQuestion].altText}
           answers={questions[currentQuestion].answers}
           selectedScore={selectedScore}
           onAnswerSelected={handleAnswerSelected}
@@ -109,7 +113,6 @@ export type AnswerOption = {
   emoji: string;
   text: string;
   score: number;
-
 };
 
 export type QuizCategory =

@@ -97,7 +97,7 @@ export function QuizResultsHobbyCard({
 
           {/* Button */}
           <Link
-            className={`mt-5 max-w-fit rounded px-4 py-2 font-semibold transition-all focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600 ${
+            className={`mt-5 max-w-fit rounded px-4 py-2 font-semibold transition-all focus-visible:outline-2 focus-visible:outline-blue-600 ${
               isTopResult
                 ? "bg-green-900 text-white hover:-translate-y-0.5 hover:bg-green-700 hover:shadow-md"
                 : "bg-gray-200 text-black hover:bg-gray-100"

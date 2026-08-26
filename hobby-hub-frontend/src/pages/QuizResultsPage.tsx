@@ -18,37 +18,37 @@ export function QuizResultsPage() {
         console.error("Failed to fetch matching hobbies.", err);
         setIsLoading(false);
       });
-  }, []);
+  }, [searchParams]);
 
   return (
     <main>
       <h1 className="text-5xl font-bold py-2 text-center mb-4">Quiz Results</h1>
-          <div>
+      <div>
         {isLoading ? (
           <p>Loading...</p>
         ) : (
           quizResults!.results.map((quizResult, index) => (
-              <QuizResultsHobbyCard
-                  key={quizResult.name}
-                  quizResult={quizResult}
-                  isTopResult={index === 0}
-              />
+            <QuizResultsHobbyCard
+              key={quizResult.name}
+              quizResult={quizResult}
+              isTopResult={index === 0}
+            />
           ))
         )}
-          </div>
-          <section className="text-center my-8">
-      <p className="mx-10 mb-4">
-        Thank you for completing the Hobby Hub quiz to find your new hobby! For
-        more inspiration, use our Browse All hobbies page.
-      </p>
-      
-      <Link
-        className="max-w-fit text-black bg-gray-200 hover:bg-gray-100 transition-colors rounded px-2 py-1 my-5 mx-auto focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-600"
-        to={`/browse-all`}
-      >
-        Browse All Hobbies
-              </Link>
-          </section>
+      </div>
+      <section className="text-center my-8">
+        <p className="mx-10 mb-4">
+          Thank you for completing the Hobby Hub quiz to find your new hobby!
+          For more inspiration, use our Browse All hobbies page.
+        </p>
+
+        <Link
+          className="max-w-fit text-black bg-gray-200 hover:bg-gray-100 transition-colors rounded px-2 py-1 my-5 mx-auto focus-visible:outline-2 focus-visible:outline-blue-600"
+          to={`/browse-all`}
+        >
+          Browse All Hobbies
+        </Link>
+      </section>
     </main>
   );
 }

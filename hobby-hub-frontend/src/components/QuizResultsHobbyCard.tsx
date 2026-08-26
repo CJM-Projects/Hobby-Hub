@@ -20,12 +20,6 @@ export function QuizResultsHobbyCard({
           : "max-w-4xl border border-zinc-200 bg-white shadow-md"
       }`}
     >
-      {/* Top result banner */}
-      {isTopResult && (
-        <div className="flex items-center justify-center gap-2 bg-green-900 px-4 py-2 text-sm font-bold text-white">
-          Your Best Match
-        </div>
-      )}
       <div
         className={`flex flex-col ${
           isTopResult ? "md:flex-row" : "sm:flex-row"
@@ -55,7 +49,13 @@ export function QuizResultsHobbyCard({
               isTopResult ? "text-4xl" : "text-2xl"
             }`}
           >
-            {quizResult.name}
+            {isTopResult ? (
+              <>
+                Your Best Match: <br /> {quizResult.name}
+              </>
+            ) : (
+              quizResult.name
+            )}
           </h2>
 
           {/* Match percentage */}

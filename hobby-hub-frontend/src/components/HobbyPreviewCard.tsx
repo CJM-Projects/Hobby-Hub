@@ -9,7 +9,7 @@ export function HobbyPreviewCard({ hobby }: HobbyPreviewCardProps) {
   return (
     <>
       {hobby ? (
-        <div className="w-full flex flex-wrap items-center">
+        <div className="w-full flex flex-wrap sm:flex-nowrap items-center">
           <img
             className={`w-32 aspect-square object-cover rounded-xl shadow-xl m-1`}
             src={hobby.hobbyImage}
@@ -19,7 +19,7 @@ export function HobbyPreviewCard({ hobby }: HobbyPreviewCardProps) {
             <h2 className="font-bold">{hobby.name}</h2>
             <p className="h-16 text-sm line-clamp-3">{hobby.description}</p>
             <Link
-              className="max-w-fit text-black bg-gray-200 hover:bg-gray-100 transition-colors rounded px-2 py-1 my-2"
+              className="w-26 text-black bg-gray-200 hover:bg-gray-100 transition-colors rounded px-2 py-1 my-2"
               to={`/hobby-details/${hobby.name.toLowerCase()}`}
             >
               View Details

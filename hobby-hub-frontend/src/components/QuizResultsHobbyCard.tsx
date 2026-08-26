@@ -11,7 +11,7 @@ export function QuizResultsHobbyCard({
   return (
     <>
       {quizResult ? (
-        <div className="border-2 border-zinc-600 rounded-xl px-4 py-4 m-8">
+        <div className="border-2 border-zinc-600 rounded-xl px-4 py-2 m-4 mx-8">
           <h2 className="font-bold text-2xl text-center">
             {quizResult.name} - {(quizResult.similarity * 100).toFixed(1)}%
             Match

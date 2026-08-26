@@ -22,13 +22,17 @@ export function QuizResultsPage() {
 
   return (
     <main>
-      <h1 className="text-5xl font-bold py-2 text-center">Quiz Results</h1>
-      <div>
+      <h1 className="text-5xl font-bold py-2 text-center mb-4">Quiz Results</h1>
+          <div>
         {isLoading ? (
           <p>Loading...</p>
         ) : (
-          quizResults!.results.map((quizResult) => (
-            <QuizResultsHobbyCard quizResult={quizResult} />
+          quizResults!.results.map((quizResult, index) => (
+              <QuizResultsHobbyCard
+                  key={quizResult.name}
+                  quizResult={quizResult}
+                  isTopResult={index === 0}
+              />
           ))
         )}
           </div>

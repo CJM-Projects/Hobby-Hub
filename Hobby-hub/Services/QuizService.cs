@@ -16,7 +16,7 @@ namespace Hobby_hub.Services
         }
         public async Task<QuizResults> GetResultsAsync(QuizScores scores)
         {
-            var limit = 3;
+            var limit = 5;
             var similarity = new Dictionary<int, double>();
 
             var hobbies = await _hobbyRepository.GetAllHobbiesAsync();

@@ -83,7 +83,7 @@ namespace Hobby_Hub_Testing.QuizTests
         }
 
         [Test]
-        public async Task GetResultsAsync_ShouldReturnClosestTop3Results_WhenValidScoresProvidedAndNoFilters()
+        public async Task GetResultsAsync_ShouldReturnClosestTop5Results_WhenValidScoresProvidedAndNoFilters()
         {
             var scores = new QuizScores
             {
@@ -108,10 +108,12 @@ namespace Hobby_Hub_Testing.QuizTests
 
             var result = await _quizService.GetResultsAsync(scores);
 
-            Assert.That(result.Results.Count, Is.EqualTo(3));
+            Assert.That(result.Results.Count, Is.EqualTo(5));
             Assert.That(result.Results[0].Name, Is.EqualTo("Hobby1"));
             Assert.That(result.Results[1].Name, Is.EqualTo("Hobby4"));
             Assert.That(result.Results[2].Name, Is.EqualTo("Hobby3"));
+            Assert.That(result.Results[3].Name, Is.EqualTo("Hobby2"));
+            Assert.That(result.Results[4].Name, Is.EqualTo("Hobby5"));
         }
 
         [Test]

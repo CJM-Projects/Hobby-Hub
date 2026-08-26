@@ -41,21 +41,24 @@ namespace Hobby_Hub_Testing.QuizTests
                         Name = "Painting",
                         Similarity = 0.99,
                         Description = "A creative hobby that allows you to express yourself through colors and shapes.",
-                        HobbyImage = "https://example.com/images/painting.jpg"
+                        HobbyImage = "https://example.com/images/painting.jpg",
+                        HobbyImageAltText = "This is a picture."
                     },
                     new QuizResult
                     {
                         Name = "Hiking",
                         Similarity = 0.95,
                         Description = "An outdoor activity that lets you explore nature and stay active.",
-                        HobbyImage = "https://example.com/images/hiking.jpg"
+                        HobbyImage = "https://example.com/images/hiking.jpg",
+                        HobbyImageAltText = "This is a picture."
                     },
                     new QuizResult
                     {
                         Name = "Board Games",
                         Similarity = 0.92,
                         Description = "A social hobby that involves playing games with friends and family.",
-                        HobbyImage = "https://example.com/images/board_games.jpg"
+                        HobbyImage = "https://example.com/images/board_games.jpg",
+                        HobbyImageAltText = "This is a picture."
                     }
                 ]
             };
@@ -90,21 +93,24 @@ namespace Hobby_Hub_Testing.QuizTests
                         Name = "Painting",
                         Similarity = 0.99,
                         Description = "A creative hobby that allows you to express yourself through colors and shapes.",
-                        HobbyImage = "https://example.com/images/painting.jpg"
+                        HobbyImage = "https://example.com/images/painting.jpg",
+                        HobbyImageAltText = "This is a picture."
                     },
                     new QuizResult
                     {
                         Name = "Hiking",
                         Similarity = 0.95,
                         Description = "An outdoor activity that lets you explore nature and stay active.",
-                        HobbyImage = "https://example.com/images/hiking.jpg"
+                        HobbyImage = "https://example.com/images/hiking.jpg",
+                        HobbyImageAltText = "This is a picture."
                     },
                     new QuizResult
                     {
                         Name = "Board Games",
                         Similarity = 0.92,
                         Description = "A social hobby that involves playing games with friends and family.",
-                        HobbyImage = "https://example.com/images/board_games.jpg"
+                        HobbyImage = "https://example.com/images/board_games.jpg",
+                        HobbyImageAltText = "This is a picture."
                     }
                 ]
             };
@@ -139,21 +145,24 @@ namespace Hobby_Hub_Testing.QuizTests
                         Name = "Painting",
                         Similarity = 0.99,
                         Description = "A creative hobby that allows you to express yourself through colors and shapes.",
-                        HobbyImage = "https://example.com/images/painting.jpg"
+                        HobbyImage = "https://example.com/images/painting.jpg",
+                        HobbyImageAltText = "This is a picture."
                     },
                     new QuizResult
                     {
                         Name = "Hiking",
                         Similarity = 0.95,
                         Description = "An outdoor activity that lets you explore nature and stay active.",
-                        HobbyImage = "https://example.com/images/hiking.jpg"
+                        HobbyImage = "https://example.com/images/hiking.jpg",
+                        HobbyImageAltText = "This is a picture."
                     },
                     new QuizResult
                     {
                         Name = "Board Games",
                         Similarity = 0.92,
                         Description = "A social hobby that involves playing games with friends and family.",
-                        HobbyImage = "https://example.com/images/board_games.jpg"
+                        HobbyImage = "https://example.com/images/board_games.jpg",
+                        HobbyImageAltText = "This is a picture."
                     }
                 ]
             };
@@ -189,21 +198,24 @@ namespace Hobby_Hub_Testing.QuizTests
                         Name = "Painting",
                         Similarity = 0.99,
                         Description = "A creative hobby that allows you to express yourself through colors and shapes.",
-                        HobbyImage = "https://example.com/images/painting.jpg"
+                        HobbyImage = "https://example.com/images/painting.jpg",
+                        HobbyImageAltText = "This is a picture."
                     },
                     new QuizResult
                     {
                         Name = "Hiking",
                         Similarity = 0.95,
                         Description = "An outdoor activity that lets you explore nature and stay active.",
-                        HobbyImage = "https://example.com/images/hiking.jpg"
+                        HobbyImage = "https://example.com/images/hiking.jpg",
+                        HobbyImageAltText = "This is a picture."
                     },
                     new QuizResult
                     {
                         Name = "Board Games",
                         Similarity = 0.92,
                         Description = "A social hobby that involves playing games with friends and family.",
-                        HobbyImage = "https://example.com/images/board_games.jpg"
+                        HobbyImage = "https://example.com/images/board_games.jpg",
+                        HobbyImageAltText = "This is a picture."
                     }
                 ]
             };

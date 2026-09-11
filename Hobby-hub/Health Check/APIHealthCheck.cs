@@ -8,7 +8,7 @@ namespace Hobby_hub.Health_Check
     {
         public async Task<HealthCheckResult> CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken = default)
         {
-            var jsonFilePath = @"Data\hobby-data.json";
+            var jsonFilePath = Path.Combine(".", "Data", "hobby-data.json");
 
             var jsonData = await File.ReadAllTextAsync(jsonFilePath);
 

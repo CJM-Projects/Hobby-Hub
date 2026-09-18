@@ -6,6 +6,7 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -51,6 +52,14 @@ public class BasePage {
 
     public String currentUrl(){
         return driver.getCurrentUrl();
+    }
+
+    public void hoverAndClick(By locator, By locator2){
+        WebElement element = waitForVisible(locator);
+        Actions actions = new Actions(driver);
+        actions.moveToElement(element).perform();
+        WebElement subElement = waitForClickable(locator2);
+        subElement.click();
     }
 
 }

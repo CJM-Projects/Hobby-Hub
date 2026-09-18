@@ -6,6 +6,10 @@ import org.openqa.selenium.WebDriver;
 public class HomePage extends BasePage{
 
     private By viewDetailsButton = By.linkText("View Details");
+    private By quizButton = By.linkText("Take the Quiz");
+    private By hoverBrowse = By.cssSelector("button[aria-haspopup='true']");
+    private By browseAllButton = By.cssSelector("a[href='#/browse-all']");
+
 
     public HomePage(WebDriver driver){
         super(driver);
@@ -17,4 +21,17 @@ public class HomePage extends BasePage{
         click(viewDetailsButton);
         return new HobbyDetailsPage(driver);
     }
+
+    public QuizPage goToQuizPage(){
+        waitForVisible(quizButton);
+        click(quizButton);
+        return new QuizPage(driver);
+    }
+
+    public BrowseAllPage goToBrowseAllPage(){
+        hoverAndClick(hoverBrowse, browseAllButton);
+        return new BrowseAllPage(driver);
+    }
+
+
 }

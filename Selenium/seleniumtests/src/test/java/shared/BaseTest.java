@@ -16,7 +16,6 @@ public abstract class BaseTest {
     public void setup(){
         driver = WebDriverFactory.createDriver(ConfigReader.browser());
         driver.get(ConfigReader.baseUrl());
-        System.out.println(driver.getCurrentUrl());
     }
 
     @AfterClass 

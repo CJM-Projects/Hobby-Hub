@@ -18,7 +18,7 @@ Hobby details
 Hobby details display correctly
 YouTube video is displayed
 
-Navigation
+Home Page Navigation
 Homepage → Quiz
 Homepage → Browse All
 Browse hobby → Hobby details

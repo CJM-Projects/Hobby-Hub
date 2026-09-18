@@ -5,10 +5,8 @@
     <classes>
       <class name="tests.HobbyDetailsDisplayTest">
         <methods>
-          <include name="hobbyDetailsHeaderCardShouldDisplayCorrectly"/>
           <include name="setUpHobbyDetails"/>
           <include name="setup"/>
-          <include name="hobbyDetailsFeaturesBarShouldDisplayCorrectly"/>
           <include name="hobbyDetailsYoutubeVideoShouldDisplayCorrectly"/>
           <include name="teardown"/>
         </methods>

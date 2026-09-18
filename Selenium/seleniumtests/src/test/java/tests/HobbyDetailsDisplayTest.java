@@ -1,6 +1,6 @@
 package tests;
 
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import pages.HobbyDetailsPage;
@@ -15,37 +15,36 @@ public class HobbyDetailsDisplayTest extends BaseTest{
 
     private HobbyDetailsPage hobbyDetailsPage;
     
-    @BeforeMethod 
+    @BeforeClass 
     public void setUpHobbyDetails(){
         hobbyDetailsPage = new HomePage(driver).goToHobbyDetailsPage();
     }
 
     @Test 
     public void hobbyDetailsHeaderCardShouldDisplayCorrectly(){
-        System.out.println(driver.getCurrentUrl()); 
         WebElement headerCard = hobbyDetailsPage.getHeaderCard();
         Assert.assertTrue(headerCard.isDisplayed());
     }
 
-       //Hobby details display correctly
-        //header card
-        //features bar
-        //description
-    //YouTube video is displayed
+    @Test 
+    public void hobbyDetailsFeaturesBarShouldDisplayCorrectly(){
+        WebElement featuresCard = hobbyDetailsPage.getFeaturesBar();
+        Assert.assertTrue(featuresCard.getText().contains("Skill Level:"));
+        Assert.assertTrue(featuresCard.getText().contains("Price:"));
+        Assert.assertTrue(featuresCard.getText().contains("Personality:"));
+        Assert.assertTrue(featuresCard.getText().contains("Type:"));
+    }
 
-    // @Test 
-    // public void hobbyDetailsFeaturesBarShouldDisplayCorrectly(){
+    @Test 
+    public void hobbyDetailsDescriptionShouldDisplayCorrectly(){
+        WebElement descriptionCard = hobbyDetailsPage.getDescriptionCard();
+        Assert.assertTrue(descriptionCard.getText().contains("Description"));
+    }
 
-    // }
-
-    // @Test 
-    // public void hobbyDetailsDescriptionShouldDisplayCorrectly(){
-
-    // }
-
-    // @Test 
-    // public void hobbyDetailsYoutubeVideoShouldDisplayCorrectly(){
-
-    // }
+    @Test 
+    public void hobbyDetailsYoutubeVideoShouldDisplayCorrectly(){
+        WebElement youtubeVideo = hobbyDetailsPage.getYoutubeVideo();
+        Assert.assertTrue(youtubeVideo.isDisplayed());
+    }
 
 }

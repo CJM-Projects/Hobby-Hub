@@ -9,7 +9,8 @@ public class HomePage extends BasePage{
     private By quizButton = By.linkText("Take the Quiz");
     private By hoverBrowse = By.cssSelector("button[aria-haspopup='true']");
     private By browseAllButton = By.cssSelector("a[href='#/browse-all']");
-
+    private By aboutUsButton = By.linkText("About Us");
+    private By viewAllActiveButton = By.xpath("//*[@id=\"root\"]/div/main/div/section[2]/div/div[1]/a");
 
     public HomePage(WebDriver driver){
         super(driver);
@@ -33,5 +34,16 @@ public class HomePage extends BasePage{
         return new BrowseAllPage(driver);
     }
 
+    public AboutUsPage goToAboutUsPage(){
+        waitForVisible(aboutUsButton);
+        click(aboutUsButton);
+        return new AboutUsPage(driver);
+    }
+
+    public ViewAllActiveCategoryPage goToViewAllActivePage(){
+        waitForVisible(viewAllActiveButton);
+        click(viewAllActiveButton);
+        return new ViewAllActiveCategoryPage(driver);
+    }
 
 }

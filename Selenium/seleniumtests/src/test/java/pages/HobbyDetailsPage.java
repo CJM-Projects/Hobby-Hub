@@ -6,9 +6,9 @@ import org.openqa.selenium.WebElement;
 
 public class HobbyDetailsPage extends BasePage{
 
-    private By headerCard = By.cssSelector("#root > div > main > header > div.absolute.inset-0.flex.items-center.justify-center.px-6 > div");
-    private By featuresBar = By.cssSelector("#root > div > main > div > div");
-    private By descriptionCard = By.cssSelector("#root > div > main > section.mx-auto.max-w-6xl.px-8.py-12");
+    private By headerCard = By.cssSelector("header h1");
+    private By featuresBar = By.cssSelector("main > div");
+    private By descriptionCard = By.cssSelector("section:first-of-type");
     private By youtubeVideo = By.cssSelector("iframe");
 
     public HobbyDetailsPage(WebDriver driver){

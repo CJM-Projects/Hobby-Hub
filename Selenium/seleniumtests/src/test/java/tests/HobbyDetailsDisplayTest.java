@@ -23,7 +23,7 @@ public class HobbyDetailsDisplayTest extends BaseTest{
     @Test 
     public void hobbyDetailsHeaderCardShouldDisplayCorrectly(){
         WebElement headerCard = hobbyDetailsPage.getHeaderCard();
-        Assert.assertTrue(headerCard.isDisplayed());
+        Assert.assertTrue(headerCard.isDisplayed(), "The hobby header card is not displayed");
     }
 
     @Test 

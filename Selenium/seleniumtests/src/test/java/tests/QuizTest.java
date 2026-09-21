@@ -20,21 +20,6 @@ public class QuizTest extends BaseTest{
         quizPage = new HomePage(driver).goToQuizPage();
     }
 
-// Quiz
-// Quiz loads
-// Validation prevents unanswered question
-// User progresses through quiz
-// User completes quiz
-// Quiz Results 
-// Five recommendations are returned
-// Results display match percentages
-// Top result is displayed correctly
-
-    // @Test 
-    // private void openingQuizPageShouldLoadQuiz(){
-
-    // }
-
     @DataProvider(name = "quizData")
     public Object[][] quizData(){
         return new Object[][] {

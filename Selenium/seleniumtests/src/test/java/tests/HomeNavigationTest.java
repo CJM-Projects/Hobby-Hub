@@ -38,7 +38,6 @@ public class HomeNavigationTest extends BaseTest{
         HomePage homePage = new HomePage(driver);
         homePage.goToViewAllActivePage();
         String url = driver.getCurrentUrl();
-        System.out.println(url);
         Assert.assertTrue(url.contains("active"), "The URL does not contain active, instead it is: " + url);
     }
     @Test 

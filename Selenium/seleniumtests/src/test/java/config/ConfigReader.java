@@ -44,4 +44,8 @@ public class ConfigReader {
         return Long.parseLong(get("explicit.wait.seconds"));
     }
 
+      public static String resultsUrl() {
+        return get("results.url");
+    }
+
 }

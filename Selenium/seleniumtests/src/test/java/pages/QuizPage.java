@@ -19,7 +19,7 @@ public class QuizPage extends BasePage{
         super(driver);
     }
 
-        public String questionText(){
+    public String questionText(){
         return textOf(question);
     }
     

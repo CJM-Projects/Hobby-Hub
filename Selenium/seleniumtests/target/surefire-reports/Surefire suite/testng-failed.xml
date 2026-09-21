@@ -8,6 +8,7 @@
           <include name="setUpBrowseAllPage"/>
           <include name="selectingPriceFilterShouldFilterResultsBySelectedPriceCategory"/>
           <include name="setup"/>
+          <include name="selectingFilterWhichHasNoResultsShouldReturnStingMessage"/>
           <include name="selectingCategoryFilterShouldShowFilteredResultsBySelectedCategory"/>
           <include name="selectingCategoryFilterThenClearingFilterShouldShowAllResults"/>
           <include name="teardown"/>

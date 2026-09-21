@@ -3,14 +3,17 @@
 <suite name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="5" name="Surefire test(failed)" verbose="0">
     <classes>
-      <class name="tests.HomeNavigationTest">
+      <class name="tests.BrowseAllFiltersTest">
         <methods>
-          <include name="clickingViewAllOnActiveHobbiesShouldNavigateToActiveHobbiesCategoryPage"/>
+          <include name="setUpBrowseAllPage"/>
+          <include name="selectingPriceFilterShouldFilterResultsBySelectedPriceCategory"/>
           <include name="setup"/>
-          <include name="teardownPage"/>
+          <include name="selectingCategoryFilterShouldShowFilteredResultsBySelectedCategory"/>
+          <include name="selectingCategoryFilterThenClearingFilterShouldShowAllResults"/>
           <include name="teardown"/>
+          <include name="selectingCategoryAndPriceFiltersShouldReturnResultsFilteredByCategoryAndPrice"/>
         </methods>
-      </class> <!-- tests.HomeNavigationTest -->
+      </class> <!-- tests.BrowseAllFiltersTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

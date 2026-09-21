@@ -7,9 +7,7 @@
         <methods>
           <include name="clickingViewAllOnActiveHobbiesShouldNavigateToActiveHobbiesCategoryPage"/>
           <include name="setup"/>
-          <include name="clickingQuizButtonShouldNavigateToQuizPage"/>
           <include name="teardownPage"/>
-          <include name="clickingBrowseAllShouldNavigateToBrowseAllPage"/>
           <include name="teardown"/>
         </methods>
       </class> <!-- tests.HomeNavigationTest -->

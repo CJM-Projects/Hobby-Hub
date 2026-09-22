@@ -12,9 +12,6 @@ on:
 jobs:
     test:
         runs-on: ubuntu-latest
-        permissions:
-            contents: read
-            checks: write
         defaults: 
           run:
             working-directory: Selenium/seleniumtests
@@ -37,7 +34,7 @@ jobs:
               uses: dorny/test-reporter@v1
               with:
                 name: Hobby Hub Selenium Test Results
-                path: target/surefire-reports/TEST-*.xml
+                path: "Selenium/seleniumtests/target/surefire-reports/TEST-*.xml"
                 reporter: java-junit
                 fail-on-error: false
 

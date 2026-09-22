@@ -12,6 +12,9 @@ on:
 jobs:
     test:
         runs-on: ubuntu-latest
+        defaults: 
+          run:
+            working-directory: Hobby-hub/Selenium
         steps:
             - name: Checkout code
               uses: actions/checkout@v4
@@ -49,7 +52,7 @@ jobs:
                 dotnet-version: "10.0.x"
 
             - name: Build
-              run: dotnet build Hobby-Hub.slnx
+              run: dotnet build Hobby-hub.slnx
 
             - name: Test
-              run: dotnet test Hobby-Hub.slnx --no-build
+              run: dotnet test Hobby-hub.slnx --no-build

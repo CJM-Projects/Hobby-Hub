@@ -36,12 +36,10 @@ public abstract class BaseTest {
         takeScreenshot(result.getName());
     }
     
-    {
-        if(driver != null){
-            driver.quit();
-        }
+    if(driver != null){
+        driver.quit();
     }
-
+    
     }
     
      private void takeScreenshot(String testName) {

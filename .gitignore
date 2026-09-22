@@ -364,3 +364,5 @@ MigrationBackup/
 FodyWeavers.xsd
 
 /Hobby-hub/deploy.ps1
+target/
+

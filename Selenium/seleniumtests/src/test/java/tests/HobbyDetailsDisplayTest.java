@@ -28,9 +28,7 @@ public class HobbyDetailsDisplayTest extends BaseTest{
 
     @Test 
     public void hobbyDetailsFeaturesBarShouldDisplayCorrectly(){
-        System.out.println(hobbyDetailsPage.currentUrl());
         WebElement featuresCard = hobbyDetailsPage.getFeaturesBar();
-        System.out.println(featuresCard.getText());
         Assert.assertTrue(featuresCard.getText().contains("Skill Level:"));
         Assert.assertTrue(featuresCard.getText().contains("Price:"));
         Assert.assertTrue(featuresCard.getText().contains("Personality:"));

@@ -1,20 +1,18 @@
 package tests;
 
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
-import config.ConfigReader;
 import pages.HomePage;
 import pages.QuizPage;
 import shared.BaseTest;
 
 public class HomeNavigationTest extends BaseTest{
      
-    @AfterMethod 
-    private void teardownPage(){
-        driver.get(ConfigReader.baseUrl());
-    }
+    // @AfterMethod 
+    // private void teardownPage(){
+    //     driver.get(ConfigReader.baseUrl());
+    // }
 
     @Test 
     public void clickingBrowseAllShouldNavigateToBrowseAllPage(){

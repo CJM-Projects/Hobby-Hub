@@ -1,6 +1,6 @@
 package tests;
 
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import pages.HobbyDetailsPage;
@@ -15,7 +15,7 @@ public class HobbyDetailsDisplayTest extends BaseTest{
 
     private HobbyDetailsPage hobbyDetailsPage;
     
-    @BeforeClass 
+    @BeforeMethod 
     public void setUpHobbyDetails(){
         hobbyDetailsPage = new HomePage(driver).goToHobbyDetailsPage();
     }

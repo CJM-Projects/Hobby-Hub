@@ -26,7 +26,6 @@ public class BrowseAllFiltersTest extends BaseTest{
         List<String> allCreativeHobbies = browseAllPage.getAllHobbyNames();
         String firstHobby = allCreativeHobbies.get(0);
         int sizeOfList = allCreativeHobbies.size();
-        System.out.println(sizeOfList);
 
         Assert.assertTrue(sizeOfList == 15);
         Assert.assertEquals(firstHobby,"Barre");
@@ -39,7 +38,6 @@ public class BrowseAllFiltersTest extends BaseTest{
         List<String> allLowPriceHobbies = browseAllPage.getAllHobbyNames();
         String firstHobby = allLowPriceHobbies.get(0);
         int sizeOfList = allLowPriceHobbies.size();
-        System.out.println(sizeOfList);
         Assert.assertTrue(sizeOfList == 22);
         Assert.assertEquals(firstHobby, "Running");
         browseAllPage.selectFilter("£");
@@ -52,7 +50,6 @@ public class BrowseAllFiltersTest extends BaseTest{
         List<String> allCreativeAndLowPriceHobbies = browseAllPage.getAllHobbyNames();
         String firstHobby = allCreativeAndLowPriceHobbies.get(0);
         int sizeOfList = allCreativeAndLowPriceHobbies.size();
-        System.out.println(sizeOfList);
         Assert.assertTrue(sizeOfList == 7);
         Assert.assertEquals(firstHobby, "Crocheting");
         browseAllPage.selectFilter("Creative");
@@ -64,7 +61,6 @@ public class BrowseAllFiltersTest extends BaseTest{
         browseAllPage.selectFilter("Creative");
         List<String> allCreativeAndLowPriceHobbies = browseAllPage.getAllHobbyNames();
         int sizeOfList = allCreativeAndLowPriceHobbies.size();
-        System.out.println(sizeOfList);
         Assert.assertTrue(sizeOfList == 15);
 
         browseAllPage.selectFilter("Creative");

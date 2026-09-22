@@ -5,7 +5,7 @@ import java.util.Comparator;
 import java.util.List;
 
 import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import config.ConfigReader;
@@ -16,7 +16,7 @@ public class QuizResultsTest extends BaseTest{
 
     private ResultsPage resultsPage;
 
-    @BeforeClass 
+    @BeforeMethod 
     private void setUpResultsPage(){
         driver.get(ConfigReader.resultsUrl());
         resultsPage = new ResultsPage(driver);

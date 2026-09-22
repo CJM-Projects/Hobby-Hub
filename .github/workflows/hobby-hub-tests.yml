@@ -1,0 +1,58 @@
+name: Hobby Hub Tests
+
+on:
+    push:
+        branches:
+            - main
+
+    pull_request:
+        branches:
+            - main
+
+jobs:
+    test:
+        runs-on: ubuntu-latest
+        defaults: 
+          run:
+            working-directory: Selenium/seleniumtests
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v4
+
+            - name: Set up Java
+              uses: actions/setup-java@v4
+              with:
+                  distribution: temurin
+                  java-version: "17"
+                  cache: maven
+
+            - name: Run Hobby Hub Selenium tests
+              run: mvn test
+
+            - name: Upload test report summary
+              if: always()
+              uses: dorny/test-reporter@v1
+              with:
+                name: Hobby Hub Selenium Test Results
+                path: "Selenium/seleniumtests/target/surefire-reports/TEST-*.xml"
+                reporter: java-junit
+                fail-on-error: false
+
+    backend:
+        name: Backend
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v7
+            
+            - name: Setup .NET
+              uses: actions/setup-dotnet@v6
+              with:
+                dotnet-version: "10.0.x"
+
+            - name: Build
+              run: dotnet build Hobby-hub.slnx
+
+            - name: Test
+              run: dotnet test Hobby-hub.slnx --no-build

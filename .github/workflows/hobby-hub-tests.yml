@@ -35,7 +35,7 @@ jobs:
               with:
                 name: Hobby Hub Selenium Test Results
                 path: "target/surefire-reports/*.xml"
-                reporter: java-junit
+                reporter: java-testng
                 fail-on-error: false
 
     backend:

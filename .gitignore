@@ -365,4 +365,3 @@ FodyWeavers.xsd
 
 /Hobby-hub/deploy.ps1
 target/
-!target/surefire-reports/*.xml
